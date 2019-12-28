@@ -1,0 +1,53 @@
+﻿reintegrate_hotin_category = {
+
+    reintegrate_hotin_rom = {
+        visible = {
+            OR = {
+                tag = ROM
+                tag = MOL
+            }
+            NOT = { has_global_flag = ROM_reintegrated_hotin }
+        }
+
+        available = {
+            owns_state = 808
+        }
+
+        cost = 25
+
+        ai_will_do = { factor = 60 }
+
+        complete_effect = {
+            add_state_core = 808
+            808 = { set_state_name = "Hotin" }
+            set_global_flag = ROM_reintegrated_hotin
+            if = {
+                limit = {
+                    has_global_flag = UKR_reintegrated_hotin
+                }
+                clr_global_flag = UKR_reintegrated_hotin
+            }
+        }
+    }
+
+    reintegrate_hotin_ukr = {
+        visible = {
+            tag = UKR
+            has_global_flag = ROM_reintegrated_hotin 
+        }
+
+        available = {
+            owns_state = 808
+        }
+
+        cost = 25
+
+        complete_effect = {
+            808 = { reset_state_name = yes }
+            clr_global_flag = ROM_reintegrated_hotin
+        }
+    }
+}
+
+
+

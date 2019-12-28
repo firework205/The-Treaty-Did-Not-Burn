@@ -1,0 +1,22 @@
+﻿l_english:
+
+  FRA_anarchist_party:0 "SFIO"
+  FRA_anarchist_party_long:0 "Section française de l'Internationale ouvrière"
+  
+  FRA_communist_party:0 "PCF"
+  FRA_communist_party_long:0 "Parti Communiste Français"
+
+  FRA_moderate_socialist_party:0 "SFIO"
+  FRA_moderate_socialist_party_long:0 "Section française de l'Internationale ouvrière"
+
+  FRA_liberal_party:0 "PRV"
+  FRA_liberal_party_long:0 "Parti Radical"
+
+  FRA_conservative_party:0 "FR"
+  FRA_conservative_party_long:0 "Fédération Républicaine"
+
+  FRA_paternal_autocrat_party:0 "AF"
+  FRA_paternal_autocrat_long:0 "Action Française"
+
+  FRA_far_right_populist_party:0 "MF"
+  FRA_far_right_populist_party_long:0 "Mouvement Franciste"

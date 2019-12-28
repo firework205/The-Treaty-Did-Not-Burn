@@ -1,0 +1,106 @@
+ideas = {
+
+	country = {
+		the_hetman_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_the_hetman
+			
+			modifier = {
+				stability_factor = 0.1
+				drift_defence_factor = 0.25
+			}
+		}
+
+		language_crisis_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_language_question
+			
+			modifier = {
+				stability_factor = -0.15
+		    }
+		}
+
+		on_our_own_two_feet_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_stand_on_our_own
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+		    }
+		}
+
+		red_kalina_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_red_kalina
+			
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.025
+		    }
+		}
+
+		cossack_glory_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_cossack_glory
+			
+			modifier = {
+				cavalry_attack_factor = 0.1
+				motorized_attack_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+		    }
+		}
+	}
+}
+
+

@@ -1,0 +1,236 @@
+ideologies = {
+	
+	anarchist = {
+	
+		types = {
+			
+			anarchist_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+			"FACTION_NAME_ANARCHIST_6"
+		}
+		
+		color = { 127 0 0 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.25
+		}
+
+		ai_neutral = yes
+	}
+
+	communist = {
+	
+		types = {
+			
+			leninist_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 255 0 0 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.25
+		}
+
+		ai_neutral = yes
+	}
+
+	moderate_socialist = {
+	
+		types = {
+			
+			radical_leftist_ideology = {
+			}
+			social_democrat_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 232 85 85 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			generate_wargoal_tension = 0.75
+		}
+
+		ai_neutral = yes
+	}
+
+	liberal = {
+	
+		types = {
+			
+			social_liberal_ideology = {
+			}
+			market_liberal_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 255 216 0 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.75
+		}
+
+		ai_neutral = yes
+	}
+
+	conservative = {
+	
+		types = {
+			
+			liberal_conservative_ideology = {
+			}
+			social_conservative_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 0 0 255 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.75
+		}
+
+		ai_neutral = yes
+	}
+
+	paternal_autocrat = {
+	
+		types = {
+			
+			reactionary_ideology = {
+			}
+			authoritarian_democrat_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 90 90 90 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.25
+		}
+
+		ai_neutral = yes
+	}
+
+	far_right_populist = {
+	
+		types = {
+			
+			far_right_populist_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 142 57 0 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.25
+		}
+
+		ai_neutral = yes
+	}
+}
+
+

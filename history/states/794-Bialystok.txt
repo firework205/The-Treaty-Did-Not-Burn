@@ -1,0 +1,25 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+		victory_points = {
+			13222 3 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		290 318 347 3281 11247 11357 13206 13225
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

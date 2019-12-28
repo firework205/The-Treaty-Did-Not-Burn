@@ -1,0 +1,59 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	#Austrian Ideas
+
+	spriteType = {
+		name = "GFX_idea_AUS_art_centre"
+		texturefile = "gfx/interface/ideas/idea_AUS_art_centre.tga"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_AUS_feudal_military"
+		texturefile = "gfx/interface/ideas/idea_AUS_feudal_military.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_AUS_slovenian_autonomy"
+		texturefile = "gfx/interface/ideas/idea_AUS_slovenian_autonomy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AUS_moribund_empire"
+		texturefile = "gfx/interface/ideas/idea_AUS_moribund_empire.tga"
+	}
+    
+    #Ukraine
+
+	spriteType = {
+		name = "GFX_idea_UKR_the_hetman"
+		texturefile = "gfx/interface/ideas/idea_UKR_the_hetman.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_cossack_glory"
+		texturefile = "gfx/interface/ideas/idea_UKR_cossack_glory.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_red_kalina"
+		texturefile = "gfx/interface/ideas/idea_UKR_red_kalina.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_language_question"
+		texturefile = "gfx/interface/ideas/idea_UKR_language_question.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_stand_on_our_own"
+		texturefile = "gfx/interface/ideas/idea_UKR_stand_on_our_own.tga"
+	}
+}

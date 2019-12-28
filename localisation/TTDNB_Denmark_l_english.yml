@@ -1,0 +1,21 @@
+﻿l_english:
+
+  DEN_anarchist_party:0 "-"
+  
+  DEN_communist_party:0 "DKP"
+  DEN_communist_party_long:0 "Danmarks Kommunistiske Parti"
+
+  DEN_moderate_socialist_party:0 "SD"
+  DEN_moderate_socialist_party_long:0 "Socialdemokraterne"
+
+  DEN_liberal_party:0 "RV"
+  DEN_liberal_party_long:0 "Radikale Venstre"
+
+  DEN_conservative_party:0 "V"
+  DEN_conservative_party_long:0 "Venstre"
+
+  DEN_paternal_autocrat_party:0 "KP"
+  DEN_paternal_autocrat_long:0 "Kongensparti"
+
+  DEN_far_right_populist_party:0 "DNSAP"
+  DEN_far_right_populist_party_long:0 "Danmarks Nationalsocialistiske Arbejderparti "

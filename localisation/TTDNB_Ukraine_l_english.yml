@@ -1,0 +1,112 @@
+﻿l_english:
+
+  UKR_anarchist_party:0 "M"
+  UKR_anarchist_party_long:0 "Makhnovists"
+  
+  UKR_communist_party:0 "KPU"
+  UKR_communist_party_long:0 "Komunistychna Partiya Ukrayiny"
+
+  UKR_moderate_socialist_party:0 "URP"
+  UKR_moderate_socialist_party_long:0 "Ukrainska Radikalna Partiya"
+
+  UKR_liberal_party:0 "-"
+  UKR_liberal_party_long:0 "-"
+
+  UKR_conservative_party:0 "UNDO"
+  UKR_conservative_party_long:0 "Ukrayin'ske Natsional'no-Demokratichne Obyednannia"
+
+  UKR_paternal_autocrat_party:0 "Hetman's Host"
+
+  UKR_far_right_populist_party:0 "OUN"
+  UKR_far_right_populist_party_long:0 "Orhanizatsiya Ukrayins'kykh Natsionalistiv"
+
+  the_hetman_idea:0 "The Hetman"
+  the_hetman_idea_desc:0 "In the old days of bygone centuries, the cossacks were ruled by a "hetman," a strongman, chieftain, war-leader, and unifier.  Now, after centuries of rule by the Poles, Turks, and Russians, the cossacks once again have their independence and that ancient office has been revived. Under the leadership of Pavlo Skoropadskyi, the Ukrainian people and the cossack hosts of the lower steppe joined together in alliance to repel the Red Bolshevik hordes. Skoropadskyi unified this alliance into a true nation throughout the 1920s, and the cossacks and Ukrainians have no doubt that the Hetman will lead his nation to prosperity in the coming years."
+  language_crisis_idea:0 "Language Crisis"
+  language_crisis_idea_desc:0 "Our country is too linguistically divided. The heartlands speak Ukrainian and the hinterlands speak Russian; the northerners cannot understand the southerners, the easterners cannot understand the westerners, and nothing is done. This cannot continue."
+  on_our_own_two_feet_idea:0 "On Our Own Two Feet"
+  on_our_own_two_feet_idea_desc:0 "Independence is a sweet drug, but there are problems we must overcome as well. A large proportion of the peasantry is illiterate or nearly-so; there is much unemployment; our infrastructure is poor and ill-maintained; and the south is largely agrarian and unindustrialized. We must solve these problems to become a great nation as opposed to simply a nation with great warriors."
+  red_kalina_idea:0 "Red Kalina"
+  red_kalina_idea_desc:0 "Kalina - or, 'tree' - is a symbol of the Ukrainian nation. In ancient times it was associated with the universe, the sacred trinity of the sun, moon, and stars. In times past we watered the Kalina with red berry juice which we drank as children; in recent years, we have watered the Kalina with the red blood of the Godless Red Bolsheviks. Amidst that field of blood still stands the Kalina, drenched blood-red, tramped yet still unbroken, watched over by the quiet, proud Dniepr and the saints Yuriy and Michael."
+  cossack_glory_idea:0 "Cossack Glory"
+  cossack_glory_idea_desc:0 "For centuries have the Cossacks lived in these lands - records show that we predate the fall of Byzantium, that we predate Russia itself! We have fought Turks, Poles, Russians, and all manner of people that would come and attack our livelihood. On a dozen occasions have we rebelled against the cruelty of the Tsars, led by heroes named Razin, Bulavin, Mazepa - and now Skoropadskyi. We have established a state for ourselves once again out of the corpse of the Tsardom, and our warrior and cavalry traditions going back centuries make us quick to adopt better ways of traversing the plains and steppe of the south. We will win much glory under the Hetman, and if the Red foe dares show his face to us again, he will learn why Sultans and Tsars feared us, and why we have outlasted empires."
+
+  UKR_history_of_hetman:0 "History of the Hetmanate"
+  UKR_strengthen_hetmanate:0 "Strengthen the Hetmanate"
+  UKR_strengthen_hetman:0 "Strengthen the Hetman"
+  UKR_one_leader_one_ukraine:0 "One Leader, One Ukraine"
+  UKR_choose_cabinet:0 "Choose the Cabinet"
+  UKR_god_in_the_state:0 "God in the State"
+  UKR_allies_of_the_hetman:0 "Allies of the Hetman"
+  UKR_state_visits:0 "State Visits"
+  UKR_the_heirs:0 "The Heirs"
+  UKR_the_old_guard:0 "The Old Guard"
+  UKR_coronation_of_the_hetman:0 "Coronation of the Hetman"
+  UKR_regional_power:0 "Regional Power"
+
+  UKR_ukrainian_language:0 "The Ukrainian Language"
+  UKR_russian_question:0 "The Russian Question"
+  UKR_prosvita_movement:0 "Prosvita Movement"
+  UKR_ukrainian_radio:0 "Ukrainian Radio"
+  UKR_ukrainian_schools:0 "Ukrainian Schools"
+
+  UKR_our_ukrainian_state:0 "Our Ukrainian State"
+  UKR_our_culture_our_people:0 "Our Culture, Our People"
+  UKR_fight_for_native_land:0 "Fight for Native Land"
+
+  UKR_beyond_our_borders:0 "Beyond our Borders"
+  UKR_fate_of_crimea:0 "Fate of Crimea"
+  UKR_crimean_tatars:0 "Crimean Tatars"
+  UKR_registered_cossacks:0 "Registered Cossacks"
+  UKR_fate_of_kuban:0 "Fate of Kuban"
+  UKR_circassians:0 "The Circassians"
+  UKR_resettlement:0 "Resettlement"
+  UKR_reintegrate_halychyna:0 "Reintegrate Halychyna"
+  UKR_reintegrate_carpathians:0 "Reintegrate the Carpathians"
+  UKR_traditions_and_culture:0 "Traditions and Culture"
+
+  UKR_resources_of_ukraine:0 "Resources of Ukraine"
+  UKR_oil_in_the_plains:0 "Plains Oil"
+  UKR_ukrainian_refineries:0 "Ukrainian Refineries"
+  UKR_exporter_of_europe:0 "Exporter of Europe"
+  UKR_coal_in_the_carpathians:0 "Carpathian Coal"
+  UKR_mining_plants:0 "Mining Plants"
+  UKR_keeping_the_mountains_safe:0 "Keeping the Mountains Safe"
+  UKR_wheat_in_the_fields:0 "Wheat in the Fields"
+  UKR_mass_agriculture:0 "Mass Agriculture"
+  UKR_grapes_of_our_work:0 "Grapes of Our Work"
+  UKR_timber_in_the_north:0 "Timber in the North"
+  UKR_woods_and_mountains:0 "Woods and Mountains"
+  UKR_protecting_nature:0 "Protecting Nature"
+  UKR_regional_exporter:0 "Regional Exporter"
+
+  UKR_industrialize_ukraine:0 "Industrialize the Homeland"
+  UKR_industry_in_donbass:0 "Industry in Donbass"
+  UKR_electrical_innovations:0 "Electrical Innovations"
+  UKR_industry_in_odessa:0 "Industry in Odessa"
+  UKR_industrial_innovations:0 "Industrial Innovations"
+  UKR_german_loans:0 "German Loans - Stand on our Own"
+  UKR_modern_south:0 "Modern South"
+  UKR_recovery_from_depression:0 "Recovery from Depression"
+
+  ukraine.1.t:0 "History of the Hetmanate"
+
+  ukraine.2.t:0 "The Ukrainians Petition for our Reintegration"
+  ukraine.2.d:0 "With our two nations having a shared culture and history, the Ukrainian government has recently become much more vocal in their calls for the reintegration of East Galicia into the Ukrainian State. Though previously we had decided to maintain our independence due to ideological differences with the rest of the country, it seems to many of our citizens as well as those living in the Mother Country that there is little reason for the two nations to be separated. Shall we accept their offer, or assert the independence of our small mountain nation?"
+  ukraine.2.a:0 "They are right, Ukraine shall be united!"
+  ukraine.2.b:0 "We must protect our independence at all costs!"
+
+  ukraine.3.t:0 "West Ukraine accepts reintegration!"
+  ukraine.3.d:0 "The government of West Ukraine has accepted our proposal for the reintegration of their small republic into our nation. As we speak, border checkpoints are being dismantled and government institutions in the region are being integrated into those present throughout the rest of the country. It appears that for the first time in hundreds of years, Ukraine is finally one again!"
+  ukraine.3.a:0 "Welcome Home!"
+
+  POLITICS_PAVLO_SKOROPADSKYI_DESC:0 "Born in 1873 to a noble family, grandson of Hetman Ivan Skoropadskyi, this Ukrainian man of Cossack heritage would go on to join the Imperial Russian Army. He saw service in the Russo-Japanese War and served with distinction on the Ukrainian Front of the Great War. During the chaos of 1917, Pavlo Skoropadskyi would find himself seated as Hetman of Ukraine by the Germans in the Treaty of Brest-Litovsk. Since then, he has been saddled with the task of protecting the new Hetmanate of Ukraine from Bolsheviks, Anarchists, and other far-left threats. In response to these challenges and threats, he has grown fairly conservative and right-wing, and counts the other White anti-Soviet states of Eastern Europe as his dearest allies."
+
+
+
+
+
+
+
+
+

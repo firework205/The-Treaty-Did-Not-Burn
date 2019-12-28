@@ -1,0 +1,23 @@
+﻿reintegrate_hotin_category = {
+
+    icon = generic_propaganda
+    
+	picture = "cat_picture_generic_reintegrate_hotin"
+
+	visible = {
+	    OR = {
+	        AND = {
+	            tag = ROM
+	            NOT = { has_global_flag = rom_reintegrated_hotin }
+	        }
+	        AND = {
+	            tag = UKR
+	            has_global_flag = rom_reintegrated_hotin
+	        }
+	        AND = {
+	            tag = MOL
+	            NOT = { has_global_flag = rom_reintegrated_hotin }
+	        }
+	    }
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=807
+	name="STATE_807"
+	manpower = 1
+
+	state_category = rural
+
+	history = {
+	    owner = STV
+	    add_core_of = STV
+	    buildings = {
+	        infrastructure = 3
+	    }
+	}
+	provinces={
+		683 700 712 728 6730 6748 11632 
+	}
+}

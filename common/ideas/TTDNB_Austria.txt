@@ -1,0 +1,83 @@
+ideas = {
+
+	country = {
+		slovenian_autonomy_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = AUS_slovenian_autonomy
+			
+			modifier = {
+				political_power_gain = -0.2
+				stability = 0.5
+			}
+		}
+
+		feudal_military_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = AUS_feudal_military
+			
+			research_bonus = {
+				land_doctrine = -0.25
+		    }
+		}
+
+		centre_of_arts_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = AUS_art_centre
+			
+			modifier = {
+				political_power_gain = 0.05
+		    }
+		}
+
+		moribund_empire_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = AUS_moribund_empire
+			
+			modifier = {
+				war_support_factor = -0.1
+		    }
+		}
+	}
+}
+
+

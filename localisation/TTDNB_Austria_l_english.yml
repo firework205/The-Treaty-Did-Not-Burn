@@ -1,0 +1,22 @@
+﻿l_english:
+
+  AUS_anarchist_party:0 "AF"
+  AUS_anarchist_party_long:0 "Anarchistische Fraktion"
+  
+  AUS_communist_party:0 "KPÖ"
+  AUS_communist_party_long:0 "Kommunistische Partei Österreichs"
+
+  AUS_moderate_socialist_party:0 "SDAPÖ"
+  AUS_moderate_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+
+  AUS_liberal_party:0 "LF"
+  AUS_liberal_party_long:0 "Liberale Fraktion"
+
+  AUS_conservative_party:0 "CSP"
+  AUS_conservative_party_long:0 "Christlichsoziale Partei"
+
+  AUS_paternal_autocrat_party:0 "KA"
+  AUS_paternal_autocrat_party_long:0 "Kaiserliche Autorität"
+
+  AUS_far_right_populist_party:0 "H"
+  AUS_far_right_populist_party_long:0 "Heimwehr"

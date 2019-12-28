@@ -1,0 +1,19 @@
+state={
+	id=792
+	name="STATE_792"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+	    owner = HUN
+	    add_core_of = HUN
+	    add_core_of = AUS
+	    buildings = {
+	        infrastructure = 6
+	    }
+	}
+	provinces={
+		3700 9661 11630 
+	}
+}

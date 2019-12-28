@@ -1,0 +1,190 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+	name = "GFX_focus_UKR_choose_cabinet"
+	texturefile = "gfx/interface/goals/focus_UKR_choose_cabinet.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_god_in_the_state"
+	texturefile = "gfx/interface/goals/focus_UKR_god_in_the_state.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_hetman_allies"
+	texturefile = "gfx/interface/goals/focus_UKR_hetman_allies.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_hetmanate"
+	texturefile = "gfx/interface/goals/focus_UKR_hetmanate.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_skoropadskyi"
+	texturefile = "gfx/interface/goals/focus_UKR_skoropadskyi.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_strong_state"
+	texturefile = "gfx/interface/goals/focus_UKR_strong_state.tga"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_focus_UKR_UKR_flag"
+	texturefile = "gfx/interface/goals/focus_UKR_UKR_flag.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_state_visits"
+	texturefile = "gfx/interface/goals/focus_UKR_state_visits.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_beyond_ukraine"
+	texturefile = "gfx/interface/goals/focus_UKR_beyond_ukraine.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_ukrainian_radio"
+	texturefile = "gfx/interface/goals/focus_UKR_ukrainian_radio.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_russian_question"
+	texturefile = "gfx/interface/goals/focus_UKR_russian_question.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_russian_question"
+	texturefile = "gfx/interface/goals/focus_UKR_russian_question.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_prosvita"
+	texturefile = "gfx/interface/goals/focus_UKR_prosvita_movement.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_fight_for_native_land"
+	texturefile = "gfx/interface/goals/focus_UKR_fight_for_native_land.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_kuban_fate"
+	texturefile = "gfx/interface/goals/focus_UKR_kuban_fate.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_west_galicia"
+	texturefile = "gfx/interface/goals/focus_UKR_west_galicia.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_registered_cossacks"
+	texturefile = "gfx/interface/goals/focus_UKR_registered_cossacks.tga"			
+	}	
+
+	SpriteType = {
+	name = "GFX_focus_UKR_crimean_tatars"
+	texturefile = "gfx/interface/goals/focus_UKR_crimean_tatars.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_circassia"
+	texturefile = "gfx/interface/goals/goal_generic_circassia.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_traditions_and_culture"
+	texturefile = "gfx/interface/goals/focus_UKR_traditions_and_culture.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_fate_of_crimea"
+	texturefile = "gfx/interface/goals/focus_UKR_fate_of_crimea.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_ukrainian_language"
+	texturefile = "gfx/interface/goals/focus_UKR_ukrainian_language.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_carpatho_ukraine"
+	texturefile = "gfx/interface/goals/focus_UKR_carpatho_ukraine.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_old_guard"
+	texturefile = "gfx/interface/goals/focus_UKR_old_guard.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_plains_oil"
+	texturefile = "gfx/interface/goals/focus_UKR_plains_oil.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_european_exports"
+	texturefile = "gfx/interface/goals/goal_generic_european_exports.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_mountain_coal"
+	texturefile = "gfx/interface/goals/goal_generic_mountain_coal.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_wheat_fields"
+	texturefile = "gfx/interface/goals/goal_generic_wheat_fields.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_forests"
+	texturefile = "gfx/interface/goals/goal_generic_forest.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_protect_nature"
+	texturefile = "gfx/interface/goals/goal_generic_protect_nature.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_ukrainian_agriculture"
+	texturefile = "gfx/interface/goals/focus_UKR_mass_agriculture.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_regional_exporter"
+	texturefile = "gfx/interface/goals/focus_UKR_regional_exporter.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_forests_and_mountains"
+	texturefile = "gfx/interface/goals/focus_UKR_forests_and_mountains.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_industrialize_ukraine"
+	texturefile = "gfx/interface/goals/focus_UKR_industrialize_ukraine.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_generic_german_deal"
+	texturefile = "gfx/interface/goals/goal_generic_german_deal.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_electricity"
+	texturefile = "gfx/interface/goals/focus_UKR_electricity.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_UKR_ukrainian_factories"
+	texturefile = "gfx/interface/goals/focus_UKR_ukrainian_factories.tga"			
+	}
+									
+									

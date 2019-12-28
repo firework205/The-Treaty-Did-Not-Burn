@@ -1,0 +1,19 @@
+state={
+	id=797
+	name="STATE_797"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = ITA
+	    add_claim_by = AUS
+	    buildings = {
+	        infrastructure = 6
+	    }
+	}
+
+	provinces={
+		6631 9598 11598 
+	}
+}

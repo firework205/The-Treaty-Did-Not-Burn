@@ -1,0 +1,19 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower = 1
+
+	state_category = city
+
+	history = {
+	    owner = DON
+	    add_core_of = DON
+	    buildings = {
+	        infrastructure = 4
+	    }
+	}
+
+	provinces={
+		437 510 3504 6494 
+	}
+}

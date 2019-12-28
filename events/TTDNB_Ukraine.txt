@@ -1,0 +1,153 @@
+add_namespace = ukraine
+
+country_event = { #Intro event
+    id = ukraine.1
+    title = ukraine.1.t
+    desc = ukraine.1.d
+    picture = ""
+
+    trigger = {
+        tag = UKR
+        date > 1936.1.1
+    }
+
+    option = {
+        name = ukraine.1.a
+        add_political_power = 20
+        set_country_flag = UKR_history_event
+    }
+}
+
+country_event = { #Reintegrate Halychyna
+    id = ukraine.2
+    title = ukraine.2.t
+    desc = ukraine.2.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #accept
+        name = ukraine.2.a
+        ai_chance = { factor = 80 }
+        UKR = { country_event = { id = ukraine.3 hours = 6 } }
+        custom_effect_tooltip = GAME_OVER_TT
+    }
+    option = {
+        name = ukraine.2.b
+        ai_chance = { factor = 20 }
+        UKR = { country_event = { id = ukraine.4 hours = 6 } }
+    }
+}
+
+country_event = { #Ukraine - WUPR accepts annexation
+    id = ukraine.3
+    title = ukraine.3.t
+    desc = ukraine.3.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #cool
+        name = ukraine.3.a
+        annex_country = { target = GAL transfer_troops = no }
+        every_state = {
+            limit = {
+                is_core_of = GAL
+            }
+            UKR = { add_state_core = PREV }
+        }
+    }
+}
+
+country_event = { #Ukraine - WUPR refuses annexation
+    id = ukraine.4
+    title = ukraine.4.t
+    desc = ukraine.4.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #Fuck you
+        name = ukraine.4.a
+        add_political_power = -25
+        create_wargoal = {
+            target = GAL
+            type = annex_everything
+        }
+    }
+}
+
+country_event = { #Crimea - Ukraine wants to annex us!
+    id = ukraine.5
+    title = ukraine.5.t
+    desc = ukraine.5.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #Alright
+        name = ukraine.5.a
+        ai_chance = { factor = 60 }
+        UKR = { country_event = { id = ukraine.6 hours = 6 } }
+        custom_effect_tooltip = GAME_OVER_TT
+    }
+
+    option = { #Agree to closer relationship
+        name = ukraine.5.b
+        ai_chance = { factor = 20 }
+        UKR = { country_event = { id = ukraine.7 hours = 6 } }
+    }
+
+    option = { #Refuse
+        name = ukraine.5.c
+        ai_chance = { factor = 20 }
+        UKR = { country_event = { id = ukraine.8 hours = 6 } }
+    }
+}
+
+country_event = { #Crimea accepts
+    id = ukraine.6
+    title = ukraine.6.t
+    desc = ukraine.6.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #Great!
+        name = ukraine.6.a
+        annex_country = { target = CMA transfer_troops = no }
+        add_state_core = 137
+    }
+}
+
+country_event = { #Crimea agrees to closer relationship
+    id = ukraine.7
+    title = ukraine.7.t
+    desc = ukraine.7.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #Alright
+        name = ukraine.7.a
+        puppet = CMA
+    }
+}
+
+country_event = { #Crimea refuses
+    id = ukraine.8
+    title = ukraine.8.t
+    desc = ukraine.8.d
+    picture = ""
+
+    is_triggered_only = yes
+
+    option = { #Alright
+        name = ukraine.8.a
+        add_political_power = -25
+        create_wargoal = {
+            target = CMA
+            type = annex_everything
+        }
+    }
+}

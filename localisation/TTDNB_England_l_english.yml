@@ -1,0 +1,22 @@
+﻿l_english:
+
+  ENG_anarchist_party:0 "A"
+  ENG_anarchist_party_long:0 "Anarchists"
+  
+  ENG_communist_party:0 "CPGB"
+  ENG_communist_party_long:0 "Communist Party of Great Britain"
+
+  ENG_moderate_socialist_party:0 "Labour"
+  ENG_moderate_socialist_party_long:0 "Labour Party"
+
+  ENG_liberal_party:0 "Liberals"
+  ENG_liberal_party_long:0 "Liberal Party"
+
+  ENG_conservative_party:0 "Tories"
+  ENG_conservative_party_long:0 "Conservative Party"
+
+  ENG_paternal_autocrat_party:0 "NLP"
+  ENG_paternal_autocrat_party_long:0 "National Liberal Party"
+
+  ENG_far_right_populist_party:0 "IP"
+  ENG_far_right_populist_party_long:0 "Imperial Party"

@@ -1,0 +1,21 @@
+﻿l_english:
+
+  #decisions
+  reintegrate_hotin_rom:0 "Reintegrate Hotin"
+  reintegrate_hotin_ukr:0 "Reintegrate Hotin"
+  reintegrate_hotin_category:0 "Reintegrate Hotin"
+  reintegrate_hotin_category_desc:0 "Now that we control our rightful territory in Hotin once more, we have the option of giving it a new name and reintegrating it into our state."
+
+  ROM_liberal_party:0 "PNL"
+  ROM_liberal_party_long:0 "Partidul Național Liberal"
+
+  ROM_moderate_socialist_party:0 "PNȚ"
+  ROM_moderate_socialist_party_long:0 "Partidul Național Țărănesc"
+
+  ROM_conservative_party_long:0 "Partidul Național-Agrar"
+  ROM_conservative_party:0 "PNA"
+
+  ROM_paternal_autocrat_party:0 "Hohenzollern-Sigmaringen"
+  ROM_paternal_autocrat_party_long:0 "Hohenzollern-Sigmaringen"
+
+  

@@ -1,0 +1,19 @@
+state={
+	id=791
+	name="STATE_791"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = GAL
+	    add_core_of = GAL
+	    buildings = {
+	        infrastructure = 6
+	    }
+	}
+
+	provinces={
+		466 3434 
+	}
+}

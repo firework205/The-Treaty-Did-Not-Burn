@@ -1,0 +1,22 @@
+﻿l_english:
+
+  ICE_anarchist_party:0 "Þ/PF"
+  ICE_anarchist_party_long:0 "Píratar/Pírataflokkurinn"
+  
+  ICE_communist_party:0 "KFÍ"
+  ICE_communist_party_long:0 "Kommúnistaflokkur Íslands"
+
+  ICE_moderate_socialist_party:0 "AF"
+  ICE_moderate_socialist_party_long:0 "Alþýðuflokkurinn "
+
+  ICE_liberal_party:0 "MF"
+  ICE_liberal_party_long:0 "Miðflokkurinn"
+
+  ICE_conservative_party:0 "SF/SFF"
+  ICE_conservative_party_long:0 "Sjálfstæðisflokkurinn "
+
+  ICE_paternal_autocrat_party:0 "KS"
+  ICE_paternal_autocrat_long:0 "Konungsskáp"
+
+  ICE_far_right_populist_party:0 "FÞ"
+  ICE_far_right_populist_party_long:0 "Flokkur Þjóðernissinna"

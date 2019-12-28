@@ -1,0 +1,1804 @@
+﻿l_english:
+
+    ##############
+    ###Template###
+    ##############
+
+#  TAG_anarchist:0 ""
+#  TAG_anarchist_DEF:0 ""
+#
+#  TAG_communist:0 ""
+#  TAG_communist_DEF:0 ""
+#
+#  TAG_moderate_socialist:0 ""
+#  TAG_moderate_socialist_DEF:0 ""
+#
+#  TAG_liberal:0 ""
+#  TAG_liberal_DEF:0 ""
+#
+#  TAG_conservative:0 ""
+#  TAG_conservative_DEF:0 ""
+#
+#  TAG_paternal_autocrat:0 ""
+#  TAG_paternal_autocrat_DEF:0 ""
+#
+#  TAG_far_right_populist:0 ""
+#  TAG_far_right_populist:0 ""
+#
+#  TAG_anarchist_ADJ:0 ""
+#  TAG_communist_ADJ:0 ""
+#  TAG_moderate_socialist_ADJ:0 ""
+#  TAG_liberal_ADJ:0 ""
+#  TAG_conservative_ADJ:0 ""
+#  TAG_paternal_autocrat_ADJ:0 ""
+#  TAG_far_right_populist_ADJ:0 ""
+
+  ############
+  ###EUROPE###
+  ############
+
+  MAC_anarchist:0 "Macedonian Socialist Republic"
+  MAC_anarchist_DEF:0 "The Macedonian Socialist Republic"
+
+  MAC_communist:0 "Macedonian People's Republic"
+  MAC_communist_DEF:0 "The Macedonian People's Republic"
+
+  MAC_moderate_socialist:0 "Macedonian Republic"
+  MAC_moderate_socialist_DEF:0 "The Macedonian Republic"
+
+  MAC_liberal:0 "Macedonian Republic"
+  MAC_liberal_DEF:0 "The Macedonian Republic"
+
+  MAC_conservative:0 "Macedonian Republic"
+  MAC_conservative_DEF:0 "The Macedonian Republic"
+
+  MAC_paternal_autocrat:0 "Macedonian State"
+  MAC_paternal_autocrat_DEF:0 "The Macedonian State"
+
+  MAC_far_right_populist:0 "Macedonian State"
+  MAC_far_right_populist:0 "The Macedonian State"
+
+  MAC_anarchist_ADJ:0 "Macedonian"
+  MAC_communist_ADJ:0 "Macedonian"
+  MAC_moderate_socialist_ADJ:0 "Macedonian"
+  MAC_liberal_ADJ:0 "Macedonian"
+  MAC_conservative_ADJ:0 "Macedonian"
+  MAC_paternal_autocrat_ADJ:0 "Macedonian"
+  MAC_far_right_populist:0 "Macedonian"
+
+
+
+  SLV_anarchist:0 "Slovenian Socialist Republic"
+  SLV_anarchist_DEF:0 "The Slovenian Socialist Republic"
+
+  SLV_communist:0 "Slovenian Socialist Republic"
+  SLV_communist_DEF:0 "The Slovenian Socialist Republic"
+
+  SLV_moderate_socialist:0 "Republic of Slovenia"
+  SLV_moderate_socialist_DEF:0 "The Republic of Slovenia"
+
+  SLV_liberal:0 "Republic of Slovenia"
+  SLV_liberal_DEF:0 "The Republic of Slovenia"
+
+  SLV_conservative:0 "Republic of Slovenia"
+  SLV_conservative_DEF:0 "The Republic of Slovenia"
+
+  SLV_paternal_autocrat:0 "Slovenian State"
+  SLV_paternal_autocrat_DEF:0 "TheSlovenian State"
+
+  SLV_far_right_populist:0 "Slovenian State"
+  SLV_far_right_populist:0 "The Slovenian State"
+
+  SLV_anarchist_ADJ:0 "Slovenian"
+  SLV_communist_ADJ:0 "Slovenian"
+  SLV_moderate_socialist_ADJ:0 "Slovenian"
+  SLV_liberal_ADJ:0 "Slovenian"
+  SLV_conservative_ADJ:0 "Slovenian"
+  SLV_paternal_autocrat_ADJ:0 "Slovenian"
+  SLV_far_right_populist_ADJ:0 "Slovenian"
+
+  KAZ_anarchist:0 "Kazakh Socialist Republic"
+  KAZ_anarchist_DEF:0 "The Kazakh Socialist Republic"
+
+  KAZ_communist:0 "Kazakh Socialist Republic"
+  KAZ_communist_DEF:0 "The Kazakh Socialist Republic"
+
+  KAZ_moderate_socialist:0 "Republic of Kazakhstan"
+  KAZ_moderate_socialist_DEF:0 "The Republic of Kazakhstan"
+
+  KAZ_liberal:0 "Republic of Kazakhstan"
+  KAZ_liberal_DEF:0 "The Republic of Kazakhstan"
+
+  KAZ_conservative:0 "Republic of Kazakhstan"
+  KAZ_conservative_DEF:0 "The Republic of Kazakhstan"
+
+  KAZ_paternal_autocrat:0 "Kazakh State"
+  KAZ_paternal_autocrat_DEF:0 "The Kazakh State"
+
+  KAZ_far_right_populist:0 "Kazakh State"
+  KAZ_far_right_populist:0 "The Kazakh State"
+
+  KAZ_anarchist_ADJ:0 "Kazakh"
+  KAZ_communist_ADJ:0 "Kazakh"
+  KAZ_moderate_socialist_ADJ:0 "Kazakh"
+  KAZ_liberal_ADJ:0 "Kazakh"
+  KAZ_conservative_ADJ:0 "Kazakh"
+  KAZ_paternal_autocrat_ADJ:0 "Kazakh"
+  KAZ_far_right_populist_ADJ:0 "Kazakh"
+
+
+
+  BOS_anarchist:0 "Bosnian Socialist Republic"
+  BOS_anarchist_DEF:0 "The Bosnian Socialist Republic"
+
+  BOS_communist:0 "Bosnian People's Republic"
+  BOS_communist_DEF:0 "The Bosnian People's Republic"
+
+  BOS_moderate_socialist:0 "Republic of Bosnia"
+  BOS_moderate_socialist_DEF:0 "The Republic of Bosnia"
+
+  BOS_liberal:0 "Republic of Bosnia"
+  BOS_liberal_DEF:0 "The Republic of Bosnia"
+
+  BOS_conservative:0 "Republic of Bosnia"
+  BOS_conservative_DEF:0 "The Republic of Bosnia"
+
+  BOS_paternal_autocrat:0 "Bosnian Junta"
+  BOS_paternal_autocrat_DEF:0 "The Bosnian Junta"
+
+  BOS_far_right_populist:0 "Bosnian State"
+  BOS_far_right_populist:0 "The Bosnian State"
+
+  BOS_anarchist_ADJ:0 "Bosnian"
+  BOS_communist_ADJ:0 "Bosnian"
+  BOS_moderate_socialist_ADJ:0 "Bosnian"
+  BOS_liberal_ADJ:0 "Bosnian"
+  BOS_conservative_ADJ:0 "Bosnian"
+  BOS_paternal_autocrat_ADJ:0 "Bosnian"
+  BOS_far_right_populist_ADJ:0 "Bosnian"
+
+
+
+  UKR_anarchist:0 "Free Territory of Ukraine"
+  UKR_anarchist_DEF:0 "The Ukrainian Free Territory"
+
+  UKR_communist:0 "Ukrainian Soviet Socialist Republic"
+  UKR_communist_DEF:0 "The Ukrainian Soviet Socialist Republic"
+
+  UKR_moderate_socialist:0 "Ukrainian People's Republic"
+  UKR_moderate_socialist_DEF:0 "The Ukrainian People's Republic"
+
+  UKR_liberal:0 "Ukrainian People's Republic"
+  UKR_liberal_DEF:0 "The Ukrainian People's Republic"
+
+  UKR_conservative:0 "Ukrainian People's Republic"
+  UKR_conservative_DEF:0 "The Ukrainian People's Republic"
+
+  UKR_paternal_autocrat:0 "Ukrainian Hetmanate"
+  UKR_paternal_autocrat_DEF:0 "The Ukrainian Hetmanate"
+
+  UKR_far_right_populist:0 "Ukrainian Hetmanate"
+  UKR_far_right_populist:0 "The Ukrainian Hetmanate"
+
+  UKR_anarchist_ADJ:0 "Ukrainian"
+  UKR_communist_ADJ:0 "Ukrainian"
+  UKR_moderate_socialist_ADJ:0 "Ukrainian"
+  UKR_liberal_ADJ:0 "Ukrainian"
+  UKR_conservative_ADJ:0 "Ukrainian"
+  UKR_paternal_autocrat_ADJ:0 "Ukrainian"
+  UKR_far_right_populist_ADJ:0 "Ukrainian"
+
+
+
+  SWI_anarchist:0 "People's Republic of Switzerland"
+  SWI_anarchist_DEF:0 "The Swiss People's Republic"
+
+  SWI_communist:0 "Swiss Socialist State"
+  SWI_communist_DEF:0 "The Swiss Socialist State"
+
+  SWI_moderate_socialist:0 "Swiss Confederation"
+  SWI_moderate_socialist_DEF:0 "The Swiss Confederation"
+
+  SWI_liberal:0 "Swiss Confederation"
+  SWI_liberal_DEF:0 "The Swiss Confederation"
+
+  SWI_conservative:0 "Swiss Confederation"
+  SWI_conservative_DEF:0 "The Swiss Confederation"
+
+  SWI_paternal_autocrat:0 "Swiss Confederation"
+  SWI_paternal_autocrat_DEF:0 "The Swiss Confederation"
+
+  SWI_far_right_populist:0 "Swiss Confederation"
+  SWI_far_right_populist:0 "The Swiss Confederation"
+
+  SWI_anarchist_ADJ:0 "Swiss"
+  SWI_communist_ADJ:0 "Swiss"
+  SWI_moderate_socialist_ADJ:0 "Swiss"
+  SWI_liberal_ADJ:0 "Swiss"
+  SWI_conservative_ADJ:0 "Swiss"
+  SWI_paternal_autocrat_ADJ:0 "Swiss"
+  SWI_far_right_populist_ADJ:0 "Swiss"
+
+
+
+  TUR_anarchist:0 "Turkish People's Republic"
+  TUR_anarchist_DEF:0 "The Turkish People's Republic"
+
+  TUR_communist:0 "Turkish People's Republic"
+  TUR_communist_DEF:0 "The Turkish People's Republic"
+
+  TUR_moderate_socialist:0 "Turkish Republic"
+  TUR_moderate_socialist_DEF:0 "The Turkish Republic"
+
+  TUR_liberal:0 "Turkish Republic"
+  TUR_liberal_DEF:0 "The Turkish Republic"
+
+  TUR_conservative:0 "Turkish Republic"
+  TUR_conservative_DEF:0 "The Turkish Republic"
+
+  TUR_paternal_autocrat:0 "Turkish State"
+  TUR_paternal_autocrat_DEF:0 "The Turkish State"
+
+  TUR_far_right_populist:0 "Turkish State"
+  TUR_far_right_populist:0 "The Turkish State"
+
+  TUR_anarchist_ADJ:0 "Turkish"
+  TUR_communist_ADJ:0 "Turkish"
+  TUR_moderate_socialist_ADJ:0 "Turkish"
+  TUR_liberal_ADJ:0 "Turkish"
+  TUR_conservative_ADJ:0 "Turkish"
+  TUR_paternal_autocrat_ADJ:0 "Turkish"
+  TUR_far_right_populist_ADJ:0 "Turkish"
+
+
+
+  SWE_anarchist:0 "Swedish People's Republic"
+  SWE_anarchist_DEF:0 "The Swedish People's Republic"
+
+  SWE_communist:0 "Swedish People's Republic"
+  SWE_communist_DEF:0 "The Swedish People's Republic"
+
+  SWE_moderate_socialist:0 "Kingdom of Sweden"
+  SWE_moderate_socialist_DEF:0 "The Kingdom of Sweden"
+
+  SWE_liberal:0 "Kingdom of Sweden"
+  SWE_liberal_DEF:0 "The Kingdom of Sweden"
+
+  SWE_conservative:0 "Kingdom of Sweden"
+  SWE_conservative_DEF:0 "The Kingdom of Sweden"
+
+  SWE_paternal_autocrat:0 "Kingdom of Sweden"
+  SWE_paternal_autocrat_DEF:0 "The Kingdom of Sweden"
+
+  SWE_far_right_populist:0 "Swedish State"
+  SWE_far_right_populist:0 "The Swedish State"
+
+  SWE_anarchist_ADJ:0 "Swedish"
+  SWE_communist_ADJ:0 "Swedish"
+  SWE_moderate_socialist_ADJ:0 "Swedish"
+  SWE_liberal_ADJ:0 "Swedish"
+  SWE_conservative_ADJ:0 "Swedish"
+  SWE_paternal_autocrat_ADJ:0 "Swedish"
+  SWE_far_right_populist_ADJ:0 "Swedish"
+
+
+
+  SOV_anarchist:0 "Russian Soviet Federative Socialist Republic"
+  SOV_anarchist_DEF:0 "The Russian Soviet Federative Socialist Republic"
+
+  SOV_communist:0 "Russian Soviet Federative Socialist Republic"
+  SOV_communist_DEF:0 "The Russian Soviet Federative Socialist Republic"
+
+  SOV_moderate_socialist:0 "Russian Democratic Federative Republic"
+  SOV_moderate_socialist_DEF:0 "The Russian Democratic Federative Republic"
+
+  SOV_liberal:0 "Russian Democratic Federative Republic"
+  SOV_liberal_DEF:0 "The Russian Democratic Federative Republic"
+
+  SOV_conservative:0 "Russian Democratic Federative Republic"
+  SOV_conservative_DEF:0 "The Russian Democratic Federative Republic"
+
+  SOV_paternal_autocrat:0 "Russian State"
+  SOV_paternal_autocrat_DEF:0 "The Russian State"
+
+  SOV_far_right_populist:0 "Russian State"
+  SOV_far_right_populist:0 "The Russian State"
+
+  SOV_anarchist_ADJ:0 "Bolshevik"
+  SOV_communist_ADJ:0 "Bolshevik"
+  SOV_moderate_socialist_ADJ:0 "Russian"
+  SOV_liberal_ADJ:0 "Russian"
+  SOV_conservative_ADJ:0 "Russian"
+  SOV_paternal_autocrat_ADJ:0 "Russian"
+  SOV_far_right_populist_ADJ:0 "Russian"
+
+
+
+  POL_anarchist:0 "Polish People's Republic"
+  POL_anarchist_DEF:0 "The Polish People's Republic"
+
+  POL_communist:0 "Polish People's Republic"
+  POL_communist_DEF:0 "The Polish People's Republic"
+
+  POL_moderate_socialist:0 "Kingdom of Poland"
+  POL_moderate_socialist_DEF:0 "The Kingdom of Poland"
+
+  POL_liberal:0 "Kingdom of Poland"
+  POL_liberal_DEF:0 "The Kingdom of Poland"
+
+  POL_conservative:0 "Kingdom of Poland"
+  POL_conservative_DEF:0 "The Kingdom of Poland"
+
+  POL_paternal_autocrat:0 "Kingdom of Poland"
+  POL_paternal_autocrat_DEF:0 "The Kingdom of Poland"
+
+  POL_far_right_populist:0 "Polish State"
+  POL_far_right_populist:0 "The Polish State"
+
+  POL_anarchist_ADJ:0 "Polish"
+  POL_communist_ADJ:0 "Polish"
+  POL_moderate_socialist_ADJ:0 "Polish"
+  POL_liberal_ADJ:0 "Polish"
+  POL_conservative_ADJ:0 "Polish"
+  POL_paternal_autocrat_ADJ:0 "Polish"
+  POL_far_right_populist_ADJ:0 "Polish"
+
+
+
+  LIT_anarchist:0 "Lithuanian People's Republic"
+  LIT_anarchist_DEF:0 "The Lithuanian People's Republic"
+
+  LIT_communist:0 "Lithuanian People's Republic"
+  LIT_communist_DEF:0 "The Lithuanian People's Republic"
+
+  LIT_moderate_socialist:0 "Republic of Lithuania"
+  LIT_moderate_socialist_DEF:0 "The Republic of Lithuania"
+
+  LIT_liberal:0 "Republic of Lithuania"
+  LIT_liberal_DEF:0 "The Republic of Lithuania"
+
+  LIT_conservative:0 "Republic of Lithuania"
+  LIT_conservative_DEF:0 "The Republic of Lithuania"
+
+  LIT_paternal_autocrat:0 "Kingdom of Lithuania"
+  LIT_paternal_autocrat_DEF:0 "The Kingdom of Lithuania"
+
+  LIT_far_right_populist:0 "Lithuanian State"
+  LIT_far_right_populist:0 "The Lithuanian State"
+
+  LIT_anarchist_ADJ:0 "Lithuanian"
+  LIT_communist_ADJ:0 "Lithuanian"
+  LIT_moderate_socialist_ADJ:0 "Lithuanian"
+  LIT_liberal_ADJ:0 "Lithuanian"
+  LIT_conservative_ADJ:0 "Lithuanian"
+  LIT_paternal_autocrat_ADJ:0 "Lithuanian"
+  LIT_far_right_populist_ADJ:0 "Lithuanian"
+
+
+
+  IRE_anarchist:0 "Irish People's Republic"
+  IRE_anarchist_DEF:0 "The Irish People's Republic"
+
+  IRE_communist:0 "Irish People's Republic"
+  IRE_communist_DEF:0 "The Irish People's Republic"
+
+  IRE_moderate_socialist:0 "Irish Free State"
+  IRE_moderate_socialist_DEF:0 "The Irish Free State"
+
+  IRE_liberal:0 "Irish Free State"
+  IRE_liberal_DEF:0 "The Irish Free State"
+
+  IRE_conservative:0 "Irish Free State"
+  IRE_conservative_DEF:0 "The Irish Free State"
+
+  IRE_paternal_autocrat:0 "Irish Free State"
+  IRE_paternal_autocrat_DEF:0 "The Irish Free State"
+
+  IRE_far_right_populist:0 "Irish State"
+  IRE_far_right_populist:0 "The Irish State"
+
+  IRE_anarchist_ADJ:0 "Irish"
+  IRE_communist_ADJ:0 "Irish"
+  IRE_moderate_socialist_ADJ:0 "Irish"
+  IRE_liberal_ADJ:0 "Irish"
+  IRE_conservative_ADJ:0 "Irish"
+  IRE_paternal_autocrat_ADJ:0 "Irish"
+  IRE_far_right_populist_ADJ:0 "Irish"
+
+
+
+  HOL_anarchist:0 "Dutch People's Republic"
+  HOL_anarchist_DEF:0 "The Dutch People's Republic"
+
+  HOL_communist:0 "Dutch People's Republic"
+  HOL_communist_DEF:0 "The Dutch People's Republic"
+
+  HOL_moderate_socialist:0 "Kingdom of the Netherlands"
+  HOL_moderate_socialist_DEF:0 "The Kingdom of the Netherlands"
+
+  HOL_liberal:0 "Kingdom of the Netherlands"
+  HOL_liberal_DEF:0 "The Kingdom of the Netherlands"
+
+  HOL_conservative:0 "Kingdom of the Netherlands"
+  HOL_conservative_DEF:0 "The Kingdom of the Netherlands"
+
+  HOL_paternal_autocrat:0 "Kingdom of the Netherlands"
+  HOL_paternal_autocrat_DEF:0 "The Kingdom of the Netherlands"
+
+  HOL_far_right_populist:0 "Dutch State"
+  HOL_far_right_populist:0 "The Dutch State"
+
+  HOL_anarchist_ADJ:0 "Dutch"
+  HOL_communist_ADJ:0 "Dutch"
+  HOL_moderate_socialist_ADJ:0 "Dutch"
+  HOL_liberal_ADJ:0 "Dutch"
+  HOL_conservative_ADJ:0 "Dutch"
+  HOL_paternal_autocrat_ADJ:0 "Dutch"
+  HOL_far_right_populist_ADJ:0 "Dutch"
+
+
+
+  ICE_anarchist:0 "Iceland"
+  ICE_anarchist_DEF:0 "Iceland"
+
+  ICE_communist:0 "Iceland"
+  ICE_communist_DEF:0 "Iceland"
+
+  ICE_moderate_socialist:0 "Iceland"
+  ICE_moderate_socialist_DEF:0 "Iceland"
+
+  ICE_liberal:0 "Iceland"
+  ICE_liberal_DEF:0 "Iceland"
+
+  ICE_conservative:0 "Iceland"
+  ICE_conservative_DEF:0 "Iceland"
+
+  ICE_paternal_autocrat:0 "Iceland"
+  ICE_paternal_autocrat_DEF:0 "Iceland"
+
+  ICE_far_right_populist:0 "Icelandic State"
+  ICE_far_right_populist:0 "Icelandic State"
+
+  ICE_anarchist_ADJ:0 "Icelandic"
+  ICE_communist_ADJ:0 "Icelandic"
+  ICE_moderate_socialist_ADJ:0 "Icelandic"
+  ICE_liberal_ADJ:0 "Icelandic"
+  ICE_conservative_ADJ:0 "Icelandic"
+  ICE_paternal_autocrat_ADJ:0 "Icelandic"
+  ICE_far_right_populist_ADJ:0 "Icelandic"
+
+
+
+  GEO_anarchist:0 "Georgian SSR"
+  GEO_anarchist_DEF:0 "The Georgian SSR"
+
+  GEO_communist:0 "Georgian SSR"
+  GEO_communist_DEF:0 "The Georgian SSR"
+
+  GEO_moderate_socialist:0 "Republic of Georgia"
+  GEO_moderate_socialist_DEF:0 "The Republic of Georgia"
+
+  GEO_liberal:0 "Republic of Georgia"
+  GEO_liberal_DEF:0 "The Republic of Georgia"
+
+  GEO_conservative:0 "Republic of Georgia"
+  GEO_conservative_DEF:0 "The Republic of Georgia"
+
+  GEO_paternal_autocrat:0 "Kingdom of Georgia"
+  GEO_paternal_autocrat_DEF:0 "The Kingdom of Georgia"
+
+  GEO_far_right_populist:0 "Georgia"
+  GEO_far_right_populist:0 "Georgia"
+
+  GEO_anarchist_ADJ:0 "Georgian"
+  GEO_communist_ADJ:0 "Georgian"
+  GEO_moderate_socialist_ADJ:0 "Georgian"
+  GEO_liberal_ADJ:0 "Georgian"
+  GEO_conservative_ADJ:0 "Georgian"
+  GEO_paternal_autocrat_ADJ:0 "Georgian"
+  GEO_far_right_populist_ADJ:0 "Georgian"
+
+
+
+  EST_anarchist:0 "Estonian SSR"
+  EST_anarchist_DEF:0 "The Estonian SSR"
+
+  EST_communist:0 "Estonian SSR"
+  EST_communist_DEF:0 "The Estonian SSR"
+
+  EST_moderate_socialist:0 "Republic of Estonia"
+  EST_moderate_socialist_DEF:0 "The Republic of Estonia"
+
+  EST_liberal:0 "Republic of Estonia"
+  EST_liberal_DEF:0 "The Republic of Estonia"
+
+  EST_conservative:0 "Republic of Estonia"
+  EST_conservative_DEF:0 "The Republic of Estonia"
+
+  EST_paternal_autocrat:0 "Republic of Estonia"
+  EST_paternal_autocrat_DEF:0 "The Republic of Estonia"
+
+  EST_far_right_populist:0 "Estonia"
+  EST_far_right_populist:0 "Estonia"
+
+  EST_anarchist_ADJ:0 "Estonian"
+  EST_communist_ADJ:0 "Estonian"
+  EST_moderate_socialist_ADJ:0 "Estonian"
+  EST_liberal_ADJ:0 "Estonian"
+  EST_conservative_ADJ:0 "Estonian"
+  EST_paternal_autocrat_ADJ:0 "Estonian"
+  EST_far_right_populist_ADJ:0 "Estonian"
+
+
+
+  AUS_anarchist:0 "Austrian Democratic Republic"
+  AUS_anarchist_DEF:0 "The Austrian Democratic Republic"
+
+  AUS_communist:0 "Austrian Democratic Republic"
+  AUS_communist_DEF:0 "The Austrian Democratic Republic"
+
+  AUS_moderate_socialist:0 "Austrian Empire"
+  AUS_moderate_socialist_DEF:0 "The Austrian Empire"
+
+  AUS_liberal:0 "Austrian Empire"
+  AUS_liberal_DEF:0 "The Austrian Empire"
+
+  AUS_conservative:0 "Austrian Empire"
+  AUS_conservative_DEF:0 "The Austrian Empire"
+
+  AUS_paternal_autocrat:0 "Austrian Empire"
+  AUS_paternal_autocrat_DEF:0 "The Austrian Empire"
+
+  AUS_far_right_populist:0 "Austrian Empire"
+  AUS_far_right_populist:0 "The Austrian Empire"
+
+  AUS_anarchist_ADJ:0 "Austrian"
+  AUS_communist_ADJ:0 "Austrian"
+  AUS_moderate_socialist_ADJ:0 "Austrian"
+  AUS_liberal_ADJ:0 "Austrian"
+  AUS_conservative_ADJ:0 "Austrian"
+  AUS_paternal_autocrat_ADJ:0 "Austrian"
+  AUS_far_right_populist_ADJ:0 "Austrian"
+
+
+
+  CRO_anarchist:0 "Croatian Democratic Republic"
+  CRO_anarchist_DEF:0 "The Croatian Democratic Republic"
+
+  CRO_communist:0 "Croatian Democratic Republic"
+  CRO_communist_DEF:0 "The Croatian Democratic Republic"
+
+  CRO_moderate_socialist:0 "Republic of Croatia"
+  CRO_moderate_socialist_DEF:0 "The Republic of Croatia"
+
+  CRO_liberal:0 "Republic of Croatia"
+  CRO_liberal_DEF:0 "The Republic of Croatia"
+
+  CRO_conservative:0 "Republic of Croatia"
+  CRO_conservative_DEF:0 "The Republic of Croatia"
+
+  CRO_paternal_autocrat:0 "Croatian State"
+  CRO_paternal_autocrat_DEF:0 "The Croatian State"
+
+  CRO_far_right_populist:0 "Croatia"
+  CRO_far_right_populist:0 "Croatia"
+
+  CRO_anarchist_ADJ:0 "Croatian"
+  CRO_communist_ADJ:0 "Croatian"
+  CRO_moderate_socialist_ADJ:0 "Croatian"
+  CRO_liberal_ADJ:0 "Croatian"
+  CRO_conservative_ADJ:0 "Croatian"
+  CRO_paternal_autocrat_ADJ:0 "Croatian"
+  CRO_far_right_populist_ADJ:0 "Croatian"
+
+
+
+  AZR_anarchist:0 "Azerbaijani People's Republic"
+  AZR_anarchist_DEF:0 "The Azerbaijani People's Republic"
+
+  AZR_communist:0 "Azerbaijani People's Republic"
+  AZR_communist_DEF:0 "The Azerbaijani People's Republic"
+
+  AZR_moderate_socialist:0 "Republic of Azerbaijan"
+  AZR_moderate_socialist_DEF:0 "The Republic of Azerbaijan"
+
+  AZR_liberal:0 "Republic of Azerbaijan"
+  AZR_liberal_DEF:0 "The Republic of Azerbaijan"
+
+  AZR_conservative:0 "Republic of Azerbaijan"
+  AZR_conservative_DEF:0 "The Republic of Azerbaijan"
+
+  AZR_paternal_autocrat:0 "Azerbaijani State"
+  AZR_paternal_autocrat_DEF:0 "The Azerbaijani State"
+
+  AZR_far_right_populist:0 "Azerbaijani State"
+  AZR_far_right_populist:0 "The Azerbaijani State"
+
+  AZR_anarchist_ADJ:0 "Azerbaijani"
+  AZR_communist_ADJ:0 "Azerbaijani"
+  AZR_moderate_socialist_ADJ:0 "Azerbaijani"
+  AZR_liberal_ADJ:0 "Azerbaijani"
+  AZR_conservative_ADJ:0 "Azerbaijani"
+  AZR_paternal_autocrat_ADJ:0 "Azerbaijani"
+  AZR_far_right_populist_ADJ:0 "Azerbaijani"
+
+
+
+  ALB_anarchist:0 "People's Socialist Republic of Albania"
+  ALB_anarchist_DEF:0 "The People's Socialist Republic of Albania"
+
+  ALB_communist:0 "People's Socialist Republic of Albania"
+  ALB_communist_DEF:0 "The People's Socialist Republic of Albania"
+
+  ALB_moderate_socialist:0 "Albanian Republic"
+  ALB_moderate_socialist_DEF:0 "The Albanian Republic"
+
+  ALB_liberal:0 "Albanian Republic"
+  ALB_liberal_DEF:0 "The Albanian Republic"
+
+  ALB_conservative:0 "Albanian Republic"
+  ALB_conservative_DEF:0 "The Albanian Republic"
+
+  ALB_paternal_autocrat:0 "Kingdom of Albania"
+  ALB_paternal_autocrat_DEF:0 "The Kingdom of Albania"
+
+  ALB_far_right_populist:0 "Albania State"
+  ALB_far_right_populist:0 "the Albanian State"
+
+  ALB_anarchist_ADJ:0 "Albanian"
+  ALB_communist_ADJ:0 "Albanian"
+  ALB_moderate_socialist_ADJ:0 "Albanian"
+  ALB_liberal_ADJ:0 "Albanian"
+  ALB_conservative_ADJ:0 "Albanian"
+  ALB_paternal_autocrat_ADJ:0 "Albanian"
+  ALB_far_right_populist_ADJ:0 "Albanian"
+
+
+
+  SER_anarchist:0 "Socialist Federal Republic of Serbia"
+  SER_anarchist_DEF:0 "The Socialist Federal Republic of Serbia"
+
+  SER_communist:0 "Socialist Federal Republic of Serbia"
+  SER_communist_DEF:0 "The Socialist Federal Republic of Serbia"
+
+  SER_moderate_socialist:0 "Serbian Federal Republic"
+  SER_moderate_socialist_DEF:0 "The Serbian Federal Republic"
+
+  SER_liberal:0 "Serbian Federal Republic"
+  SER_liberal_DEF:0 "The Serbian Federal Republic"
+
+  SER_conservative:0 "Serbian Federal Republic"
+  SER_conservative_DEF:0 "The Serbian Federal Republic"
+
+  SER_paternal_autocrat:0 "Kingdom of Serbia"
+  SER_paternal_autocrat_DEF:0 "The Kingdom of Serbia"
+
+  SER_far_right_populist:0 "Serbian State"
+  SER_far_right_populist:0 "the Serbian State"
+
+  SER_anarchist_ADJ:0 "Serbian"
+  SER_communist_ADJ:0 "Serbian"
+  SER_moderate_socialist_ADJ:0 "Serbian"
+  SER_liberal_ADJ:0 "Serbian"
+  SER_conservative_ADJ:0 "Serbian"
+  SER_paternal_autocrat_ADJ:0 "Serbian"
+  SER_far_right_populist_ADJ:0 "Serbian"
+
+
+
+  ROM_anarchist:0 "Romanian Socialist Republic"
+  ROM_anarchist_DEF:0 "The Romanian Socialist Republic"
+
+  ROM_communist:0 "Romanian Socialist Republic"
+  ROM_communist_DEF:0 "The Romanian Socialist Republic"
+
+  ROM_moderate_socialist:0 "Kingdom of Romania"
+  ROM_moderate_socialist_DEF:0 "The Kingdom of Romania"
+
+  ROM_liberal:0 "Kingdom of Romania"
+  ROM_liberal_DEF:0 "The Kingdom of Romania"
+
+  ROM_conservative:0 "Kingdom of Romania"
+  ROM_conservative_DEF:0 "The Kingdom of Romania"
+
+  ROM_paternal_autocrat:0 "Kingdom of Romania"
+  ROM_paternal_autocrat_DEF:0 "The Kingdom of Romania"
+
+  ROM_far_right_populist:0 "National-Legionary State"
+  ROM_far_right_populist:0 "the Romanian National-Legionary State"
+
+  ROM_anarchist_ADJ:0 "Romanian"
+  ROM_communist_ADJ:0 "Romanian"
+  ROM_moderate_socialist_ADJ:0 "Romanian"
+  ROM_liberal_ADJ:0 "Romanian"
+  ROM_conservative_ADJ:0 "Romanian"
+  ROM_paternal_autocrat_ADJ:0 "Romanian"
+  ROM_far_right_populist_ADJ:0 "Romanian"
+
+
+
+  YUG_anarchist:0 "Socialist Federal Republic of Yugoslavia"
+  YUG_anarchist_DEF:0 "The Socialist Federal Republic of Yugoslavia"
+
+  YUG_communist:0 "Socialist Federal Republic of Yugoslavia"
+  YUG_communist_DEF:0 "The Socialist Federal Republic of Yugoslavia"
+
+  YUG_moderate_socialist:0 "Kingdom of Yugoslavia"
+  YUG_moderate_socialist_DEF:0 "The Kingdom of Yugoslavia"
+
+  YUG_liberal:0 "Kingdom of Yugoslavia"
+  YUG_liberal_DEF:0 "The Kingdom of Yugoslavia"
+
+  YUG_conservative:0 "Kingdom of Yugoslavia"
+  YUG_conservative_DEF:0 "The Kingdom of Yugoslavia"
+
+  YUG_paternal_autocrat:0 "Kingdom of Yugoslavia"
+  YUG_paternal_autocrat_DEF:0 "The Kingdom of Yugoslavia"
+
+  YUG_far_right_populist:0 "Yugoslavian Junta"
+  YUG_far_right_populist:0 "the Yugoslavian Junta"
+
+  YUG_anarchist_ADJ:0 "Yugoslavian"
+  YUG_communist_ADJ:0 "Yugoslavian"
+  YUG_moderate_socialist_ADJ:0 "Yugoslavian"
+  YUG_liberal_ADJ:0 "Yugoslavian"
+  YUG_conservative_ADJ:0 "Yugoslavian"
+  YUG_paternal_autocrat_ADJ:0 "Yugoslavian"
+  YUG_far_right_populist_ADJ:0 "Yugoslavian"
+
+
+
+  NOR_anarchist:0 "Norwegian Republic"
+  NOR_anarchist_DEF:0 "The Norwegian Republic"
+
+  NOR_communist:0 "Norwegian Republic"
+  NOR_communist_DEF:0 "The Norwegian Republic"
+
+  NOR_moderate_socialist:0 "Kingdom of Norway"
+  NOR_moderate_socialist_DEF:0 "The Kingdom of Norway"
+
+  NOR_liberal:0 "Kingdom of Norway"
+  NOR_liberal_DEF:0 "The Kingdom of Norway"
+
+  NOR_conservative:0 "Kingdom of Norway"
+  NOR_conservative_DEF:0 "The Kingdom of Norway"
+
+  NOR_paternal_autocrat:0 "Kingdom of Norway"
+  NOR_paternal_autocrat_DEF:0 "The Kingdom of Norway"
+
+  NOR_far_right_populist:0 "Norwegian Junta"
+  NOR_far_right_populist:0 "the Norwegian Junta"
+
+  NOR_anarchist_ADJ:0 "Norwegian"
+  NOR_communist_ADJ:0 "Norwegian"
+  NOR_moderate_socialist_ADJ:0 "Norwegian"
+  NOR_liberal_ADJ:0 "Norwegian"
+  NOR_conservative_ADJ:0 "Norwegian"
+  NOR_paternal_autocrat_ADJ:0 "Norwegian"
+  NOR_far_right_populist_ADJ:0 "Norwegian"
+
+
+
+  ICE_anarchist:0 "Icelandic People's Republic"
+  ICE_anarchist_DEF:0 "The Icelandic People's Republic"
+
+  ICE_communist:0 "Icelandic People's Republic"
+  ICE_communist_DEF:0 "The Icelandic People's Republic"
+
+  ICE_moderate_socialist:0 "Republic of Iceland"
+  ICE_moderate_socialist_DEF:0 "The Republic of Iceland"
+
+  ICE_liberal:0 "Republic of Iceland"
+  ICE_liberal_DEF:0 "The Republic of Iceland"
+
+  ICE_conservative:0 "Republic of Iceland"
+  ICE_conservative_DEF:0 "The Republic of Iceland"
+
+  ICE_paternal_autocrat:0 "Republic of Iceland"
+  ICE_paternal_autocrat_DEF:0 "The Republic of Iceland"
+
+  ICE_far_right_populist:0 "Republic of Iceland"
+  ICE_far_right_populist:0 "the Republic of ICeland"
+
+  ICE_anarchist_ADJ:0 "Icelandic"
+  ICE_communist_ADJ:0 "Icelandic"
+  ICE_moderate_socialist_ADJ:0 "Icelandic"
+  ICE_liberal_ADJ:0 "Icelandic"
+  ICE_conservative_ADJ:0 "Icelandic"
+  ICE_paternal_autocrat_ADJ:0 "Icelandic"
+  ICE_far_right_populist_ADJ:0 "Icelandic"
+
+
+
+  ICE_KINGDOM_anarchist:0 "Icelandic Republic"
+  ICE_KINGDOM_anarchist_DEF:0 "The Icelandic Republic"
+
+  ICE_KINGDOM_communist:0 "Icelandic Republic"
+  ICE_KINGDOM_communist_DEF:0 "The Icelandic Republic"
+
+  ICE_KINGDOM_moderate_socialist:0 "Kingdom of Iceland"
+  ICE_KINGDOM_moderate_socialist_DEF:0 "The Kingdom of Iceland"
+
+  ICE_KINGDOM_liberal:0 "Kingdom of Iceland"
+  ICE_KINGDOM_liberal_DEF:0 "The Kingdom of Iceland"
+
+  ICE_KINGDOM_conservative:0 "Kingdom of Iceland"
+  ICE_KINGDOM_conservative_DEF:0 "The Kingdom of Iceland"
+
+  ICE_KINGDOM_paternal_autocrat:0 "Kingdom of Iceland"
+  ICE_KINGDOM_paternal_autocrat_DEF:0 "The Kingdom of Iceland"
+
+  ICE_KINGDOM_far_right_populist:0 "Icelandic Junta"
+  ICE_KINGDOM_far_right_populist:0 "the Icelandic Junta"
+
+  ICE_KINGDOM_anarchist_ADJ:0 "Icelandic"
+  ICE_KINGDOM_communist_ADJ:0 "Icelandic"
+  ICE_KINGDOM_moderate_socialist_ADJ:0 "Icelandic"
+  ICE_KINGDOM_liberal_ADJ:0 "Icelandic"
+  ICE_KINGDOM_conservative_ADJ:0 "Icelandic"
+  ICE_KINGDOM_paternal_autocrat_ADJ:0 "Icelandic"
+  ICE_KINGDOM_far_right_populist_ADJ:0 "Icelandic"
+
+
+
+  DEN_anarchist:0 "Danish Republic"
+  DEN_anarchist_DEF:0 "The Danish Republic"
+
+  DEN_communist:0 "Danish Republic"
+  DEN_communist_DEF:0 "The Danish Republic"
+
+  DEN_moderate_socialist:0 "Kingdom of Denmark"
+  DEN_moderate_socialist_DEF:0 "The Kingdom of Denmark"
+
+  DEN_liberal:0 "Kingdom of Denmark"
+  DEN_liberal_DEF:0 "The Kingdom of Denmark"
+
+  DEN_conservative:0 "Kingdom of Denmark"
+  DEN_conservative_DEF:0 "The Kingdom of Denmark"
+
+  DEN_paternal_autocrat:0 "Kingdom of Denmark"
+  DEN_paternal_autocrat_DEF:0 "The Kingdom of Denmark"
+
+  DEN_far_right_populist:0 "Danish State"
+  DEN_far_right_populist:0 "the Danish State"
+
+  DEN_anarchist_ADJ:0 "Danish"
+  DEN_communist_ADJ:0 "Danish"
+  DEN_moderate_socialist_ADJ:0 "Danish"
+  DEN_liberal_ADJ:0 "Danish"
+  DEN_conservative_ADJ:0 "Danish"
+  DEN_paternal_autocrat_ADJ:0 "Danish"
+  DEN_far_right_populist_ADJ:0 "Danish"
+
+
+
+  LUX_anarchist:0 "Luxembourgish Republic"
+  LUX_anarchist_DEF:0 "The Luxembourgish Republic"
+
+  LUX_communist:0 "Luxembourgish Republic"
+  LUX_communist_DEF:0 "The Luxembourgish Republic"
+
+  LUX_moderate_socialist:0 "Luxembourg"
+  LUX_moderate_socialist_DEF:0 "The Grand Duchy of Luxembourg"
+
+  LUX_liberal:0 "Luxembourg"
+  LUX_liberal_DEF:0 "The Grand Duchy of Luxembourg"
+
+  LUX_conservative:0 "Luxembourg"
+  LUX_conservative_DEF:0 "The Grand Duchy of Luxembourg"
+
+  LUX_paternal_autocrat:0 "Luxembourg"
+  LUX_paternal_autocrat_DEF:0 "The Grand Duchy of Luxembourg"
+
+  LUX_far_right_populist:0 "Luxembourgish State"
+  LUX_far_right_populist:0 "the Luxembourgish State"
+
+  LUX_anarchist_ADJ:0 "Luxembourgish"
+  LUX_communist_ADJ:0 "Luxembourgish"
+  LUX_moderate_socialist_ADJ:0 "Luxembourgish"
+  LUX_liberal_ADJ:0 "Luxembourgish"
+  LUX_conservative_ADJ:0 "Luxembourgish"
+  LUX_paternal_autocrat_ADJ:0 "Luxembourgish"
+  LUX_far_right_populist_ADJ:0 "Luxembourgish"
+
+
+
+  GRE_anarchist:0 "Greek Socialist Republic"
+  GRE_anarchist_DEF:0 "The Greek Socialist Republic"
+
+  GRE_communist:0 "Greek People's Republic"
+  GRE_communist_DEF:0 "The Greek People's Republic"
+
+  GRE_moderate_socialist:0 "Hellenic Republic"
+  GRE_moderate_socialist_DEF:0 "The Hellenic Republic"
+
+  GRE_liberal:0 "Hellenic Republic"
+  GRE_liberal_DEF:0 "The Hellenic Republic"
+
+  GRE_conservative:0 "Hellenic Republic"
+  GRE_conservative_DEF:0 "The Hellenic Republic"
+
+  GRE_paternal_autocrat:0 "Hellenic Republic"
+  GRE_paternal_autocrat_DEF:0 "The Hellenic Republic"
+
+  GRE_far_right_populist:0 "Greek State"
+  GRE_far_right_populist:0 "the Greek State"
+
+  GRE_anarchist_ADJ:0 "Greek"
+  GRE_communist_ADJ:0 "Greek"
+  GRE_moderate_socialist_ADJ:0 "Greek"
+  GRE_liberal_ADJ:0 "Greek"
+  GRE_conservative_ADJ:0 "Greek"
+  GRE_paternal_autocrat_ADJ:0 "Greek"
+  GRE_far_right_populist_ADJ:0 "Greek"
+
+
+
+  GER_anarchist:0 "Free Socialist Republic of Germany"
+  GER_anarchist_DEF:0 "The Free Socialist Republic of Germany"
+
+  GER_communist:0 "Free Socialist Republic of Germany"
+  GER_communist_DEF:0 "The Free Socialist Republic of Germany"
+
+  GER_moderate_socialist:0 "Weimar Republic"
+  GER_moderate_socialist_DEF:0 "The Weimar Republic"
+
+  GER_liberal:0 "Weimar Republic"
+  GER_liberal_DEF:0 "The Weimar Republic"
+
+  GER_conservative:0 "Weimar Republic"
+  GER_conservative_DEF:0 "The Weimar Republic"
+
+  GER_paternal_autocrat:0 "Weimar Republic"
+  GER_paternal_autocrat_DEF:0 "The Weimar Republic"
+
+  GER_far_right_populist:0 "Weimar Republic"
+  GER_far_right_populist:0 "the Weimar Republic"
+
+  GER_anarchist_ADJ:0 "German"
+  GER_communist_ADJ:0 "German"
+  GER_moderate_socialist_ADJ:0 "German"
+  GER_liberal_ADJ:0 "German"
+  GER_conservative_ADJ:0 "German"
+  GER_paternal_autocrat_ADJ:0 "German"
+  GER_far_right_populist_ADJ:0 "German"
+
+
+
+  FIN_anarchist:0 "Finnish Democratic Republic"
+  FIN_anarchist_DEF:0 "The Finnish Democratic Republic"
+
+  FIN_communist:0 "Finnish Democratic Republic"
+  FIN_communist_DEF:0 "The Finnish Democratic Republic"
+
+  FIN_moderate_socialist:0 "Republic of Finland"
+  FIN_moderate_socialist_DEF:0 "The Republic of Finland"
+
+  FIN_liberal:0 "Republic of Finland"
+  FIN_liberal_DEF:0 "The Republic of Finland"
+
+  FIN_conservative:0 "Republic of Finland"
+  FIN_conservative_DEF:0 "The Republic of Finland"
+
+  FIN_paternal_autocrat:0 "Kingdom of Finland"
+  FIN_paternal_autocrat_DEF:0 "The Kingdom of Finland"
+
+  FIN_far_right_populist:0 "Republic of Finland"
+  FIN_far_right_populist:0 "the Republic of Finland"
+
+  FIN_anarchist_ADJ:0 "Finnish"
+  FIN_communist_ADJ:0 "Finnish"
+  FIN_moderate_socialist_ADJ:0 "Finnish"
+  FIN_liberal_ADJ:0 "Finnish"
+  FIN_conservative_ADJ:0 "Finnish"
+  FIN_paternal_autocrat_ADJ:0 "Finnish"
+  FIN_far_right_populist_ADJ:0 "Finnish"
+
+
+
+  CZE_anarchist:0 "Czechoslovak Socialist Republic"
+  CZE_anarchist_DEF:0 "The Czech Democratic Republic"
+
+  CZE_communist:0 "Czechoslovak Socialist Republic"
+  CZE_communist_DEF:0 "The Czech Socialist Republic"
+
+  CZE_moderate_socialist:0 "Czechoslovak Republic"
+  CZE_moderate_socialist_DEF:0 "The Czechoslovak Republic"
+
+  CZE_liberal:0 "Czechoslovak Republic"
+  CZE_liberal_DEF:0 "The Czechoslovak Republic"
+
+  CZE_conservative:0 "Czechoslovak Republic"
+  CZE_conservative_DEF:0 "The Czechoslovak Republic"
+
+  CZE_paternal_autocrat:0 "Czechoslovak Republic"
+  CZE_paternal_autocrat_DEF:0 "The Czechoslovak Republic"
+
+  CZE_far_right_populist:0 "Czechoslovak Republic"
+  CZE_far_right_populist:0 "Czechoslovak Republic"
+
+  CZE_anarchist_ADJ:0 "Czechoslovakian"
+  CZE_communist_ADJ:0 "Czechoslovakian"
+  CZE_moderate_socialist_ADJ:0 "Czechoslovakian"
+  CZE_liberal_ADJ:0 "Czechoslovakian"
+  CZE_conservative_ADJ:0 "Czechoslovakian"
+  CZE_paternal_autocrat_ADJ:0 "Czechoslovakian"
+  CZE_far_right_populist_ADJ:0 "Czechoslovakian"
+
+
+
+  FIN_anarchist:0 "Bulgarian Democratic Republic"
+  FIN_anarchist_DEF:0 "The Bulgarian Democratic Republic"
+
+  FIN_communist:0 "Bulgarian Democratic Republic"
+  FIN_communist_DEF:0 "The Bulgarian Democratic Republic"
+
+  FIN_moderate_socialist:0 "Republic of Bulgaria"
+  FIN_moderate_socialist_DEF:0 "The Republic of Bulgaria"
+
+  FIN_liberal:0 "Republic of Bulgaria"
+  FIN_liberal_DEF:0 "The Republic of Bulgaria"
+
+  FIN_conservative:0 "Republic of Bulgaria"
+  FIN_conservative_DEF:0 "The Republic of Bulgaria"
+
+  FIN_paternal_autocrat:0 "Kingdom of Bulgaria"
+  FIN_paternal_autocrat_DEF:0 "The Kingdom of Bulgaria"
+
+  FIN_far_right_populist:0 "Republic of Bulgaria"
+  FIN_far_right_populist:0 "the Republic of Bulgaria"
+
+  FIN_anarchist_ADJ:0 "Bulgarian"
+  FIN_communist_ADJ:0 "Bulgarian"
+  FIN_moderate_socialist_ADJ:0 "Bulgarian"
+  FIN_liberal_ADJ:0 "Bulgarian"
+  FIN_conservative_ADJ:0 "Bulgarian"
+  FIN_paternal_autocrat_ADJ:0 "Bulgarian"
+  FIN_far_right_populist_ADJ:0 "Bulgarian"
+
+
+
+  BUL_anarchist:0 "Bulgarian Democratic Republic"
+  BUL_anarchist_DEF:0 "The Bulgarian Democratic Republic"
+
+  BUL_communist:0 "Bulgarian Democratic Republic"
+  BUL_communist_DEF:0 "The Bulgarian Democratic Republic"
+
+  BUL_moderate_socialist:0 "Republic of Bulgaria"
+  BUL_moderate_socialist_DEF:0 "The Republic of Bulgaria"
+
+  BUL_liberal:0 "Republic of Bulgaria"
+  BUL_liberal_DEF:0 "The Republic of Bulgaria"
+
+  BUL_conservative:0 "Republic of Bulgaria"
+  BUL_conservative_DEF:0 "The Republic of Bulgaria"
+
+  BUL_paternal_autocrat:0 "Kingdom of Bulgaria"
+  BUL_paternal_autocrat_DEF:0 "The Kingdom of Bulgaria"
+
+  BUL_far_right_populist:0 "Republic of Bulgaria"
+  BUL_far_right_populist:0 "the Republic of Bulgaria"
+
+  BUL_anarchist_ADJ:0 "Bulgarian"
+  BUL_communist_ADJ:0 "Bulgarian"
+  BUL_moderate_socialist_ADJ:0 "Bulgarian"
+  BUL_liberal_ADJ:0 "Bulgarian"
+  BUL_conservative_ADJ:0 "Bulgarian"
+  BUL_paternal_autocrat_ADJ:0 "Bulgarian"
+  BUL_far_right_populist_ADJ:0 "Bulgarian"
+
+
+
+  HUN_anarchist:0 "Hungarian People's Republic"
+  HUN_anarchist_DEF:0 "The Hungarian People's Republic"
+
+  HUN_communist:0 "Hungarian People's Republic"
+  HUN_communist_DEF:0 "The Hungarian People's Republic"
+
+  HUN_moderate_socialist:0 "Hungarian Republic"
+  HUN_moderate_socialist_DEF:0 "The Hungarian Republic"
+
+  HUN_liberal:0 "Hungarian Republic"
+  HUN_liberal_DEF:0 "The Hungarian Republic"
+
+  HUN_conservative:0 "Hungarian Republic"
+  HUN_conservative_DEF:0 "The Hungarian Republic"
+
+  HUN_paternal_autocrat:0 "Kingdom of Hungary"
+  HUN_paternal_autocrat_DEF:0 "The Kingdom of Hungary"
+
+  HUN_far_right_populist:0 "Hungarian National State"
+  HUN_far_right_populist:0 "the Hungarian National State"
+
+  HUN_anarchist_ADJ:0 "Hungarian"
+  HUN_communist_ADJ:0 "Hungarian"
+  HUN_moderate_socialist_ADJ:0 "Hungarian"
+  HUN_liberal_ADJ:0 "Hungarian"
+  HUN_conservative_ADJ:0 "Hungarian"
+  HUN_paternal_autocrat_ADJ:0 "Hungarian"
+  HUN_far_right_populist_ADJ:0 "Hungarian"
+
+
+
+  HUN_anarchist:0 "Italian People's Republic"
+  HUN_anarchist_DEF:0 "The Italian People's Republic"
+
+  HUN_communist:0 "Italian People's Republic"
+  HUN_communist_DEF:0 "The Italian People's Republic"
+
+  HUN_moderate_socialist:0 "Kingdom of Italy"
+  HUN_moderate_socialist_DEF:0 "The Kingdom of Italy"
+
+  HUN_liberal:0 "Kingdom of Italy"
+  HUN_liberal_DEF:0 "The Kingdom of Italy"
+
+  HUN_conservative:0 "Kingdom of Italy"
+  HUN_conservative_DEF:0 "The Kingdom of Italy"
+
+  HUN_paternal_autocrat:0 "Kingdom of Italy"
+  HUN_paternal_autocrat_DEF:0 "The Kingdom of Italy"
+
+  HUN_far_right_populist:0 "Kingdom of Italy"
+  HUN_far_right_populist:0 "the Kingdom of Italy"
+
+  HUN_anarchist_ADJ:0 "Italian"
+  HUN_communist_ADJ:0 "Italian"
+  HUN_moderate_socialist_ADJ:0 "Italian"
+  HUN_liberal_ADJ:0 "Italian"
+  HUN_conservative_ADJ:0 "Italian"
+  HUN_paternal_autocrat_ADJ:0 "Italian"
+  HUN_far_right_populist_ADJ:0 "Italian"
+
+
+
+  ITA_anarchist:0 "Italian People's Republic"
+  ITA_anarchist_DEF:0 "The Italian People's Republic"
+
+  ITA_communist:0 "Italian People's Republic"
+  ITA_communist_DEF:0 "The Italian People's Republic"
+
+  ITA_moderate_socialist:0 "Kingdom of Italy"
+  ITA_moderate_socialist_DEF:0 "The Kingdom of Italy"
+
+  ITA_liberal:0 "Kingdom of Italy"
+  ITA_liberal_DEF:0 "The Kingdom of Italy"
+
+  ITA_conservative:0 "Kingdom of Italy"
+  ITA_conservative_DEF:0 "The Kingdom of Italy"
+
+  ITA_paternal_autocrat:0 "Kingdom of Italy"
+  ITA_paternal_autocrat_DEF:0 "The Kingdom of Italy"
+
+  ITA_far_right_populist:0 "Kingdom of Italy"
+  ITA_far_right_populist:0 "the Kingdom of Italy"
+
+  ITA_anarchist_ADJ:0 "Italian"
+  ITA_communist_ADJ:0 "Italian"
+  ITA_moderate_socialist_ADJ:0 "Italian"
+  ITA_liberal_ADJ:0 "Italian"
+  ITA_conservative_ADJ:0 "Italian"
+  ITA_paternal_autocrat_ADJ:0 "Italian"
+  ITA_far_right_populist_ADJ:0 "Italian"
+
+
+
+  FRA_anarchist:0 "French Socialist Republic"
+  FRA_anarchist_DEF:0 "The French Socialist Republic"
+
+  FRA_communist:0 "French Socialist Republic"
+  FRA_communist_DEF:0 "The French Socialist Republic"
+
+  FRA_moderate_socialist:0 "French Republic"
+  FRA_moderate_socialist_DEF:0 "The French Republic"
+
+  FRA_liberal:0 "French Republic"
+  FRA_liberal_DEF:0 "The French Republic"
+
+  FRA_conservative:0 "French Republic"
+  FRA_conservative_DEF:0 "The French Republic"
+
+  FRA_paternal_autocrat:0 "French Republic"
+  FRA_paternal_autocrat_DEF:0 "The French Republic"
+
+  FRA_far_right_populist:0 "French Republic"
+  FRA_far_right_populist:0 "the French Republic"
+
+  FRA_anarchist_ADJ:0 "French"
+  FRA_communist_ADJ:0 "French"
+  FRA_moderate_socialist_ADJ:0 "French"
+  FRA_liberal_ADJ:0 "French"
+  FRA_conservative_ADJ:0 "French"
+  FRA_paternal_autocrat_ADJ:0 "French"
+  FRA_far_right_populist_ADJ:0 "French"
+
+
+
+  ENG_anarchist:0 "British Socialist Republic"
+  ENG_anarchist_DEF:0 "The British Socialist Republic"
+
+  ENG_communist:0 "British Socialist Republic"
+  ENG_communist_DEF:0 "The British Socialist Republic"
+
+  ENG_moderate_socialist:0 "Great Britain"
+  ENG_moderate_socialist_DEF:0 "Great Britain"
+
+  ENG_liberal:0 "Great Britain"
+  ENG_liberal_DEF:0 "Great Britain"
+
+  ENG_conservative:0 "Great Britain"
+  ENG_conservative_DEF:0 "Great Britain"
+
+  ENG_paternal_autocrat:0 "Great Britain"
+  ENG_paternal_autocrat_DEF:0 "Great Britain"
+
+  ENG_far_right_populist:0 "Great Britain"
+  ENG_far_right_populist:0 "Great Britain"
+
+  ENG_anarchist_ADJ:0 "British"
+  ENG_communist_ADJ:0 "British"
+  ENG_moderate_socialist_ADJ:0 "British"
+  ENG_liberal_ADJ:0 "British"
+  ENG_conservative_ADJ:0 "British"
+  ENG_paternal_autocrat_ADJ:0 "British"
+  ENG_far_right_populist_ADJ:0 "British"
+
+
+
+  BLR_anarchist:0 "Belarusian Soviet Socialist Republic"
+  BLR_anarchist_DEF:0 "The Belarusian Soviet Socialist Republic"
+
+  BLR_communist:0 "Belarusian Soviet Socialist Republic"
+  BLR_communist_DEF:0 "The Belarusian Soviet Socialist Republic"
+
+  BLR_moderate_socialist:0 "Belarus"
+  BLR_moderate_socialist_DEF:0 "The Belarusian National Republic"
+
+  BLR_liberal:0 "Belarus"
+  BLR_liberal_DEF:0 "The Belarusian National Republic"
+
+  BLR_conservative:0 "Belarus"
+  BLR_conservative_DEF:0 "The Belarusian National Republic"
+
+  BLR_paternal_autocrat:0 "Belarus"
+  BLR_paternal_autocrat_DEF:0 "The Belarusian National Republic"
+
+  BLR_far_right_populist:0 "Belarusian National Republic"
+  BLR_far_right_populist:0 "the Belarusian National Republic"
+
+  BLR_anarchist_ADJ:0 "Belarusian"
+  BLR_communist_ADJ:0 "Belarusian"
+  BLR_moderate_socialist_ADJ:0 "Belarusian"
+  BLR_liberal_ADJ:0 "Belarusian "
+  BLR_conservative_ADJ:0 "Belarusian"
+  BLR_paternal_autocrat_ADJ:0 "Belarusian"
+  BLR_far_right_populist_ADJ:0 "Belarusian"
+
+
+
+  BEL_anarchist:0 "Belgian Republic"
+  BEL_anarchist_DEF:0 "The Belgian Republic"
+
+  BEL_communist:0 "Belgian Republic"
+  BEL_communist_DEF:0 "The Belgian Republic"
+
+  BEL_moderate_socialist:0 "Kingdom of Belgium"
+  BEL_moderate_socialist_DEF:0 "The Kingdom of Belgium"
+
+  BEL_liberal:0 "Kingdom of Belgium"
+  BEL_liberal_DEF:0 "The Kingdom of Belgium"
+
+  BEL_conservative:0 "Kingdom of Belgium"
+  BEL_conservative_DEF:0 "The Kingdom of Belgium"
+
+  BEL_paternal_autocrat:0 "Kingdom of Belgium"
+  BEL_paternal_autocrat_DEF:0 "The Kingdom of Belgium"
+
+  BEL_far_right_populist:0 "Belgian National Republic"
+  BEL_far_right_populist:0 "the Belgian National Republic"
+
+  BEL_anarchist_ADJ:0 "Belgian"
+  BEL_communist_ADJ:0 "Belgian"
+  BEL_moderate_socialist_ADJ:0 "Belgian"
+  BEL_liberal_ADJ:0 "Belgian "
+  BEL_conservative_ADJ:0 "Belgian"
+  BEL_paternal_autocrat_ADJ:0 "Belgian"
+  BEL_far_right_populist_ADJ:0 "Belgian"
+
+
+
+  LOD_anarchist:0 "Krakow"
+  LOD_anarchist_DEF:0 "Krakow"
+
+  LOD_communist:0 "Krakow"
+  LOD_communist_DEF:0 "Krakow"
+
+  LOD_moderate_socialist:0 "Krakow"
+  LOD_moderate_socialist_DEF:0 "Krakow"
+
+  LOD_liberal:0 "Krakow"
+  LOD_liberal_DEF:0 "Krakow"
+
+  LOD_conservative:0 "Krakow"
+  LOD_conservative_DEF:0 "Krakow"
+
+  LOD_paternal_autocrat:0 "Krakow"
+  LOD_paternal_autocrat_DEF:0 "Krakow"
+
+  LOD_far_right_populist:0 "Krakow"
+  LOD_far_right_populist:0 "Krakow"
+
+  LOD_anarchist_ADJ:0 "Krakowian"
+  LOD_communist_ADJ:0 "Krakowian"
+  LOD_moderate_socialist_ADJ:0 "Krakowian"
+  LOD_liberal_ADJ:0 "Krakowian "
+  LOD_conservative_ADJ:0 "Krakowian"
+  LOD_paternal_autocrat_ADJ:0 "Krakowian"
+  LOD_far_right_populist_ADJ:0 "Krakowian"
+
+
+
+  GAL_anarchist:0 "West Ukrainian People's Republic"
+  GAL_anarchist_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_communist:0 "West Ukrainian People's Republic"
+  GAL_communist_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_moderate_socialist:0 "West Ukrainian People's Republic"
+  GAL_moderate_socialist_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_liberal:0 "West Ukrainian People's Republic"
+  GAL_liberal_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_conservative:0 "West Ukrainian People's Republic"
+  GAL_conservative_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_paternal_autocrat:0 "West Ukrainian People's Republic"
+  GAL_paternal_autocrat_DEF:0 "West Ukrainian People's Republic"
+
+  GAL_far_right_populist:0 "West Ukrainian People's Republic"
+  GAL_far_right_populist:0 "West Ukrainian People's Republic"
+
+  GAL_anarchist_ADJ:0 "West Ukrainian"
+  GAL_communist_ADJ:0 "West Ukrainian"
+  GAL_moderate_socialist_ADJ:0 "West Ukrainian"
+  GAL_liberal_ADJ:0 "West Ukrainian "
+  GAL_conservative_ADJ:0 "West Ukrainian"
+  GAL_paternal_autocrat_ADJ:0 "West Ukrainian"
+  GAL_far_right_populist_ADJ:0 "West Ukrainian"
+
+
+
+  LIV_anarchist:0 "Livonian SSR"
+  LIV_anarchist_DEF:0 "The Livonian SSR"
+
+  LIV_communist:0 "Livonian SSR"
+  LIV_communist_DEF:0 "The Livonian SSR"
+
+  LIV_moderate_socialist:0 "Grand Duchy of Livonia"
+  LIV_moderate_socialist_DEF:0 "The Grand Duchy of Livonia"
+
+  LIV_liberal:0 "Grand Duchy of Livonia"
+  LIV_liberal_DEF:0 "The Grand Duchy of Livonia"
+
+  LIV_conservative:0 "Grand Duchy of Livonia"
+  LIV_conservative_DEF:0 "The Grand Duchy of Livonia"
+
+  LIV_paternal_autocrat:0 "Grand Duchy of Livonia"
+  LIV_paternal_autocrat_DEF:0 "The Grand Duchy of Livonia"
+
+  LIV_far_right_populist:0 "Livonian National Republic"
+  LIV_far_right_populist:0 "the Livonian National Republic"
+
+  LIV_anarchist_ADJ:0 "Livonian"
+  LIV_communist_ADJ:0 "Livonian"
+  LIV_moderate_socialist_ADJ:0 "Livonian"
+  LIV_liberal_ADJ:0 "Livonian "
+  LIV_conservative_ADJ:0 "Livonian"
+  LIV_paternal_autocrat_ADJ:0 "Livonian"
+  LIV_far_right_populist_ADJ:0 "Livonian"
+
+
+
+  COU_anarchist:0 "Courlandish SSR"
+  COU_anarchist_DEF:0 "Courlandish SSR"
+
+  COU_communist:0 "Courlandish SSR"
+  COU_communist_DEF:0 "Courlandish SSR"
+
+  COU_moderate_socialist:0 "Courland"
+  COU_moderate_socialist_DEF:0 "Courland"
+
+  COU_liberal:0 "Courland"
+  COU_liberal_DEF:0 "Courland"
+
+  COU_conservative:0 "Courland"
+  COU_conservative_DEF:0 "Courland"
+
+  COU_paternal_autocrat:0 "Courland"
+  COU_paternal_autocrat_DEF:0 "Courland"
+
+  COU_far_right_populist:0 "Courland"
+  COU_far_right_populist:0 "Courland"
+
+  COU_anarchist_ADJ:0 "Courlandish"
+  COU_communist_ADJ:0 "Courlandish"
+  COU_moderate_socialist_ADJ:0 "Courlandish"
+  COU_liberal_ADJ:0 "Courlandish "
+  COU_conservative_ADJ:0 "Courlandish"
+  COU_paternal_autocrat_ADJ:0 "Courlandish"
+  COU_far_right_populist_ADJ:0 "Courlandish"
+
+
+
+  SPR_anarchist:0 "Spanish People's Republic"
+  SPR_anarchist_DEF:0 "The Spanish People's Republic"
+
+  SPR_communist:0 "Spanish People's Republic"
+  SPR_communist_DEF:0 "The Spanish People's Republic"
+
+  SPR_moderate_socialist:0 "Spanish Republic"
+  SPR_moderate_socialist_DEF:0 "The Spanish Republic"
+
+  SPR_liberal:0 "Spanish Republic"
+  SPR_liberal_DEF:0 "The Spanish Republic"
+
+  SPR_conservative:0 "Spanish Republic"
+  SPR_conservative_DEF:0 "The Spanish Republic"
+
+  SPR_paternal_autocrat:0 "Spanish Republic"
+  SPR_paternal_autocrat_DEF:0 "The Spanish Republic"
+
+  SPR_far_right_populist:0 "Spanish Republic"
+  SPR_far_right_populist:0 "The Spanish Republic"
+
+  SPR_anarchist_ADJ:0 "Spanish"
+  SPR_communist_ADJ:0 "Spanish"
+  SPR_moderate_socialist_ADJ:0 "Spanish"
+  SPR_liberal_ADJ:0 "Spanish "
+  SPR_conservative_ADJ:0 "Spanish"
+  SPR_paternal_autocrat_ADJ:0 "Spanish"
+  SPR_far_right_populist_ADJ:0 "Spanish"
+
+
+
+  POR_anarchist:0 "Portuguese People's Republic"
+  POR_anarchist_DEF:0 "The Portuguese People's Republic"
+
+  POR_communist:0 "Portuguese People's Republic"
+  POR_communist_DEF:0 "The Portuguese People's Republic"
+
+  POR_moderate_socialist:0 "Portuguese Republic"
+  POR_moderate_socialist_DEF:0 "The Portuguese Republic"
+
+  POR_liberal:0 "Portuguese Republic"
+  POR_liberal_DEF:0 "The Portuguese Republic"
+
+  POR_conservative:0 "Portuguese Republic"
+  POR_conservative_DEF:0 "The Portuguese Republic"
+
+  POR_paternal_autocrat:0 "Portuguese Republic"
+  POR_paternal_autocrat_DEF:0 "The Portuguese Republic"
+
+  POR_far_right_populist:0 "Portuguese Republic"
+  POR_far_right_populist:0 "The Portuguese Republic"
+
+  POR_anarchist_ADJ:0 "Portuguese"
+  POR_communist_ADJ:0 "Portuguese"
+  POR_moderate_socialist_ADJ:0 "Portuguese"
+  POR_liberal_ADJ:0 "Portuguese"
+  POR_conservative_ADJ:0 "Portuguese"
+  POR_paternal_autocrat_ADJ:0 "Portuguese"
+  POR_far_right_populist_ADJ:0 "Portuguese"
+
+  
+
+  EST_anarchist:0 "Estonian People's Republic"
+  EST_anarchist_DEF:0 "The Estonian People's Republic"
+
+  EST_communist:0 "Estonian People's Republic"
+  EST_communist_DEF:0 "The Estonian People's Republic"
+
+  EST_moderate_socialist:0 "Estonia"
+  EST_moderate_socialist_DEF:0 "The Republic of Estonia"
+
+  EST_liberal:0 "Estonia"
+  EST_liberal_DEF:0 "The Republic of Estonia"
+
+  EST_conservative:0 "Estonia"
+  EST_conservative_DEF:0 "The Republic of Estonia"
+
+  EST_paternal_autocrat:0 "Estonia"
+  EST_paternal_autocrat_DEF:0 "The Republic of Estonia"
+
+  EST_far_right_populist:0 "Estonia"
+  EST_far_right_populist:0 "The Republic of Estonia"
+
+  EST_anarchist_ADJ:0 "Estonian"
+  EST_communist_ADJ:0 "Estonian"
+  EST_moderate_socialist_ADJ:0 "Estonian"
+  EST_liberal_ADJ:0 "Estonian"
+  EST_conservative_ADJ:0 "Estonian"
+  EST_paternal_autocrat_ADJ:0 "Estonian"
+  EST_far_right_populist_ADJ:0 "Estonian"
+
+
+
+  DON_anarchist:0 "Don People's Republic"
+  DON_anarchist_DEF:0 "The Don People's Republic"
+
+  DON_communist:0 "Don People's Republic"
+  DON_communist_DEF:0 "The Don People's Republic"
+
+  DON_moderate_socialist:0 "Don Republic"
+  DON_moderate_socialist_DEF:0 "The Don Republic"
+
+  DON_liberal:0 "Don Republic"
+  DON_liberal_DEF:0 "The Don Republic"
+
+  DON_conservative:0 "Don Republic"
+  DON_conservative_DEF:0 "The Don Republic"
+
+  DON_paternal_autocrat:0 "Don Republic"
+  DON_paternal_autocrat_DEF:0 "The Don Republic"
+
+  DON_far_right_populist:0 "Don Republic"
+  DON_far_right_populist:0 "The Don Republic"
+
+  DON_anarchist_ADJ:0 "Don"
+  DON_communist_ADJ:0 "Don"
+  DON_moderate_socialist_ADJ:0 "Don"
+  DON_liberal_ADJ:0 "Don"
+  DON_conservative_ADJ:0 "Don"
+  DON_paternal_autocrat_ADJ:0 "Don"
+  DON_far_right_populist_ADJ:0 "Don"
+
+
+
+  MRC_anarchist:0 "Mountainous People's Republic"
+  MRC_anarchist_DEF:0 "The Republic People's Republic"
+
+  MRC_communist:0 "Mountainous People's Republic"
+  MRC_communist_DEF:0 "The Republic People's Republic"
+
+  MRC_moderate_socialist:0 "Mountainous Republic"
+  MRC_moderate_socialist_DEF:0 "The Mountainous Republic"
+
+  MRC_liberal:0 "Mountainous Republic"
+  MRC_liberal_DEF:0 "The Mountainous Republic"
+
+  MRC_conservative:0 "Mountainous Republic"
+  MRC_conservative_DEF:0 "The Mountainous Republic"
+
+  MRC_paternal_autocrat:0 "Mountainous Republic"
+  MRC_paternal_autocrat_DEF:0 "The Mountainous Republic"
+
+  MRC_far_right_populist:0 "Mountainous Republic"
+  MRC_far_right_populist:0 "The Mountainous Republic"
+
+  MRC_anarchist_ADJ:0 "North Caucasian"
+  MRC_communist_ADJ:0 "North Caucasian"
+  MRC_moderate_socialist_ADJ:0 "North Caucasian"
+  MRC_liberal_ADJ:0 "North Caucasian"
+  MRC_conservative_ADJ:0 "North Caucasian"
+  MRC_paternal_autocrat_ADJ:0 "North Caucasian"
+  MRC_far_right_populist_ADJ:0 "North Caucasian"
+
+
+
+  CMA_anarchist:0 "Taurida SSR"
+  CMA_anarchist_DEF:0 "The Taurida Soviet Socialist Republic"
+
+  CMA_communist:0 "Taurida SSR"
+  CMA_communist_DEF:0 "The Taurida Soviet Socialist Republic"
+
+  CMA_moderate_socialist:0 "Crimea"
+  CMA_moderate_socialist_DEF:0 "Crimea"
+
+  CMA_liberal:0 "Crimea"
+  CMA_liberal_DEF:0 "Crimea"
+
+  CMA_conservative:0 "Crimea"
+  CMA_conservative_DEF:0 "Crimea"
+
+  CMA_paternal_autocrat:0 "Crimea"
+  CMA_paternal_autocrat_DEF:0 "Crimea"
+
+  CMA_far_right_populist:0 "Crimea"
+  CMA_far_right_populist:0 "Crimea"
+
+  CMA_anarchist_ADJ:0 "Crimean"
+  CMA_communist_ADJ:0 "Crimean"
+  CMA_moderate_socialist_ADJ:0 "Crimean"
+  CMA_liberal_ADJ:0 "Crimean"
+  CMA_conservative_ADJ:0 "Crimean"
+  CMA_paternal_autocrat_ADJ:0 "Crimean"
+  CMA_far_right_populist_ADJ:0 "Crimean"
+
+
+
+  MOL_anarchist:0 "Moldavian Socialist Republic"
+  MOL_anarchist_DEF:0 "The Moldavian Socialist Republic"
+
+  MOL_communist:0 "Moldavian Socialist Republic"
+  MOL_communist_DEF:0 "The Moldavian Socialist Republic"
+
+  MOL_moderate_socialist:0 "Moldavia"
+  MOL_moderate_socialist_DEF:0 "Moldavia"
+
+  MOL_liberal:0 "Moldavia"
+  MOL_liberal_DEF:0 "Moldavia"
+
+  MOL_conservative:0 "Moldavia"
+  MOL_conservative_DEF:0 "Moldavia"
+
+  MOL_paternal_autocrat:0 "Principality of Moldavia"
+  MOL_paternal_autocrat_DEF:0 "The Principality of Romania"
+
+  MOL_far_right_populist:0 "Moldavia"
+  MOL_far_right_populist:0 "Moldavia"
+
+  MOL_anarchist_ADJ:0 "Moldavian"
+  MOL_communist_ADJ:0 "Moldavian"
+  MOL_moderate_socialist_ADJ:0 "Moldavian"
+  MOL_liberal_ADJ:0 "Moldavian"
+  MOL_conservative_ADJ:0 "Moldavian"
+  MOL_paternal_autocrat_ADJ:0 "Moldavian"
+  MOL_far_right_populist_ADJ:0 "Moldavian"
+
+
+
+  STV_anarchist:0 "Stavropol SSR"
+  STV_anarchist_DEF:0 "The Stavropol Soviet Socialist Republic"
+
+  STV_communist:0 "Stavropol SSR"
+  STV_communist_DEF:0 "The Stavropol Soviet Socialist Republic"
+
+  STV_moderate_socialist:0 "Stavropol"
+  STV_moderate_socialist_DEF:0 "Stavropol"
+
+  STV_liberal:0 "Stavropol"
+  STV_liberal_DEF:0 "Stavropol"
+
+  STV_conservative:0 "Stavropol"
+  STV_conservative_DEF:0 "Stavropol"
+
+  STV_paternal_autocrat:0 "Stavropol"
+  STV_paternal_autocrat_DEF:0 "Stavropol"
+
+  STV_far_right_populist:0 "Stavropol"
+  STV_far_right_populist:0 "Stavropol"
+
+  STV_anarchist_ADJ:0 "Stavropol"
+  STV_communist_ADJ:0 "Stavropol"
+  STV_moderate_socialist_ADJ:0 "Stavropol"
+  STV_liberal_ADJ:0 "Stavropol"
+  STV_conservative_ADJ:0 "Stavropol"
+  STV_paternal_autocrat_ADJ:0 "Stavropol"
+  STV_far_right_populist_ADJ:0 "Stavropol"
+
+
+
+  ARM_anarchist:0 "Armenian SSR"
+  ARM_anarchist_DEF:0 "The Armenian Soviet Socialist Republic"
+
+  ARM_communist:0 "Armenian SSR"
+  ARM_communist_DEF:0 "The Armenian Soviet Socialist Republic"
+
+  ARM_moderate_socialist:0 "Armenia"
+  ARM_moderate_socialist_DEF:0 "The Democratic Republic of Armenia"
+
+  ARM_liberal:0 "Armenia"
+  ARM_liberal_DEF:0 "The Democratic Republic of Armenia"
+
+  ARM_conservative:0 "Armenia"
+  ARM_conservative_DEF:0 "The Democratic Republic of Armenia"
+
+  ARM_paternal_autocrat:0 "Armenia"
+  ARM_paternal_autocrat_DEF:0 "The Democratic Republic of Armenia"
+
+  ARM_far_right_populist:0 "Armenia"
+  ARM_far_right_populist:0 "The Democratic Republic of Armenia"
+
+  ARM_anarchist_ADJ:0 "Armenian"
+  ARM_communist_ADJ:0 "Armenian"
+  ARM_moderate_socialist_ADJ:0 "Armenian"
+  ARM_liberal_ADJ:0 "Armenian"
+  ARM_conservative_ADJ:0 "Armenian"
+  ARM_paternal_autocrat_ADJ:0 "Armenian"
+  ARM_far_right_populist_ADJ:0 "Armenian"
+
+
+
+  KUB_anarchist:0 "Kuban People's Republic"
+  KUB_anarchist_DEF:0 "The Kuban People's Republic"
+
+  KUB_communist:0 "Kuban People's Republic"
+  KUB_communist_DEF:0 "The Kuban People's Republic"
+
+  KUB_moderate_socialist:0 "Kuban"
+  KUB_moderate_socialist_DEF:0 "Kuban"
+
+  KUB_liberal:0 "Kuban"
+  KUB_liberal_DEF:0 "Kuban"
+
+  KUB_conservative:0 "Kuban"
+  KUB_conservative_DEF:0 "Kuban"
+
+  KUB_paternal_autocrat:0 "Kuban"
+  KUB_paternal_autocrat_DEF:0 "Kuban"
+
+  KUB_far_right_populist:0 "Kuban"
+  KUB_far_right_populist:0 "Kuban"
+
+  KUB_anarchist_ADJ:0 "Kuban"
+  KUB_communist_ADJ:0 "Kuban"
+  KUB_moderate_socialist_ADJ:0 "Kuban"
+  KUB_liberal_ADJ:0 "Kuban"
+  KUB_conservative_ADJ:0 "Kuban"
+  KUB_paternal_autocrat_ADJ:0 "Kuban"
+  KUB_far_right_populist_ADJ:0 "Kuban"
+
+  ############
+  ###AFRICA###
+  ############
+
+
+  MOR_FRENCH_PROTECTORATE_anarchist:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_anarchist_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_communist:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_communist_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_moderate_socialist:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_moderate_socialist_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_liberal:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_liberal_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_conservative:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_conservative_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_paternal_autocrat:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_paternal_autocrat_DEF:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_far_right_populist:0 "French Protectorate of Morocco"
+  MOR_FRENCH_PROTECTORATE_far_right_populist:0 "The French Protectorate of Morocco"
+
+  MOR_FRENCH_PROTECTORATE_anarchist_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_communist_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_moderate_socialist_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_liberal_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_conservative_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_paternal_autocrat_ADJ:0 "French-Moroccan"
+  MOR_FRENCH_PROTECTORATE_far_right_populist_ADJ:0 "French-Moroccan"
+
+
+
+  TUN_FRENCH_PROTECTORATE_anarchist:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_anarchist_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_communist:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_communist_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_moderate_socialist:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_moderate_socialist_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_liberal:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_liberal_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_conservative:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_conservative_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_paternal_autocrat:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_paternal_autocrat_DEF:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_far_right_populist:0 "French Protectorate of Tunisia"
+  TUN_FRENCH_PROTECTORATE_far_right_populist:0 "The French Protectorate of Tunisia"
+
+  TUN_FRENCH_PROTECTORATE_anarchist_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_communist_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_moderate_socialist_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_liberal_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_conservative_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_paternal_autocrat_ADJ:0 "French-Tunisian"
+  TUN_FRENCH_PROTECTORATE_far_right_populist_ADJ:0 "French-Tunisian"

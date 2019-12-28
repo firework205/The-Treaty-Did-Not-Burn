@@ -1,0 +1,22 @@
+﻿l_english:
+
+  GER_anarchist_party:0 "FAUD"
+  GER_anarchist_party_long:0 "Freie Arbeiter-Union Deutschlands"
+  
+  GER_communist_party:0 "KPD"
+  GER_communist_party_long:0 "Kommunistische Partei Deutschlands"
+
+  GER_moderate_socialist_party:0 "SPD"
+  GER_moderate_socialist_party_long:0 "Sozialdemokratische Partei Deutschlands"
+
+  GER_liberal_party:0 "DVP"
+  GER_liberal_party_long:0 "Deutsche Volkspartei"
+
+  GER_conservative_party:0 "ZP"
+  GER_conservative_party_long:0 "Deutsche Zentrumspartei"
+
+  GER_paternal_autocrat_party:0 "DNP"
+  GER_paternal_autocrat_party_long:0 "Deutschnationale Partei"
+
+  GER_far_right_populist_party:0 "DAP"
+  GER_far_right_populist_party_long:0 "Deutsche Arbeiterpartei"
