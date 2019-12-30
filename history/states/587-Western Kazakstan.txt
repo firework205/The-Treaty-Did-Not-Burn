@@ -1,0 +1,23 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = CSP
+		add_core_of = CSP
+                add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1517 3593 4523 4620 7641 11701 12383 
+	}
+	manpower=245133
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -9,8 +9,8 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 181 25 25 }
-	color_ui = rgb { 181 25 25 }
+	color = rgb { 142 17 17 }
+	color_ui = rgb { 142 17 17 }
 }
 SWE = {
 	color = rgb { 67 107 142 }
@@ -369,8 +369,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 238 185 110 }
-	color_ui = rgb { 238 185 110 }	
+	color = rgb { 237 168 73 }
+	color_ui = rgb { 237 168 73 }	
 }
 
 AZR = {
@@ -567,8 +567,8 @@ CMA = {
 }
 
 DON = {
-	color = rgb { 94 148 72 }
-	color_ui = rgb { 94 148 72 }
+	color = rgb { 76 116 153 }
+	color_ui = rgb { 76 116 153 }
 }
 
 MOL = {
@@ -584,6 +584,36 @@ MRC = {
 STV = {
 	color = rgb { 160 105 69 }
 	color_ui = rgb { 160 105 69 }
+}
+
+CSP = {
+	color = rgb { 68 68 75 }
+	color_ui = rgb { 68 68 75 }
+}
+
+IDL = {
+	color = rgb { 168 148 48 }
+	color_ui = rgb { 168 148 48 }
+}
+
+CCA = {
+	color = rgb { 173 97 97 }
+	color_ui = rgb { 173 97 97 }
+}
+
+UZB = {
+	color = rgb { 117 175 123 }
+	color_ui = rgb { 117 175 123 }
+}
+
+RUS = {
+    color = rgb { 82 107 80 }
+    color_ui = rgb { 82 107 80 }
+}
+
+URL = {
+    color = rgb { 57 76 59 }
+    color_ui = rgb { 57 76 59 }
 }
 
 

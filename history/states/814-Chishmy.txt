@@ -1,0 +1,19 @@
+state={
+	id=814
+	name="STATE_814"
+	manpower = 1
+
+	state_category = rural
+
+	history = {
+	    owner = IDL
+	    add_core_of = IDL
+	    buildings = {
+	        infrastructure = 3
+	    }
+	}
+
+	provinces={
+		273 1305 3289 4283 4354 7237 9349 12172 
+	}
+}

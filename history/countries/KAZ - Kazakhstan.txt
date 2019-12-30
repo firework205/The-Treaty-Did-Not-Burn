@@ -61,31 +61,30 @@ if = {
 }
 
 set_popularities = {
-	conservative = 60
-	communist = 40
+	paternal_autocrat = 78
+	anarchist = 10
+	communist = 10
+	conservative = 2
+}
+set_politics = {
+    ruling_party = paternal_autocrat
+    elections_allowed = no
+    last_election = "1936.1.1"
+    elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
+	name = "Alikhan Bukeikhanov"
 	desc = ""
-	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
+	picture = ""
 	expire = "1953.3.1"
-	ideology = leninist_ideology
+	ideology = authoritarian_democrat_ideology
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
-	expire = "1953.3.1"
-	ideology = liberal_conservative_ideology
-	traits = {
-		
-	}
-}
+
 
 
 

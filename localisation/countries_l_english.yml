@@ -283,11 +283,11 @@
 
 
 
-  SOV_anarchist:0 "Russian Soviet Federative Socialist Republic"
-  SOV_anarchist_DEF:0 "The Russian Soviet Federative Socialist Republic"
+  SOV_anarchist:0 "Russian Soviet Republic"
+  SOV_anarchist_DEF:0 "The Russian Soviet Republic"
 
-  SOV_communist:0 "Russian Soviet Federative Socialist Republic"
-  SOV_communist_DEF:0 "The Russian Soviet Federative Socialist Republic"
+  SOV_communist:0 "Russian Soviet Republic"
+  SOV_communist_DEF:0 "The Russian Soviet Republic"
 
   SOV_moderate_socialist:0 "Russian Democratic Federative Republic"
   SOV_moderate_socialist_DEF:0 "The Russian Democratic Federative Republic"
@@ -1802,3 +1802,200 @@
   TUN_FRENCH_PROTECTORATE_conservative_ADJ:0 "French-Tunisian"
   TUN_FRENCH_PROTECTORATE_paternal_autocrat_ADJ:0 "French-Tunisian"
   TUN_FRENCH_PROTECTORATE_far_right_populist_ADJ:0 "French-Tunisian"
+
+  #Central Asia
+
+  KAZ_anarchist:0 "Anarchist Kazakhstan"
+  KAZ_anarchist_DEF:0 "Anarchist Kazakhstan"
+
+  KAZ_communist:0 "Kazakh SSR"
+  KAZ_communist_DEF:0 "The Taurida Soviet Socialist Republic"
+
+  KAZ_moderate_socialist:0 "Kazakh Horde"
+  KAZ_moderate_socialist_DEF:0 "Kazakh Horde"
+
+  KAZ_liberal:0 "Kazakh Horde"
+  KAZ_liberal_DEF:0 "Kazakh Horde"
+
+  KAZ_conservative:0 "Kazakh Horde"
+  KAZ_conservative_DEF:0 "Kazakh Horde"
+
+  KAZ_paternal_autocrat:0 "Kazakh Horde"
+  KAZ_paternal_autocrat_DEF:0 "Kazakh Horde"
+
+  KAZ_far_right_populist:0 "Kazakh Horde"
+  KAZ_far_right_populist:0 "Kazakh Horde"
+
+  KAZ_anarchist_ADJ:0 "Kazakh"
+  KAZ_communist_ADJ:0 "Kazakh"
+  KAZ_moderate_socialist_ADJ:0 "Kazakh"
+  KAZ_liberal_ADJ:0 "Kazakh"
+  KAZ_conservative_ADJ:0 "Kazakh"
+  KAZ_paternal_autocrat_ADJ:0 "Kazakh"
+  KAZ_far_right_populist_ADJ:0 "Kazakh"
+
+  UZB_anarchist:0 "Taurida SSR"
+  UZB_anarchist_DEF:0 "The Uzbek Soviet Socialist Republic"
+
+  UZB_communist:0 "Uzbek SSR"
+  UZB_communist_DEF:0 "The Uzbek Soviet Socialist Republic"
+
+  UZB_moderate_socialist:0 "Bukhara"
+  UZB_moderate_socialist_DEF:0 "Bukhara"
+
+  UZB_liberal:0 "Bukhara"
+  UZB_liberal_DEF:0 "Bukhara"
+
+  UZB_conservative:0 "Bukhara"
+  UZB_conservative_DEF:0 "Bukhara"
+
+  UZB_paternal_autocrat:0 "Bukhara"
+  UZB_paternal_autocrat_DEF:0 "Bukhara"
+
+  UZB_far_right_populist:0 "Bukhara"
+  UZB_far_right_populist:0 "Bukhara"
+
+  UZB_anarchist_ADJ:0 "Uzbek"
+  UZB_communist_ADJ:0 "Uzbek"
+  UZB_moderate_socialist_ADJ:0 "Uzbek"
+  UZB_liberal_ADJ:0 "Uzbek"
+  UZB_conservative_ADJ:0 "Uzbek"
+  UZB_paternal_autocrat_ADJ:0 "Uzbek"
+  UZB_far_right_populist_ADJ:0 "Uzbek"
+
+  IDL_anarchist:0 "Idel-Ural SSR"
+  IDL_anarchist_DEF:0 "The Idel-Ural Soviet Socialist Republic"
+
+  IDL_communist:0 "Idel-Ural SSR"
+  IDL_communist_DEF:0 "The Idel-Ural Soviet Socialist Republic"
+
+  IDL_moderate_socialist:0 "Idel-Ural State"
+  IDL_moderate_socialist_DEF:0 "The Idel-Ural State"
+
+  IDL_liberal:0 "Idel-Ural State"
+  IDL_liberal_DEF:0 "The Idel-Ural State"
+
+  IDL_conservative:0 "Idel-Ural State"
+  IDL_conservative_DEF:0 "The Idel-Ural State"
+
+  IDL_paternal_autocrat:0 "Idel-Ural State"
+  IDL_paternal_autocrat_DEF:0 "The Idel-Ural State"
+
+  IDL_far_right_populist:0 "Idel-Ural State"
+  IDL_far_right_populist:0 "The Idel-Ural State"
+
+  IDL_anarchist_ADJ:0 "Idel-Ural"
+  IDL_communist_ADJ:0 "Idel-Ural"
+  IDL_moderate_socialist_ADJ:0 "Idel-Ural"
+  IDL_liberal_ADJ:0 "Idel-Ural"
+  IDL_conservative_ADJ:0 "Idel-Ural"
+  IDL_paternal_autocrat_ADJ:0 "Idel-Ural"
+  IDL_far_right_populist_ADJ:0 "Idel-Ural"
+
+  CCA_anarchist:0 "Central Asian SSR"
+  CCA_anarchist_DEF:0 "The Central Asian Soviet Socialist Republic"
+
+  CCA_communist:0 "Central Asian SSR"
+  CCA_communist_DEF:0 "The Central Asian Soviet Socialist Republic"
+
+  CCA_moderate_socialist:0 "Turkestan Khanate"
+  CCA_moderate_socialist_DEF:0 "The Turkestan Khanate"
+
+  CCA_liberal:0 "Turkestan Khanate"
+  CCA_liberal_DEF:0 "The Turkestan Khanate"
+
+  CCA_conservative:0 "Turkestan Khanate"
+  CCA_conservative_DEF:0 "The Turkestan Khanate"
+
+  CCA_paternal_autocrat:0 "Turkestan Khanate"
+  CCA_paternal_autocrat_DEF:0 "The Turkestan Khanate"
+
+  CCA_far_right_populist:0 "Turkestan Khanate"
+  CCA_far_right_populist:0 "The Turkestan Khanate"
+
+  CCA_anarchist_ADJ:0 "Central Asian"
+  CCA_communist_ADJ:0 "Central Asian"
+  CCA_moderate_socialist_ADJ:0 "Central Asian"
+  CCA_liberal_ADJ:0 "Central Asian"
+  CCA_conservative_ADJ:0 "Central Asian"
+  CCA_paternal_autocrat_ADJ:0 "Central Asian"
+  CCA_far_right_populist_ADJ:0 "Central Asian"
+
+  CSP_anarchist:0 "Caspian Free Territory"
+  CSP_anarchist_DEF:0 "The Caspian Free Territory"
+
+  CSP_communist:0 "Caspian Free Territory"
+  CSP_communist_DEF:0 "The Caspian Free Territory"
+
+  CSP_moderate_socialist:0 "Caspian Republic"
+  CSP_moderate_socialist_DEF:0 "The Caspian Republic"
+
+  CSP_liberal:0 "Caspian Republic"
+  CSP_liberal_DEF:0 "The Caspian Republic"
+
+  CSP_conservative:0 "Caspian Republic"
+  CSP_conservative_DEF:0 "The Caspian Republic"
+
+  CSP_paternal_autocrat:0 "Caspian Republic"
+  CSP_paternal_autocrat_DEF:0 "The Caspian Republic"
+
+  CSP_far_right_populist:0 "Caspian Republic"
+  CSP_far_right_populist:0 "The Caspian Republic"
+
+  CSP_anarchist_ADJ:0 "Caspian"
+  CSP_communist_ADJ:0 "Caspian"
+  CSP_moderate_socialist_ADJ:0 "Caspian"
+  CSP_liberal_ADJ:0 "Caspian"
+  CSP_conservative_ADJ:0 "Caspian "
+  CSP_paternal_autocrat_ADJ:0 "Caspian"
+  CSP_far_right_populist_ADJ:0 "Caspian"
+
+  RUS_anarchist:0 "Anarchist Russia"
+  RUS_anarchist_DEF:0 "Anarchist Russia"
+
+  RUS_communist:0 "Russian People's Republic"
+  RUS_communist_DEF:0 "The Russian People's Republic"
+
+  RUS_moderate_socialist:0 "Russian State"
+  RUS_moderate_socialist_DEF:0 "The Russian State"
+
+  RUS_liberal:0 "Russian State"
+  RUS_liberal_DEF:0 "The Russian State"
+
+  RUS_conservative:0 "Russian State"
+  RUS_conservative_DEF:0 "The Russian State"
+
+  RUS_paternal_autocrat:0 "Russian State"
+  RUS_paternal_autocrat_DEF:0 "The Russian State"
+
+  RUS_far_right_populist:0 "Russian State"
+  RUS_far_right_populist:0 "The Russian State"
+
+  RUS_anarchist_ADJ:0 "Russian"
+  RUS_communist_ADJ:0 "Russian"
+  RUS_moderate_socialist_ADJ:0 "Russian"
+  RUS_liberal_ADJ:0 "Russian"
+  RUS_conservative_ADJ:0 "Russian"
+  RUS_paternal_autocrat_ADJ:0 "Russian"
+  RUS_far_right_populist_ADJ:0 "Russian"
+
+  URL_anarchist:0 "Ural SSR"
+  URL_anarchist_DEF:0 "The Ural Soviet Socialist Republic"
+
+  URL_communist:0 "Ural SSR"
+  URL_communist_DEF:0 "The Ural Soviet Socialist Republic"
+
+  URL_moderate_socialist:0 "Ural"
+  URL_moderate_socialist_DEF:0 "Ural"
+
+  URL_liberal:0 "Ural"
+  URL_liberal_DEF:0 "Ural"
+
+  URL_conservative:0 "Ural"
+  URL_conservative_DEF:0 "Ural"
+
+  URL_paternal_autocrat:0 "Ural"
+  URL_paternal_autocrat_DEF:0 "Ural"
+
+  URL_far_right_populist:0 "Ural"
+  URL_far_right_populist:0 "Ural"
