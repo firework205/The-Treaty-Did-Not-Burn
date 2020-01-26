@@ -122,10 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "Portrait_FRA_Charles_Maurras.tga"
 	expire = "1965.1.1"
-	ideology = 
-
-
-reactionary_ideology
+	ideology = reactionary_ideology
 	traits = {
 		
 	}

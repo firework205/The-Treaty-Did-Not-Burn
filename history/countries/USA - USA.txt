@@ -260,14 +260,18 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 99
-	communist = 1
+	liberal = 55
+	conservative = 39
+	paternal_autocrat = 1
+	far_right_populist = 1
+	communist = 2
+	moderate_socialist = 2
 }
 
 add_ideas = {
@@ -275,7 +279,6 @@ add_ideas = {
 	great_depression
 	disarmed_nation
 	free_trade
-	home_of_the_free
 }
 
 
@@ -285,23 +288,13 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = conservative
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
 create_country_leader = {
 	name = "Franklin Delano Roosevelt"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	picture = "Portrait_USA_FDR.tga"
 	expire = "1947.1.1"
-	ideology = liberal_conservative_ideology
+	ideology = social_liberal_ideology
 	traits = {
-		dislikes_germany
 	}
 }
 

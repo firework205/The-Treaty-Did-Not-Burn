@@ -20,3 +20,136 @@
 
   AUS_far_right_populist_party:0 "H"
   AUS_far_right_populist_party_long:0 "Heimwehr"
+
+  AUS_that_which_remains:0 "That Which Remains"
+  AUS_slovenian_turmoil:0 "Slovenian Turmoil"
+  AUS_question_of_autonomy:0 "A Question of Autonomy"
+  AUS_political_quagmire:0 "Political Quagmire"
+  AUS_imperial_politics:0 "Imperial Politics"
+  AUS_kaisers_army:0 "The Kaiser's Army"
+  AUS_imperial_air_force:0 "Imperial Airforce"
+  AUS_boiling_pot:0 "Boiling Pot"
+  AUS_military_funding:0 "Military Funding"
+  AUS_imperial_coronation:0 "Imperial Coronation"
+
+  AUS_the_left:0 "The Left..."
+  AUS_rejecting_extremism:0 "Rejecting Extremism"
+  AUS_social_democracy:0 "Social Democracy"
+  AUS_austrian_charity:0 "Austrian Charity"
+  AUS_revitalize_culture:0 "Revitalize Culture"
+  AUS_invest_in_small_businesses:0 "Invest in Small Businesses"
+  AUS_the_right:0 "...And the Right"
+  AUS_christ_and_king:0 "Christ and King"
+  AUS_economic_sufficiency:0 "Economic Sufficiency"
+  AUS_loyalty_to_the_kaiser:0 "Loyalty to the Kaiser"
+  AUS_opportunities_for_the_poor:0 "Opportunities for the Poor"
+  AUS_improve_rural_infrastructure:0 "Improve Rural Infrastructure"
+  AUS_improve_airports:0 "Improve Airports"
+  AUS_new_industry:0 "New Industry"
+  AUS_new_roads:0 "New Roads"
+  AUS_alpine_coal_mines:0 "Alpine Coal Mines"
+  AUS_expanding_vienna:0 "Expanding Vienna"
+  AUS_ban_fascism:0 "Dissolve the Heimwehr"
+  AUS_ban_communism:0 "Ban Communism"
+
+  AUS_new_imperial_military:0 "New Imperial Military"
+  AUS_multicultural_army:0 "Multicultural Army"
+  AUS_balkan_loyalty:0 "Balkan Loyalty"
+  AUS_multilingual_soldiers:0 "Multilingual Soldiers"
+  AUS_polish_legions:0 "Polish Legions"
+  AUS_german_army:0 "German Army"
+  AUS_german_redoubt:0 "German Redoubt"
+  AUS_improved_training:0 "Improved Training"
+  AUS_elite_divisions:0 "Elite Divisions"
+  AUS_meritocratic_army_corps:0 "Meritocratic Army Corps"
+  AUS_reform_general_staff:0 "Reform General Staff"
+  AUS_hungarian_armour:0 "Hungarian Armour"
+  AUS_austrian_armour:0 "Austrian Armour"
+  AUS_south_slavic_light_infantry:0 "South Slavic Light Infantry"
+  AUS_german_shocktroopers:0 "German Shocktroopers"
+  AUS_new_model_army:0 "New Model Army"
+
+  AUS_slovenian_question:0 "The Slovenian Question"
+  AUS_a_free_slovenia:0 "A Free Slovenia"
+  AUS_imperial_subjects:0 "Imperial Subjects"
+  AUS_austrian_goals:0 "Austrian Goals"
+  AUS_neutrality:0 "Neutrality"
+  AUS_adriatic_trade:0 "Adriatic Trade"
+  AUS_coastal_defence_fleet:0 "Coastal Defence Fleet"
+  AUS_alpine_redoubts:0 "Alpine Redoubts"
+  AUS_viennese_scholars:0 "Viennese Scholars"
+  AUS_military_engineers:0 "Military Engineers"
+  AUS_unbreakable_peace:0 "Unbreakable Peace"
+  AUS_an_empire_forged_in_peace:0 "An Empire Forged In Peace"
+  AUS_negotiate_with_hungary:0 "Negotiate with Hungary"
+  AUS_plebiscite_for_tyrol:0 "Plebiscite for Tyrol"
+  AUS_contact_the_albanians:0 "Contact the Albanians"
+  AUS_an_ally_in_italy:0 "An Ally in Italy"
+  AUS_invite_czechoslovakia:0 "Invite Czechoslovakia"
+  AUS_invite_yugoslavia:0 "Alliance With the Yugoslav King?"
+  AUS_invite_bulgaria:0 "Extend the Hand of Friendship to Bulgaria"
+  AUS_contact_greece:0 "Contact the Greeks"
+  AUS_peace_in_the_balkans:0 "Peace in the Balkans"
+  AUS_expansionism:0 "Expansionism"
+  AUS_reabsorb_hungary:0 "Reabsorb Hungary"
+  AUS_retake_bohemia:0 "Retake Bohemia"
+  AUS_galician_claims:0 "Galician Claims"
+  AUS_dismantle_yugoslavia:0 "Dismantle Yugoslavia"
+  AUS_albanian_demands:0 "Albanian Demands"
+  AUS_italian_ultimatum:0 "Italian Ultimatum"
+  AUS_imperial_splendour:0 "Imperial Splendour"
+
+
+  #ideas
+  slovenian_autonomy_idea:0 "Slovenian Autonomy"
+  feudal_military_idea:0 "Feudal Military"
+  centre_of_arts_idea:0 "Centre of Arts"
+  moribund_empire_idea:0 "Moribund Empire"
+  economic_sufficiency_idea:0 "Economic Sufficiency"
+  multicultural_army_idea:0 "Multicultural Army"
+  german_army_idea:0 "German Army"
+  german_redoubt_idea:0 "German Redoubt"
+  improved_training_idea:0 "Improved Training"
+  elite_divisions_idea:0 "Elite Divisions"
+  meritocratic_army_corps:0 "Meritocratic Army Corps"
+  christ_and_king_idea:0 "Christ and King"
+
+  #Tooltips and country flags
+
+  AUS_kaiser_karl_died_flag:0 "Kaiser Karl is dead"
+
+  austrian_coronation_tt:0 "§GCrown Prince Otto will be coronated as the new Emperor of Austria§G"
+
+  imperial_coronation_cando_tt:0 "§GYou may now go down the Imperial Coronation path in the National focus tree§G"
+
+  AUS_defeated_coup:0 "The coup attempt was thwarted"
+
+  AUS_democratic_tt:0 "§GWe must work to strengthen democracy in our nation§G"
+
+  AUS_coup_successful:0 "Reactionary plotters have taken control of the nation"
+
+  AUS_claim_bohemia_tt:0 "Lay claim to our former territories in §MCzechoslovakia§M"
+  AUS_reclaim_galicia_tt:0 "Lay claim to our former territories in §MGalicia-Lodomeria§M"
+  AUS_kill_yug_tt:0 "We will focus on ending §MYugoslavian§M hegemony in the Balkans"
+
+  #misc
+
+  aus_danubian_alliance:0 "Donaubund"
+
+  #decisions
+
+  expand_austrian_empire_category:0 "Rebuilding the Empire"
+  AUS_attack_cze:0 "Retake Bohemia"
+  AUS_hungarian_coronation:0 "Restore King of Hungary title"
+
+  #events
+
+  austria.2.d:0 "Death has come to the empire. The shadow of the Pale Rider, not content with the harvest of souls from the Great War, has come back to Vienna to take one final life - the man who worked tirelessly for peace, hated war, and lived to see most of his empire broken into feuding princedoms. Karl von Habsburg is dead. He passed on 30 December after recurring bouts of pneumonia; exactly twenty years after his coronation in 1916. Tens of thousands of people from all corners of the former empire have arrived at his funeral to mourn the death of Europe's only prince of peace - the only statesman who wanted an end to the pointless bloodshed of the Great War, who wanted a 'peace without victory.' A devout man, Karl is surely with God now. His son, Otto, stands to inherit the throne, but will he be able to hold the failing empire together?"
+  austria.3.d:0 "In the last several weeks, Crown Prince Otto von Habsburg has been preparing his coronation as Emperor of Austria; yet he was not the only one preparing for action. A cabal of disgruntled army officers and politicians, led by Engerbert Dolfuss, a former soldier, and the politician Kurt Schuschnigg, have plotted to overthrow the new emperor. As Otto was being crowned Emperor of Austria and King of Slovenia by the grace of God, right-wing revolutionaries stormed the palace grounds. Taking over the coronation grounds, the plotters publicly demanded the abdication of Otto and the abolishment of the Austrian Empire."
+  austria.4.d:0 "After Otto was forced at gunpoint to surrender the crown, a number of army units refused to accept it. A regiment of Slovenian infantry, unwilling to accept certain German dominion over possible Habsburg harshness, took the lead and stormed the plotters' headquarters, successfully capturing it. Engelbert Dolfuss was killed in the fighting and Kurt Schuschnigg was captured, and the rest of the plotters have been either killed or dispersed. A new coronation has been arranged for Otto, this time guarded by the Slovenians. Otto was crowned as king and emperor, and has promised to enact sweeping reforms to reverse the empire's decay. Time will tell if he is successful, but the empire is once more given some hope for the future."
+  austria.5.d:0 "After forcing the deposition of Otto von Habsburg, the new provisional government of Austria almost immediately came under attack by a regiment of Slovenian infantry; reinforcements had arrived, however, in the form of an officer named Arthur Seyss-Inquart and his command, which repulsed the Slovenians despite heavy casualties. With Vienna firmly under the plotters' control, and the rest of the country falling quickly, the provisional government has openly adopted a Germanophile, authoritarian stance that has radicalized many Slovenians. Already, several Slovenian army units have refused stand-down orders and have instead begun fortifying the major towns of the southern marches."
+  austria.100.d:0 "Following their conquest of Serbia, the resurgent Habsburg Empire has come to us with demands for the return of Prince Wied to the Albanian throne as well as our entry into their sphere of influence. Though few in Albania wish for a return to foreign domination, it would perhaps be foolish to reject the Austrians after they have already proven their military strength."
+  austria.101.d:0 "Shortly after they received our ultimatum, the Albanian government decided that it was in their best interests to accept our demands and return Prince Wied to the throne. The small country is now firmly within our sphere of influence."
+  austria.102.d:0 "Today the Imperial Government of Austria has sent us a telegram demanding that Horthy step down as regent and restore Habsburg rule to Hungary. Though Otto von Habsburg is indeed our legitimate king, the question is whether or not the Hungarian people are ready to go back to being under the Austrian boot."
+  austria.103.d:0 "Horthy has accepted our demands for the restoration of Hungary under Habsburg rule. In Vienna and Budapest, preparations are already being made for the coronation of Otto I as King of Hungary."
+  austria.104.d:0 "Rather than restoring Habsburg rule over his country as we were expecting him to, it seems that Miklos Horthy has decided to proclaim Hungary a Republic instead, formally bringing an end to the Kingdom that existed in at least some form since the middle ages, This is unfortunate news indeed..."

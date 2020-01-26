@@ -1,5 +1,5 @@
 ideologies = {
-	
+
 	anarchist = {
 	
 		types = {
@@ -9,12 +9,12 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHIST_1"
-			"FACTION_NAME_ANARCHIST_2"
-			"FACTION_NAME_ANARCHIST_3"
-			"FACTION_NAME_ANARCHIST_4"
-			"FACTION_NAME_ANARCHIST_5"
-			"FACTION_NAME_ANARCHIST_6"
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
 		}
 		
 		color = { 127 0 0 }
@@ -32,11 +32,14 @@ ideologies = {
 		ai_neutral = yes
 	}
 
+
 	communist = {
 	
 		types = {
 			
 			leninist_ideology = {
+			}
+			stalinist_ideology = {
 			}
 		}
 		
@@ -53,6 +56,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25	
@@ -87,6 +91,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25
@@ -121,6 +126,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25	
@@ -155,6 +161,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25	
@@ -172,7 +179,9 @@ ideologies = {
 			
 			reactionary_ideology = {
 			}
-			authoritarian_democrat_ideology = {
+			paternal_autocrat_democrat_ideology = {
+			}
+			dictatorship_ideology = {
 			}
 		}
 		
@@ -189,6 +198,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25	
@@ -221,6 +231,7 @@ ideologies = {
 		
 		rules = {
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.25	

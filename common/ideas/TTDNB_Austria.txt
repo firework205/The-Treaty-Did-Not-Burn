@@ -77,6 +77,167 @@ ideas = {
 				war_support_factor = -0.1
 		    }
 		}
+
+		christ_and_king_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = AUS_christ_and_king
+			
+			modifier = {
+				war_support_factor = 0.5
+				army_org_factor = 0.05
+		    }
+		}
+
+		economic_sufficiency_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_political_support
+			
+			modifier = {
+				production_speed_buildings_factor = 0.5
+				production_factory_efficiency_gain_factor = 0.05
+		    }
+		}
+
+		multicultural_army_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = eng_imperial_conscription
+			
+			modifier = {
+				conscription = 0.02
+				non_core_manpower = 0.02
+				stability_factor = -0.05
+		    }
+		}
+
+		german_army_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_reserve_divisions
+			
+			modifier = {
+				army_org_factor = 0.1
+				conscription = -0.25
+				stability_factor = 0.05
+		    }
+		}
+
+		german_redoubt_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_fortify_the_borders
+			
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+		    }
+		}
+
+		improved_training_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				army_attack_factor = 0.075
+				training_time_factor = 0.1
+		    }
+		}
+
+		elite_divisions_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				special_forces_attack_factor = 0.1
+				special_forces_cap = 0.1
+		    }
+		}
+
+		meritocratic_army_corps_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_deal_with_the_devil2
+			
+			research_bonus = {
+				land_doctrine = 0.1
+		    }
+		}
 	}
 }
 

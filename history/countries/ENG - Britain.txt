@@ -113,6 +113,7 @@ puppet = SAF
 puppet = MAL
 puppet = RAJ
 puppet = IRE
+puppet = EGY
 
 set_politics = {
 	ruling_party = moderate_socialist

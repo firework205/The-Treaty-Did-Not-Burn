@@ -1,0 +1,83 @@
+﻿expand_austrian_empire_category = {
+
+    AUS_attack_cze = {
+
+        visible = { has_completed_focus = AUS_retake_bohemia }
+
+        allowed = { 
+            has_war = no
+            CZE = { exists = yes }
+        }
+
+        days_remove = 10
+
+        remove_effect = {
+            create_wargoal = {
+                target = CZE
+                type = annex_everything
+            }
+        }
+    }
+
+    AUS_hungarian_coronation = {
+
+        visible = { has_completed_focus = AUS_reabsorb_hungary }
+
+        allowed = { 
+            has_full_control_of_state = 155
+            has_full_control_of_state = 43
+            has_full_control_of_state = 154
+            has_full_control_of_state = 664 #Only core Hungary, that way you can still take the decision if Romania takes Transylvania or some shit
+            HUN = { exists = no }
+
+        }
+
+        complete_effect = {
+            set_cosmetic_tag = AUS_KUK
+            155 = { set_state_name = "Transdanubien" }
+            43 = { set_state_name = "Nordungarn" }
+            if = {
+                limit = {
+                    owns_state = 84
+                }
+                84 = { set_state_name = "Siebenbürgen" }
+            }
+            if = {
+                limit = {
+                    owns_state = 83
+                }
+                83 = { set_state_name = "Kreischgebiet" }
+            }
+            if = {
+                limit = {
+                    owns_state = 45
+                }
+                45 = { set_state_name = "Woiwodschaft Serbien" }
+            }
+
+            if = {
+                limit = {
+                    owns_state = 76
+                }
+                76 = { set_state_name = "Nordsiebenbürgen" }
+            }
+            if = {
+                limit = {
+                    owns_state = 764
+                }
+                764 = { set_state_name = "Westbanat" }
+            }
+        }
+
+        days_remove = 175
+
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = HUN
+                }
+                AUS = { add_state_core = PREV }
+            }
+        }
+    }
+}

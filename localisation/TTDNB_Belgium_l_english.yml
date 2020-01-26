@@ -1,0 +1,20 @@
+﻿l_english:
+
+  BEL_anarchist_party:0 "-"
+  BEL_anarchist_party_long:0 "-"
+  
+  BEL_communist_party:0 "KPB/PCB"
+  BEL_communist_party_long:0 "Kommunistische Partij van België/Parti Communiste de Belgique"
+
+  BEL_moderate_socialist_party:0 "BWP/POB"
+  BEL_moderate_socialist_party_long:0 "Belgische Werkliedenpartij/Parti Ouvrier Belge"
+
+  BEL_liberal_party:0 "LP/PL"
+  BEL_liberal_party_long:0 "Liberale Partij/Parti libéral"
+
+  BEL_conservative_party:0 "KP/PC"
+  BEL_conservative_party_long:0 "Katholieke Partij/Parti catholique"
+
+  BEL_paternal_autocrat_party:0 "Military Junta"
+
+  BEL_far_right_populist_party:0 "Rexists"

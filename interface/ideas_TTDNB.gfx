@@ -56,4 +56,9 @@ spriteTypes = {
 		name = "GFX_idea_UKR_stand_on_our_own"
 		texturefile = "gfx/interface/ideas/idea_UKR_stand_on_our_own.tga"
 	}
+
+	spriteType = {
+		name = "GFX_idea_AUS_christ_and_king"
+		texturefile = "gfx/interface/ideas/idea_AUS_christ_and_king.tga"
+	}
 }

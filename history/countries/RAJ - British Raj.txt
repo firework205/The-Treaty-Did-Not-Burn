@@ -23,8 +23,6 @@ set_technology = {
 
 set_convoys = 20
 
-set_cosmetic_tag = RAJ_UK # British Raj
-
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1935.11.14"
@@ -33,15 +31,17 @@ set_politics = {
 }
 set_popularities = {
 	conservative = 17
-	far_right_populist = 2
-	communist = 1
-	paternal_autocrat = 80
+	liberal = 15
+	moderate_socialist = 15
+	far_right_populist = 3
+	communist = 5
+	paternal_autocrat = 45
 }
 
 create_country_leader = {
-	name = "Lord Linlithgow"
+	name = "Edward VIII"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	picture = "Portrait_RAJ_Edward_VIII.tga"
 	expire = "1965.1.1"
 	ideology = reactionary_ideology
 	traits = {

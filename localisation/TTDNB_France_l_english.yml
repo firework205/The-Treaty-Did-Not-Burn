@@ -20,3 +20,65 @@
 
   FRA_far_right_populist_party:0 "MF"
   FRA_far_right_populist_party_long:0 "Mouvement Franciste"
+
+  FRA_1936_legislative_elections:0 "1936 Legislative Election"
+
+  FRA_front_populaire:0 "Popular Front"
+
+  FRA_strengthen_workers_rights:0 "Strengthen Worker's Rights"
+
+  FRA_shorten_workweek:0 "Shorten the Workweek"
+
+  FRA_office_du_ble:0 "Office du Blé"
+
+  FRA_support_small_businesses:0 "Support Small Businesses"
+
+  FRA_dissolve_far_right:0 "Dissolve Far-Right Parties"
+
+  FRA_peoples_government:0 "For the People"
+
+  FRA_droit_et_centre:0 "Centre-Right Coalition"
+
+  FRA_veterans_pensions:0 "Veteran's Pensions"
+
+  FRA_traditional_values:0 "Traditional Values"
+
+  FRA_limited_welfare:0 "Limited Welfare"
+
+  FRA_laissez_faire:0 "Laissez-Faire Economics"
+
+  FRA_ban_communism:0 "Ban Communism"
+
+  FRA_law_and_order:0 "Law and Order"
+
+  FRA_a_successful_gvt:0 "A Successful Government"
+
+
+  FRA_review_foreign_policy:0 "Review Foreign Policy"
+  FRA_improve_fortifications:0 "Improved Fortifications"
+  FRA_attack_germany:0 "Attack Germany"
+  FRA_german_federation:0 "German Federalism"
+  FRA_german_confederation:0 "German Confederalism"
+  FRA_secure_russia:0 "Secure Russia"
+  FRA_friends_in_britain:0 "Friends in Britain"
+  FRA_reach_out_to_italy:0 "A New Treaty of London?"
+  FRA_secure_alps:0 "Consolidate the Alps"
+  FRA_pressure_yugoslavia:0 "Pressure Yugoslavia"
+  FRA_secure_austria:0 "March on Vienna"
+  FRA_support_polish_claims:0 "Support Polish Claims"
+  FRA_alliance_with_poland:0 "Alliance with Poland"
+  FRA_reach_out_to_belgium:0 "Reach Out to Belgium"
+  FRA_fortify_meuse:0 "Fortify the Meuse"
+  FRA_alliance_with_belgium:0 "The Belgian Alliance"
+  FRA_east_asian_diplomacy:0 "East Asian Diplomacy"
+  FRA_fortify_indochina:0 "Defensive Infrastructure in Indochina"
+  FRA_support_chiang:0 "Support the KMT"
+  FRA_ally_siam:0 "Pact with Siam"
+  FRA_war_with_japan:0 "War with Japan"
+  FRA_japanese_deal:0 "The Treaty of Taipei"
+
+  #events
+  frafor.1.d:0 "With Germany once again gathering strength to our west, and with the Japanese in the east threatening European colonies in Asia, perhaps the time has come for a restoration of the Anglo-French Entente. Throughout the Great War, the British were our staunch allies, helping us to stop the German advance and protect Paris. Though we have drifted apart in recent years, now is the perfect time to determine whether or not the alliance has stood the test of time."
+  frafor.2.d:0 "Following recent trends showing the improvement of Franco-British relations, France has requested a second Franco-British summit, phrasing it as a "Second Entente Cordiale". With Germany having greatly picked up in strength in recent months, we have little reason to refuse this proposal. However, are the British people really ready to abandon their isolation again?
+  frafor.3.d:0 "Britain has accepted our proposal for the restoration of the Entente. Together, we have the strength to stand up to Germany and preserve the continenal balance of power!"
+  frafor.5.d:0 "France has sent us a proposal for Italian entry in the Entente. Though anti-French sentiment remains high throughout much of the country thanks to their betrayal of our nation in the Treaty of Tyrol, many are wondering what other options we have available to us. Alternatively, we could demand the formerly Italian territories of Savoy and Nice as repayment for their betrayal, though this could anger the French and serve to further isolate us."

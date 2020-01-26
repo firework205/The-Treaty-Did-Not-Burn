@@ -1,0 +1,20 @@
+﻿l_english:
+
+  USA_anarchist_party:0 "-"
+
+  USA_communist_party:0 "CPUSA"
+  USA_communist_party_long:0 "Communist Party USA"
+
+  USA_moderate_socialist_party:0 "Progressives"
+  USA_moderate_socialist_party_long:0 "Progressive Party"
+
+  USA_liberal_party:0 "Democrats"
+  USA_liberal_party_long:0 "Democratic Party"
+
+  USA_conservative_party:0 "Republicans"
+  USA_conservative_party_long:0 "Republican Party"
+
+  USA_paternal_autocrat_party:0 "AFC"
+  USA_paternal_autocrat_party_long:0 "America First Committee"
+
+  USA_far_right_populist_party:0 "Silver Legion"

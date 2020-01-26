@@ -1,0 +1,1027 @@
+focus_tree = {
+	id = ukrainian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+
+	###Main political branch###
+	###########################
+
+	focus = {
+		id = UKR_strengthen_hetmanate
+		icon = GFX_focus_UKR_strengthen_hetmanate
+		prerequisite = { focus = UKR_history_of_hetman }
+		available = {
+		    has_country_flag = UKR_history_event
+		}
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Strengthen the hetman sub-branch
+
+	focus = {
+		id = UKR_strengthen_hetman
+		icon = GFX_goal_paternal_autocrat_group
+		prerequisite = { focus = UKR_strengthen_hetmanate }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = UKR_strengthen_hetmanate
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_one_leader_one_ukraine
+		icon = GFX_goal_KR_authority
+		prerequisite = { focus = UKR_strengthen_hetman }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = UKR_choose_cabinet
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = UKR_one_leader_one_ukraine }
+		prerequisite = { focus = UKR_state_visits }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_god_in_the_state
+		icon = GFX_focus_UKR_god_in_the_state
+		prerequisite = { focus = UKR_choose_cabinet }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_state_visits
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = UKR_strengthen_hetman }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = UKR_the_old_guard
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = UKR_choose_cabinet }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_coronation_of_the_hetman
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = UKR_the_old_guard }
+		prerequisite = { focus = UKR_god_in_the_state }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = UKR_strengthen_hetman
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_regional_power
+		icon = GFX_focus_UKR_UKR_flag
+		prerequisite = { focus = UKR_coronation_of_the_hetman }
+		prerequisite = { focus = UKR_ukrainian_schools }
+		prerequisite = { focus = UKR_united_ukraine }
+		available = {
+		}
+		x = 0
+		y = 6
+		relative_position_id = UKR_strengthen_hetmanate
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#The Ukrainian Language Sub-branch
+
+	focus = {
+		id = UKR_ukrainian_language
+		icon = GFX_goal_conservative_group
+		prerequisite = { focus = UKR_strengthen_hetmanate }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = UKR_strengthen_hetmanate
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = UKR_prosvita_movement
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = UKR_ukrainian_language }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_ukrainian_radio
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = UKR_our_culture_our_people }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_ukrainian_schools
+		icon = GFX_goal_KR_brain
+		prerequisite = { focus = UKR_ukrainian_radio }
+		prerequisite = { focus = UKR_fight_for_native_land }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_our_ukrainian_state
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = UKR_ukrainian_language }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_our_culture_our_people
+		icon = GFX_focus_UKR_hetmanate
+		prerequisite = { focus = UKR_our_ukrainian_state }
+		prerequisite = { focus = UKR_prosvita_movement }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_fight_for_native_land
+		icon = GFX_focus_UKR_fight_for_native_land
+		prerequisite = { focus = UKR_our_culture_our_people }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = UKR_ukrainian_language
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	#Expansionist path
+
+	focus = {
+		id = UKR_beyond_our_borders
+		icon = GFX_focus_UKR_beyond_ukraine
+		available = {
+		    has_stability > 0.7
+		    has_war_support > 0.6
+		}
+		x = 8
+		y = 1
+		relative_position_id = UKR_strengthen_hetmanate
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 75
+		    add_state_claim = 137
+		    add_state_claim = 234
+		    add_state_claim = 91
+		    add_state_claim = 80
+		    add_state_claim = 73
+		    add_state_claim = 791
+		}
+	}
+
+	focus = {
+		id = UKR_fate_of_crimea
+		icon = GFX_focus_UKR_fate_of_crimea
+		prerequisite = { focus = UKR_beyond_our_borders }
+		available = {
+		    has_war = no
+		    has_army_manpower { size > 250000 }
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_beyond_our_borders
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    CMA = { country_event = { id = ukraine.5 days = 1 } }
+		}
+	}
+
+	focus = {
+		id = UKR_crimean_tatars
+		icon = GFX_focus_UKR_crimean_tatars
+		prerequisite = { focus = UKR_fate_of_crimea }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_fate_of_crimea
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_registered_cossacks
+		icon = GFX_focus_UKR_registered_cossacks
+		prerequisite = { focus = UKR_beyond_our_borders }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = UKR_beyond_our_borders
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_fate_of_kuban
+		icon = GFX_focus_UKR_kuban_fate
+		prerequisite = { focus = UKR_registered_cossacks }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_registered_cossacks
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_circassians
+		icon = GFX_goal_generic_circassia
+		prerequisite = { focus = UKR_registered_cossacks }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_registered_cossacks
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_resettlement
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = UKR_circassians }
+		prerequisite = { focus = UKR_fate_of_kuban }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_registered_cossacks
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_reintegrate_halychyna 
+		icon = GFX_focus_UKR_west_galicia
+		prerequisite = { focus = UKR_beyond_our_borders }
+		available = {
+		    has_army_manpower = {
+		        size > 300000
+		    }
+		    has_war = no
+		}
+		x = 5
+		y = 1
+		relative_position_id = UKR_beyond_our_borders
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    GAL = { country_event = { id = ukraine.2 days = 1 } }
+		}
+	}
+
+	focus = {
+		id = UKR_reintegrate_carpathians
+		icon = GFX_focus_UKR_carpatho_ukraine
+		prerequisite = { focus = UKR_reintegrate_halychyna }
+		available = {
+		    owns_state = 89
+		    owns_state = 91
+		    owns_state = 80
+		    owns_state = 791
+		    owns_state = 73
+		    73 = { is_fully_controlled_by = UKR }
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_reintegrate_halychyna
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = -25
+		    add_state_core = 73
+		}
+	}
+
+	focus = {
+		id = UKR_traditions_and_culture
+		icon = GFX_focus_UKR_traditions_and_culture
+		prerequisite = { focus = UKR_reintegrate_carpathians }
+		prerequisite = { focus = UKR_crimean_tatars }
+		prerequisite = { focus = UKR_resettlement }
+		prerequisite = { focus = UKR_reintegrate_carpathians }
+		available = {
+		}
+		x = 1
+		y = 4
+		relative_position_id = UKR_beyond_our_borders
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+    ####################
+    ###RESOURCES TREE###
+    ####################
+
+	focus = {
+		id = UKR_resources_of_ukraine
+		icon = GFX_focus_UKR_UKR_flag
+		available = {
+		}
+		x = 25
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Oil sub-branch
+
+	focus = {
+		id = UKR_oil_in_the_plains
+		icon = GFX_focus_UKR_plains_oil
+		prerequisite = { focus = UKR_resources_of_ukraine }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = UKR_resources_of_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_ukrainian_refineries
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = UKR_oil_in_the_plains }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_oil_in_the_plains
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_exporter_of_europe
+		icon = GFX_goal_generic_european_exports
+		prerequisite = { focus = UKR_ukrainian_refineries }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_oil_in_the_plains
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Coal in the Carpathians sub-branch
+
+	focus = {
+		id = UKR_coal_in_the_carpathians
+		icon = GFX_goal_generic_mountain_coal
+		prerequisite = { focus = UKR_resources_of_ukraine }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_resources_of_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_mining_plants
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = UKR_coal_in_the_carpathians }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_coal_in_the_carpathians
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_keeping_the_mountains_safe
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = UKR_mining_plants}
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_coal_in_the_carpathians
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Wheat sub-branch
+
+	focus = {
+		id = UKR_wheat_in_the_fields
+		icon = GFX_goal_generic_wheat_fields
+		prerequisite = { focus = UKR_resources_of_ukraine }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_resources_of_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_mass_agriculture
+		icon = GFX_focus_UKR_ukrainian_agriculture
+		prerequisite = { focus = UKR_wheat_in_the_fields }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_wheat_in_the_fields
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_grapes_of_our_work
+		icon = GFX_focus_mex_privatisation
+		prerequisite = { focus = UKR_mass_agriculture }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_wheat_in_the_fields
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Timber sub-branch
+
+	focus = {
+		id = UKR_timber_in_the_north
+		icon = GFX_goal_generic_forests
+		prerequisite = { focus = UKR_resources_of_ukraine }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = UKR_resources_of_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_woods_and_mountains
+		icon = GFX_focus_UKR_forests_and_mountains
+		prerequisite = { focus = UKR_timber_in_the_north }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_timber_in_the_north
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_protecting_nature
+		icon = GFX_goal_generic_protect_nature
+		prerequisite = { focus = UKR_woods_and_mountains }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_timber_in_the_north
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Capstone
+
+	focus = {
+		id = UKR_regional_exporter
+		icon = GFX_focus_UKR_regional_exporter
+		prerequisite = { focus = UKR_protecting_nature }
+		prerequisite = { focus = UKR_grapes_of_our_work }
+		prerequisite = { focus = UKR_keeping_the_mountains_safe }
+		prerequisite = { focus = UKR_exporter_of_europe }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = UKR_resources_of_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	###################
+	###Industry Tree###
+	###################
+
+	focus = {
+		id = UKR_industrialize_ukraine
+		icon = GFX_focus_UKR_industrialize_ukraine
+		available = {
+		}
+		x = 26
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_industry_in_donbass
+		icon = GFX_focus_UKR_ukrainian_factories
+		prerequisite = { focus = UKR_industrialize_ukraine }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_industrialize_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_electrical_innovations
+		icon = GFX_focus_UKR_electricity
+		prerequisite = { focus = UKR_industry_in_donbass }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_industry_in_donbass
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_industry_in_odessa
+		icon = GFX_focus_UKR_ukrainian_factories
+		prerequisite = { focus = UKR_industrialize_ukraine }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_industrialize_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_industrial_innovations
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus= UKR_industry_in_odessa }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = UKR_industry_in_odessa
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_german_loans
+		icon = GFX_goal_generic_german_deal
+		prerequisite = { focus= UKR_electrical_innovations }
+		prerequisite = { focus = UKR_industrial_innovations }
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = UKR_industrialize_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_modern_south
+		icon = GFX_focus_UKR_traditions_and_culture
+		prerequisite = { focus= UKR_german_loans }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = UKR_industrialize_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_recovery_from_depression
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus= UKR_modern_south }
+		available = {
+		}
+		x = 0
+		y = 5
+		relative_position_id = UKR_industrialize_ukraine
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = UKR_russian_question
+		icon = GFX_focus_UKR_russian_question
+		prerequisite = { focus= UKR_ukrainian_language focus = UKR_strengthen_hetman }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_strengthen_hetmanate
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_integration
+		icon = GFX_goal_KR_oppression
+		prerequisite = { focus = UKR_russian_question }
+		mutually_exclusive = { focus = UKR_equality }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = UKR_russian_question
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_equality
+		icon = GFX_goal_KR_constitutional_guarantees
+		prerequisite = { focus = UKR_russian_question }
+		mutually_exclusive = { focus = UKR_integration }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = UKR_russian_question
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_united_ukraine
+		icon = GFX_focus_UKR_united_ukraine
+		prerequisite = { focus = UKR_integration focus = UKR_equality }
+		mutually_exclusive = { focus = UKR_integration }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = UKR_russian_question
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+

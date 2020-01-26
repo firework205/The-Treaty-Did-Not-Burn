@@ -53,19 +53,6 @@ if = {
 	}
 }
 
-if = { 
-	limit = { NOT = { has_dlc = "Together for Victory" } }
-	set_cosmetic_tag = CAN_ALY
-}
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	add_ideas = CAN_great_depression_1
-	add_ideas = CAN_conscription_crisis
-	set_cosmetic_tag = CAN_UK
-
-	add_to_tech_sharing_group = commonwealth_research
-}
-
 1939.1.1 = {
 	add_political_power = 1198
 	
@@ -170,24 +157,28 @@ if = {
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = liberal
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservative = 98
-	far_right_populist = 1
-	communist = 1
+	liberal = 48
+	conservative = 32
+	moderate_socialist = 12
+	communist = 5
+	far_right_populist = 2
+	anarchist = 1
+
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
+	name = "Edward VIII"
 	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
+	picture = "Portrait_CAN_Edward_VIII.tga"
 	expire = "1965.1.1"
-	ideology = liberal_conservative_ideology
+	ideology = market_liberal_ideology
 	traits = {
 		#
 	}
@@ -210,6 +201,17 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = leninist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tim Buck"
+	desc = "POLITICS_TIM_BUCK_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_ideology
 	traits = {
 		#
 	}

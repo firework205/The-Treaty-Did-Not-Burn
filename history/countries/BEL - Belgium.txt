@@ -84,56 +84,22 @@ set_politics = {
 }
 
 set_popularities = {
-	conservative = 83
-	far_right_populist = 11
-	communist = 6
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = conservative
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		conservative = 87
-		far_right_populist = 8
-		communist = 5
-	}
+	conservative = 48
+	liberal = 12
+	moderate_socialist = 28
+	communist = 5
+	far_right_populist = 7
 }
 
 set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Hubert Pierlot"
+	name = "Leopold III"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+	picture = "Portrait_BEL_Leopold_III.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Joseph Jacquemotte"
-	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = leninist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = far_right_populist_ideology
 	traits = {
 		#
 	}

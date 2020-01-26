@@ -1,0 +1,18 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = RFR
+	    add_core_of = RFR
+	    buildings = {
+	        infrastructure = 3
+	    }
+	}
+	provinces={
+		1777 1780 1850 4724 7701 7815 10639 10712 12595 12666 
+	}
+}

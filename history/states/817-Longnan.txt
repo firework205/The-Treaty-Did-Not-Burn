@@ -1,0 +1,21 @@
+state={
+	id=817
+	name="STATE_817"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = SUA
+	    add_core_of = SUA
+	    add_core_of = CHI
+	    add_core_of = PRC
+	    buildings = {
+	        infrastructure = 3
+	    }
+	}
+
+	provinces={
+		531 2045 4295 4313 5193 7397 7911 12797 12882 
+	}
+}

@@ -1,0 +1,236 @@
+add_namespace = austria
+
+country_event = { #Hidden event to fire death of Kaiser Karl, thanks random reddit user that taught me how to do this !
+    id = austria.1
+    title = austria.1.t
+    desc = austria.1.d
+
+    hidden = yes
+
+    trigger = {
+        tag = AUS
+    }
+
+    mean_time_to_happen = { days = 1 }
+
+    immediate = { 
+        AUS = { 
+            country_event = { id = austria.2 days = 356 } #Fires on dec. 30th
+        }
+    }
+
+    option = {
+        name = austria.1.a
+    }
+}
+#######################################
+
+
+
+country_event = { 
+    id = austria.2
+    title = "The Emperor Sleeping"
+    desc = austria.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "The Emperor is dead; long live the Emperor."
+        add_stability = -0.1
+        kill_country_leader = yes 
+        hidden_effect = {
+            create_country_leader = {
+	            name = "Otto I"
+	            desc = "POLITICS_OTTO_I"
+	            picture = "Portrait_AUS_Otto_I.tga"
+	            expire = "1965.1.1"
+	            ideology = liberal_conservative_ideology
+	            traits = {}
+		        #
+		    }
+            create_country_leader = {
+	            name = "Otto I"
+	            desc = "POLITICS_OTTO_I"
+	            picture = "Portrait_AUS_Otto_I.tga"
+	            expire = "1965.1.1"
+	            ideology = reactionary_ideology
+	            traits = {}
+		        #
+		    }
+            create_country_leader = {
+	            name = "Otto I"
+	            desc = "POLITICS_OTTO_I"
+	            picture = "Portrait_AUS_Otto_I.tga"
+	            expire = "1965.1.1"
+	            ideology = social_democrat_ideology
+	            traits = {}
+		        #
+		    }
+		}
+
+		set_country_flag = AUS_kaiser_karl_died_flag
+		custom_effect_tooltip = imperial_coronation_cando_tt
+	}
+}
+
+country_event = { 
+    id = austria.3
+    title = "The Coronation Coup"
+    desc = austria.3.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Otto surrendered the crown at gunpoint..."
+        add_stability = -0.1
+		custom_effect_tooltip = unfinished_tt
+		country_event = { id = austria.5 days = 0 }
+	}
+
+    option = {
+        name = "...but loyalist army units launched a counterattack."
+        add_stability = -0.1
+		country_event = { id = austria.4 days = 0 }
+	}
+}
+
+country_event = { 
+    id = austria.4
+    title = "A New Age for Austria"
+    desc = austria.4.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Alles Erdreich in Österreich Untertan"
+		set_country_flag = AUS_defeated_coup
+		custom_effect_tooltip = AUS_democratic_tt
+	}
+}
+
+country_event = { 
+    id = austria.5
+    title = "The New Regime"
+    desc = austria.5.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Something will need to be done about the Slavs..."
+		set_country_flag = AUS_coup_successful
+		custom_effect_tooltip = AUS_democratic_tt
+	}
+}
+
+#######################
+
+country_event = { 
+    id = austria.100
+    title = "Austrian Demands"
+    desc = austria.100.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Austria has grown too powerful, we have no choice."
+        ai_chance = { factor = 90 }
+		AUS = { country_event = { id = austria.101 hours = 6 } }
+	}
+
+    option = {
+        name = "We will fight for our independence!"
+        ai_chance = { factor = 10 }
+		AUS = { 
+		    create_wargoal = {
+		        type = puppet_wargoal_focus
+		        target = ALB
+		    }
+		}
+	}
+}
+
+country_event = { 
+    id = austria.101
+    title = "Albania Caves"
+    desc = austria.101.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Excellent."
+		puppet = ALB
+		ALB = {
+            create_country_leader = {
+	            name = "Wied I"
+	            desc = "POLITICS_Wied_I"
+	            picture = "Portrait_ALB_Wied_I.tga"
+	            expire = "1965.1.1"
+	            ideology = reactionary_ideology
+	            traits = {}
+		        #
+		    }
+		    set_politics = {
+		        ruling_party = paternal_autocrat
+		        elections_allowed = no
+		    }
+		    add_popularity = {
+		        ideology = paternal_autocrat
+		        popularity = 0.5
+		    }
+		}
+	}
+}
+
+country_event = { 
+    id = austria.102
+    title = "Austria demands we end the regency"
+    desc = austria.102.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Otto is our rightful king, prepare for a grand coronation!"
+        AUS = { country_event = { id = austria.103 hours = 6 } }
+	}
+
+	option = {
+	    name = "Never, long live the Hungarian Republic!"
+	    set_cosmetic_tag = HUN_hungarian_republic
+	    add_political_power = 100
+	    AUS = { country_event = { id = austria.104 hours = 6 } } 
+	}
+}
+
+country_event = { 
+    id = austria.103
+    title = "Horthy Agrees"
+    desc = austria.103.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great news!"
+        annex_country = { target = HUN transfer_troops = no }
+	}
+}
+
+country_event = { 
+    id = austria.104
+    title = "Hungarian Republic proclaimed"
+    desc = austria.104.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unacceptable."
+        add_political_power = -50
+		    create_wargoal = {
+		        type = annex_everything
+		        target = HUN
+		    }
+		}
+	}
+}
+
+
+

@@ -1,0 +1,20 @@
+﻿l_english:
+
+  RFR_anarchist_party:0 "-"
+  RFR_anarchist_party_long:0 "-"
+  
+  RFR_communist_party:0 "Bolsheviks"
+  RFR_communist_party_long:0 "Bolshevik Faction"
+
+  RFR_moderate_socialist_party:0 "Left SRs"
+
+  RFR_liberal_party:0 "K-D"
+  RFR_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+
+  RFR_conservative_party:0 "OK"
+  RFR_conservative_party_long:0 "Soyuz 17 Oktyabrya"
+
+  RFR_paternal_autocrat_party:0 "Románovy"
+  RFR_paternal_autocrat_long:0 "House of Romanov"
+
+  RFR_far_right_populist_party:0 "Kolchak Sympathizers"

@@ -63,33 +63,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 100
+	paternal_autocrat = 100
 }
 
 create_country_leader = {
-	name = "Anandyn Amar"
+	name = "Bogd Khan"
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = GFX_portrait_mon_anandyn_amar
+	picture = wip
 	expire = "1965.1.1"
-	ideology = leninist_ideology
+	ideology = reactionary_ideology
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	add_ideas = {
-		limited_conscription
-	}
-
-	create_country_leader = {
-		name = "Khorloogiin Choibalsan"
-		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = leninist_ideology
-		traits = {
-			#
-		}
 	}
 }

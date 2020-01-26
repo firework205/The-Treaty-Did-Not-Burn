@@ -74,6 +74,17 @@ set_politics = {
     elections_allowed = no
 }
 
+ create_country_leader = {
+	
+	name = "Mirza Davud Huseynov"
+	picture = "Portrait_CCA_Mirza_Davud_Huseynov.tga"
+	expire = "1965.1.1"
+	ideology = leninist_ideology
+	traits = {
+		#
+	}
+}
+
 
 
 

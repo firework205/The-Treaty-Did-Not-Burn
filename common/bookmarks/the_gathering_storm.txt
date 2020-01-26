@@ -1,0 +1,125 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+				FRA_1936_legislative_elections
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = moderate_socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = far_right_populist
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = far_right_populist
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communist
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"AUS"={
+			minor = yes
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			    slovenian_autonomy_idea
+			    feudal_military_idea
+			    centre_of_arts_idea
+			    moribund_empire_idea
+			}
+			focuses = {
+				AUS_imperial_coronation
+				AUS_expansionism
+				AUS_rejecting_extremism
+			}
+		}
+
+		"UKR"={
+			minor = yes
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+				UKR_strengthen_hetmanate
+			}
+		}
+
+		"RFR"={
+			minor = yes
+			history = "RFR_GATHERING_STORM_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"RUS"={
+			minor = yes
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -68,9 +68,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 92
+	conservative = 42
+	moderate_socialist = 39
+	liberal = 10
 	far_right_populist = 3
-	communist = 5
+	communist = 6
 }
 
 1939.1.1 = {
@@ -82,9 +84,9 @@ set_popularities = {
 	}
 
 	create_country_leader = {
-		name = "Pierre Dupong"
+		name = "Charlotte"
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+		picture = "Portrait_LUX_Charlotte"
 		expire = "1965.1.1"
 		ideology = liberal_conservative_ideology
 		traits = {

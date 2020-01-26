@@ -1,0 +1,257 @@
+add_namespace = frafor
+
+country_event = {
+    id = frafor.1
+    title = "Restoration of the Entente?"
+    desc = frafor.1.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Send the Envoy!"
+        ENG = { country_event = frafor.2 }
+    }
+
+    option = {
+        name = "We don't need them."
+        add_political_power = -50
+    }
+}
+
+country_event = {
+    id = frafor.2
+    title = "France Wants to Renew the Entente"
+    desc = frafor.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Yes, together we can preserve the peace."
+        ai_chance = { factor = 75 }
+        FRA = { country_event = frafor.3 }
+    }
+
+    option = {
+        name = "We don't need the French."
+        ai_chance = { factor = 25 }
+        FRA = { country_event = frafor.4 }
+    }
+}
+
+country_event = {
+    id = frafor.3
+    title = "Britain Accepts"
+    desc = frafor.3.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Excellent!"
+        every_country = {
+            limit = {
+                is_in_faction_with = ENG
+            }
+            FRA = { add_to_faction = PREV }
+        }
+        FRA = { add_to_faction = ENG }
+    }
+}
+
+country_event = {
+    id = frafor.4
+    title = "Britain Refuses"
+    desc = "The British have refused our request for an alliance."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unfortunate news."
+        add_poltical_power = -50
+    }
+}
+
+country_event = {
+    id = frafor.5
+    title = "Alliance with France?"
+    desc = frafor.5.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Yes, they are our best option."
+        ai_chance = { factor = 25}
+        FRA = { country_event = frafor.6 }
+    }
+
+    option = {
+        name = "Accept, but demand Savoy."
+        ai_chance = { factor = 50 }
+        FRA = { country_event = frafor.7 }
+
+    }
+
+    option = {
+        name = "Refuse."
+        ai_chance = { factor = 25 }
+    }
+}
+
+country_event = {
+    id = frafor.6
+    title = "Italy joins the Allance"
+    desc = "Italy has accepted our proposal, and are now a member of our alliance."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"
+        add_to_faction = ITA
+    }
+}
+
+country_event = {
+    id = frafor.7
+    title = "Italy accepts - at a price"
+    desc = "Italy has agreed to join our alliance, however they ask for concessions in the form of their former territory in Savoy. How should we respond?"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Refuse."
+        ai_chance = { factor = 50 }
+        ITA = { country_event = frafor.10 }
+    }
+
+    option = {
+        name = "A steep price, but it is worth it."
+        ai_chance = { factor = 50 }
+        ITA = { 
+            transfer_state = 735 
+            country_event = { id = frafor.8 hours = 6 }
+        }
+    }
+}
+
+country_event = {
+    id = frafor.8
+    title = "France Agrees"
+    desc = "France has accepted our proposal, and the disputed territory has been ceded to us. However, we must now join their alliance."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"
+        FRA = { add_to_faction = ITA }
+    }
+}
+
+country_event = {
+    id = frafor.9
+    title = "Italy refuses"
+    desc = "Italy has outright refused our offer of an alliance, citing our failure to grant them their claimed lands in the Treaty of Tyrol."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unfortunate."
+        add_political_power = -50
+    }
+}
+
+country_event = {
+    id = frafor.10
+    title = "The French Refuse"
+    desc = "France has refused our demands for concessions. There will be no Franco-Italian cooperation."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unfortunate."
+        add_state_claim = 735
+    }
+}
+
+country_event = {
+    id = frafor.11
+    title = "Franco-Italian Pressure"
+    desc = "France and Italy have presented us with several demands, including the transfer of Dalmatia and the freedom of Franco-Italian forces to move within our borders."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We must fold."
+        ai_chance = { factor = 50 }
+        add_political_power = -50
+        ITA = { transfer_state = 103 }
+        give_military_access = ITA
+        give_military_access = FRA
+    }
+
+    option = {
+        name = "We cannot defeat the French."
+        ai_chance = { factor = 50 }
+        FRA = { country_event = frafor.12 }
+    }
+}
+
+country_event = {
+    id = frafor.12
+    title = "The Yugoslavs Refuse"
+    desc = "Yugoslavia has refused our demands, asserting their independence."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unfortunate."
+        create_wargoal = { 
+            type = annex_everything
+            target = YUG
+        }
+    }
+}
+
+country_event = {
+    id = frafor.13
+    title = "The Treaty of Taipei"
+    desc = "Today our representatives met with French diplomats in Taipei, where they proposed a deal in which we would receive Indochina in exchange for cooperation with them. How shall we reply?"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "It is a fair proposal."
+        ai_chance = { factor = 60 }
+        give_guarantee = FRA
+        FRA = { give_guarantee = JAP }
+        FRA = { country_event = { id = frafor.14 hours = 6 } }
+    }
+
+    option = {
+        name = "We can always take it by force."
+        ai_chance = { factor = 40 }
+        FRA = { country_event = { id = frafor.15 hours = 6 } }
+    }
+}
+
+country_event = {
+    id = frafor.14
+    title = "Japan Accepts"
+    desc = "The Japanese have accepted our proposal. We must now keep our end of the bargain, and transfer the provinces of Indochina over the Japanese administration."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Excellent."
+    }
+}
+
+country_event = {
+    id = frafor.15
+    title = "Japan Refuses"
+    desc = "The Japanese have decided to turn down our proposal. This is an unfortunate setback in Franco-Japanese relations."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unfortunate."
+    }
+}

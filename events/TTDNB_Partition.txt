@@ -1,0 +1,131 @@
+add_namespace = partition
+
+country_event = {
+    id = partition.1
+    title = "Establishment of the German Federal Republic"
+    desc  = partition.1.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Enemies no longer."
+        WGR = {
+            transfer_state = 56
+            transfer_state = 59
+            transfer_state = 57
+            transfer_state = 51
+
+            transfer_state = 42
+            transfer_state = 55
+
+            transfer_state = 50
+
+            transfer_state = 54
+            transfer_state = 53
+            transfer_state = 52
+
+            transfer_state = 60
+            transfer_state = 65
+
+            transfer_state = 61
+            transfer_state = 64
+            transfer_state = 62
+            transfer_state = 63
+            transfer_state = 68
+            transfer_state = 56
+        }
+        every_state = {
+            limit = { is_core_of = GER }
+            WGR = { add_state_core = PREV }
+        }
+        FRA = { add_to_faction = GER }
+    }
+}
+
+country_event = {
+    id = partition.2
+    title = "Establishment of the German Confederation"
+    desc  = partition.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Enemies no longer."
+        HAN = {
+            transfer_state = 56
+            transfer_state = 59
+            transfer_state = 57
+            transfer_state = 51
+            add_state_core = 56
+            add_state_core = 59
+            add_state_core = 57
+            add_state_core = 51
+        }
+
+        HSE = {
+            transfer_state = 42
+            transfer_state = 55
+            add_state_core = 42
+            add_state_core = 55
+        }
+
+        BDW = {
+            transfer_state = 50
+            add_state_core = 50
+        }
+
+        BAV = {
+            transfer_state = 54
+            transfer_state = 53
+            transfer_state = 52
+            add_state_core = 54
+            add_state_core = 53
+            add_state_core = 52
+        }
+
+        SAX = {
+            transfer_state = 60
+            transfer_state = 65
+            add_state_core 60
+            add_state_core = 65
+        }
+
+        FSP = {
+            transfer_state = 61
+            transfer_state = 64
+            transfer_state = 62
+            transfer_state = 63
+            transfer_state = 68
+            transfer_state = 66
+            add_state_core = 61
+            add_state_core = 64
+            add_state_core = 62
+            add_state_core = 63
+            add_state_core = 66
+        }
+        KIE = { 
+            transfer_state = 58
+            add_state_core = 58 
+        }
+        FRA = {
+            add_to_faction = HAN
+            add_to_faction = HSE
+            add_to_faction = BDW
+            add_to_faction = BAV
+            add_to_faction = SAX
+            add_to_faction = FSP
+            puppet = KIE
+        }
+        if = {
+            limit = {
+                ENG = { is_in_faction_with = FRA }
+            }
+            ENG = { 
+                transfer_state = 823 
+                puppet = KIE
+            }
+        }
+    }
+}
+
+

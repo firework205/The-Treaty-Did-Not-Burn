@@ -265,50 +265,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+	communist = 44
+	moderate_socialist = 26
+	paternal_autocrat = 10
 	conservative = 10
-	far_right_populist = 2
-	communist = 88
+	liberal = 10
 }
-
-create_faction = Comintern
-add_to_faction = SOV
-add_to_faction = MON
-add_to_faction = TAN
-
 
 add_ideas = {
-	trotskyite_plot
-	home_of_revolution
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Lev Kamenev"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	picture = "Portrait_SOV_Kamenev.tga"
 	expire = "1953.3.1"
 	ideology = leninist_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Konstantin Rodzaevsky"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
-	expire = "1953.3.1"
-	ideology = far_right_populist_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = liberal_conservative_ideology
 	traits = {
 		
 	}

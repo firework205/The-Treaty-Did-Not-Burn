@@ -1,18 +1,22 @@
+
 state={
 	id=811
 	name="STATE_811"
-	manpower = 1
 
-	state_category = rural
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
 
-	history = {
-	    owner = KAZ
-	    add_core_of = KAZ
-	    buildings = {
-	        infrastructure = 2
-	    }
+		}
+
 	}
+
 	provinces={
-		475 642 10262 12163 13008 
+		475 642 10262 12163 12233 12474 13008 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

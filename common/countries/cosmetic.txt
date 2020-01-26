@@ -236,3 +236,13 @@ MOR_FRENCH_PROTECTORATE = {
 	color = rgb { 107 128 191 }
 	color_ui = rgb { 107 128 191 }
 }
+
+MOR_FRENCH_PROTECTORATE = {
+	color = rgb { 107 128 191 }
+	color_ui = rgb { 107 128 191 }
+}
+
+AUS_KUK = {
+	color = rgb { 122 84 84 }
+	color_ui = rgb { 122 84 84 }
+}

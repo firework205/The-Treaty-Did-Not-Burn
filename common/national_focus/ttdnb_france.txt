@@ -1,0 +1,802 @@
+focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	focus = {
+		id = FRA_1936_legislative_elections
+		icon = GFX_focus_FRA_1936_elections
+		prerequisite = { focus = UKR_history_of_hetman }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Socialist path
+
+	focus = {
+		id = FRA_front_populaire
+		icon = GFX_goal_moderate_socialist_group
+		prerequisite = { focus = FRA_1936_legislative_elections }
+		mutually_exclusive = { focus = FRA_droit_et_centre }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = FRA_1936_legislative_elections
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_strengthen_workers_rights
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = FRA_front_populaire }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_shorten_workweek
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = FRA_strengthen_workers_rights }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_office_du_ble
+		icon = GFX_goal_generic_wheat
+		prerequisite = { focus = FRA_front_populaire }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_support_small_businesses
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FRA_office_du_ble }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_dissolve_far_right
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = FRA_strengthen_workers_rights focus = FRA_office_du_ble }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_peoples_government
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = FRA_support_small_businesses }
+		prerequisite = { focus = FRA_shorten_workweek}
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_front_populaire
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    #Conservative path
+
+	focus = {
+		id = FRA_droit_et_centre
+		icon = GFX_goal_conservative_group
+		prerequisite = { focus = FRA_1936_legislative_elections }
+		mutually_exclusive = { focus = FRA_front_populaire }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = FRA_1936_legislative_elections
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_veterans_pensions
+		icon = GFX_focus_generic_concessions
+		prerequisite = { focus = FRA_droit_et_centre }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_traditional_values
+		icon = GFX_goal_continuous_def_against_influence
+		prerequisite = { focus = FRA_veterans_pensions }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_limited_welfare
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = FRA_droit_et_centre }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_laissez_faire
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = FRA_limited_welfare }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_ban_communism
+		icon = GFX_goal_anti_comintern_pact
+		prerequisite = { focus = FRA_limited_welfare focus = FRA_veterans_pensions }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_law_and_order
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = FRA_laissez_faire }
+		prerequisite = { focus = FRA_traditional_values }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_droit_et_centre
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_a_successful_gvt
+		icon = GFX_focus_FRA_french_democracy
+		prerequisite = { focus = FRA_law_and_order focus = FRA_peoples_government }
+		available = {
+		}
+		x = 0
+		y = 6
+		relative_position_id = FRA_1936_legislative_elections
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_review_foreign_policy
+		icon = GFX_focus_usa_focus_on_europe
+		available = {
+		    has_completed_focus = FRA_a_successful_gvt
+		}
+		x = 14
+		y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		    create_faction = Allies
+		}
+	}
+
+	#anti-germany branch
+
+	focus = {
+		id = FRA_improve_fortifications
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = FRA_review_foreign_policy }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = FRA_review_foreign_policy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    custom_effect_tooltip = FRA_fortifications_tt
+		}
+	}
+
+	focus = {
+		id = FRA_attack_germany
+		icon = GFX_focus_FRA_attack_germany
+		prerequisite = { focus = FRA_improve_fortifications }
+		available = {
+		    date > 1940.5.1
+		}
+		bypass = { has_war_with = GER }
+		x = 0
+		y = 1
+		relative_position_id = FRA_improve_fortifications
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    create_wargoal = {
+		        type = annex_everything
+		        target = GER
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_german_federation
+		icon = GFX_goal_KR_constitutional_guarantees
+		prerequisite = { focus = FRA_attack_germany }
+		mutually_exclusive = { focus = FRA_german_confederation }
+		available = {
+		    owns_state = 64
+		    owns_state = 52
+		    owns_state = 59 #France only needs the major cities to partition Germany, to prevent bordergore after a weird peacedeal
+		}
+		x = -1
+		y = 2
+		relative_position_id = FRA_improve_fortifications
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    country_event = {
+		        id = partition.1
+		        hours = 0
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_german_confederation
+		icon = GFX_goal_KR_oppression
+		prerequisite = { focus = FRA_attack_germany }
+		mutually_exclusive = { focus = FRA_german_federation }
+		available = {
+		    owns_state = 64
+		    owns_state = 52
+		    owns_state = 59 #France only needs the major cities to partition Germany, to prevent bordergore after a weird peacedeal
+		}
+		x = 1
+		y = 2
+		relative_position_id = FRA_improve_fortifications
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    country_event = {
+		        id = partition.2
+		        hours = 0
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_secure_russia
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = FRA_german_confederation focus = FRA_german_federation }
+		available = {
+		    OR = {
+		        FRA = { controls_state = 64 }
+		        64 = { controller = { is_in_faction_with = FRA } }
+		    }
+		}
+		bypass = {
+		    AND = {
+		        has_war_with = SOV
+		        has_war_with = RUS
+		        has_war_with = RFR
+		    }
+		}
+
+		x = 0
+		y = 3
+		relative_position_id = FRA_improve_fortifications
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    create_wargoal = {
+		        type = annex_everything
+		        target = SOV
+		    }
+		    create_wargoal = {
+		        type = annex_everything
+		        target = RFR
+		    }
+		    create_wargoal = {
+		        type = annex_everything
+		        target = RUS
+		    }
+		}
+	}
+
+	#Foreign alliance branch
+
+	focus = {
+		id = FRA_friends_in_britain
+		icon = GFX_focus_FRA_ally_ENG
+		prerequisite = { focus = FRA_review_foreign_policy }
+		available = {
+		    NOT = { has_war_with = ENG }
+		}
+		x = 3
+		y = 1
+		relative_position_id = FRA_review_foreign_policy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    country_event = {
+		        id = frafor.1
+		        hours = 0
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_reach_out_to_italy
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = FRA_friends_in_britain }
+		available = {
+		    NOT = { has_war_with = ITA }
+		    NOT = { ITA = { is_in_faction = yes } }
+		}
+		x = -2
+		y = 1
+		relative_position_id = FRA_friends_in_britain
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    ITA = { country_event = { id = frafor.5 hours = 6 } }
+		}
+	}
+
+	focus = {
+		id = FRA_secure_alps
+		icon = GFX_focus_AUS_italian_ultimatum
+		prerequisite = { focus = FRA_reach_out_to_italy }
+		mutually_exclusive = { focus = FRA_pressure_yugoslavia }
+		available = {
+		    NOT = { has_war_with = YUG }
+		    ITA = { is_in_faction_with = FRA}
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_reach_out_to_italy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    create_wargoal = {
+		        type = annex_everything
+		        target = ITA
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_pressure_yugoslavia
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = FRA_reach_out_to_italy }
+		mutually_exclusive = { focus = FRA_secure_alps }
+		available = {
+		}
+		bypass = { has_war_with = YUG }
+		x = -1
+		y = 1
+		relative_position_id = FRA_reach_out_to_italy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    YUG = { country_event = frafor.11 }
+		}
+	}
+
+	focus = {
+		id = FRA_secure_austria
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = FRA_pressure_yugoslavia focus = FRA_secure_alps }
+		available = {
+		}
+		bypass = { has_war_with = AUS }
+		x = 0
+		y = 2
+		relative_position_id = FRA_reach_out_to_italy
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    create_wargoal = {
+		        type = annex_everything
+		        target = AUS
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_support_polish_claims
+		icon = GFX_focus_generic_polish_deal
+		prerequisite = { focus = FRA_friends_in_britain }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 1
+		y = 1
+		relative_position_id = FRA_friends_in_britain
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    POL = {
+		        add_state_core = 85
+		        add_state_core = 86
+		        add_state_core = 67
+		    }
+		}
+	}
+
+	focus = {
+		id = FRA_alliance_with_poland
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = FRA_support_polish_claims }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 0
+		y = 1
+		relative_position_id = FRA_support_polish_claims
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+	    }
+	}
+
+	focus = {
+		id = FRA_reach_out_to_belgium
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = FRA_friends_in_britain }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 3
+		y = 1
+		relative_position_id = FRA_friends_in_britain
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_alliance_with_belgium
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FRA_reach_out_to_belgium }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 0
+		y = 1
+		relative_position_id = FRA_reach_out_to_belgium
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_fortify_meuse
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = FRA_alliance_with_belgium }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 0
+		y = 2
+		relative_position_id = FRA_reach_out_to_belgium
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	##East Asian diplomacy
+
+	focus = {
+		id = FRA_east_asian_diplomacy
+		icon = GFX_focus_jap_pacific_guardian
+		prerequisite = { focus = FRA_review_foreign_policy }
+		available = {
+		}
+		bypass = { has_war_with = POL }
+		x = 9
+		y = 1
+		relative_position_id = FRA_review_foreign_policy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_fortify_indochina
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = FRA_east_asian_diplomacy }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_east_asian_diplomacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_ally_siam
+		icon = GFX_focus_generic_siam_flag
+		prerequisite = { focus = FRA_east_asian_diplomacy }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_east_asian_diplomacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_support_chiang
+		icon = GFX_focus_prc_remove_chiang_kai_shek
+		prerequisite = { focus = FRA_ally_siam focus = FRA_fortify_indochina }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_east_asian_diplomacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_war_with_japan
+		icon = GFX_focus_AST_war_japan
+		prerequisite = { focus = FRA_support_chiang }
+		mutually_exclusive = { focus = FRA_japanese_deal }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = FRA_east_asian_diplomacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_japanese_deal
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = FRA_support_chiang }
+		mutually_exclusive = { focus = FRA_war_with_japan }
+		available = {
+		    NOT = { has_war_with = JAP }
+		    controls_state = 671
+		    controls_state = 670
+		    controls_state = 286
+		    controls_state = 741
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = FRA_east_asian_diplomacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    JAP = { country_event = { id = frafor.13 hours 6 } }
+		}
+	}
+}
+

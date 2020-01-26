@@ -1,19 +1,22 @@
+
 state={
 	id=813
 	name="STATE_813"
-	manpower = 1
 
-	state_category = rural
+	history={
+		owner = CSP
+		add_core_of = CSP
+		buildings = {
+			infrastructure = 3
 
-	history = {
-	    owner = CSP
-	    add_core_of = CSP
-	    buildings = {
-	        infrastructure = 3
-	    }
+		}
+
 	}
 
 	provinces={
-		7541 10348 10395 10435 12233 12324 12454 12465 12474 13207 
+		7541 10348 10395 10435 12324 12454 12465 13207 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

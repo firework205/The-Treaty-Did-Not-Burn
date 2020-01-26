@@ -64,48 +64,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 25
-	far_right_populist = 20
+	paternal_autocrat = 61
+	conservative = 10
+	liberal = 9
+	moderate_socialist = 10
+	far_right_populist = 5
 	communist = 5
-	paternal_autocrat = 50
 }
 
 create_country_leader = {
-	name = "Muhammad Naguib"
+	name = "Farouk I"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_conservative1.dds"
-	ideology = liberal_conservative_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmed Husayn"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = far_right_populist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Farouk Muhammad Ali"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "Portrait_EGY_Farouk_I.tga"
 	ideology = reactionary_ideology
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Hosni al-Arabi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = leninist_ideology
-	traits = {
-		#
-	}
-}

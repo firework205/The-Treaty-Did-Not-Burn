@@ -1,0 +1,35 @@
+﻿capital = 64 #Berlin
+
+oob = "FSP_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	moderate_socialist = 43
+	paternal_autocrat = 12
+	far_right_populist = 9
+	conservative = 26
+	liberal = 7
+	communist = 3
+}
+
+create_country_leader = {
+	name = "Karl Steinhoff"
+	desc = "POLITICS_KARL_STEINHOFF_DESC"
+	picture = "Portrait_FSP_Karl_Steinhoff.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_ideology
+	traits = {
+	}
+}
+
+

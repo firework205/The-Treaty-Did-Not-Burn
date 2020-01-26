@@ -1,4 +1,6 @@
 version="1.8.1"
+replace_path = "common/ideas"
+replace_path = "events"
 tags={
 	"Alternative History"
 	"Historical"

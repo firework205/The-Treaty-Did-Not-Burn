@@ -1,0 +1,20 @@
+﻿l_english:
+
+  SOV_anarchist_party:0 "-"
+  
+  SOV_communist_party:0 "RKP"
+  SOV_communist_party_long:0 "SOVskaya Kommunisticheskaya Partiya"
+
+  SOV_moderate_socialist_party:0 "RKP"
+  SOV_moderate_socialist_party_long:0 "SOVskaya Kommunisticheskaya Partiya"
+
+  SOV_liberal_party:0 "K-D"
+  SOV_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+
+  SOV_conservative_party:0 "OK"
+  SOV_conservative_party_long:0 "Soyuz 17 Oktyabrya"
+
+  SOV_paternal_autocrat_party:0 "Románovy"
+  SOV_paternal_autocrat_long:0 "House of Romanov"
+
+  SOV_far_right_populist_party:0 "Kolchak Sympathizers"

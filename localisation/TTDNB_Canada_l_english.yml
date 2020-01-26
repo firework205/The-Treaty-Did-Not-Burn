@@ -1,0 +1,20 @@
+﻿l_english:
+
+  CAN_anarchist_party:0 "-"
+
+  CAN_communist_party:0 "CPC"
+  CAN_communist_party_long:0 "Communist Party Canada"
+
+  CAN_moderate_socialist_party:0 "CCF"
+  CAN_moderate_socialist_party_long:0 "Co-operative Commonwealth Federation"
+
+  CAN_liberal_party:0 "Liberals"
+  CAN_liberal_party_long:0 "Liberal Party of Canada"
+
+  CAN_conservative_party:0 "Tories"
+  CAN_conservative_party_long:0 "Conservative Party of Canada"
+
+  CAN_paternal_autocrat_party:0 "Military Junta"
+
+  CAN_far_right_populist_party:0 "NUP"
+  CAN_far_right_populist_party:0 "National Unity Party"

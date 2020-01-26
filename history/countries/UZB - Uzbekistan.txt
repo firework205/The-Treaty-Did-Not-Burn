@@ -44,25 +44,22 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = conservative
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 50
-	far_right_populist = 1
-	communist = 40
-	paternal_autocrat = 9
+	paternal_autocrat = 100
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = reactionary_ideology
-#	traits = {
-#		#
-#	}
-#}
+ create_country_leader = {
+	
+	name = "Mohammed Alim Khan"
+	picture = "Portrait_UZB_Mohammed_Alim_Khan.tga"
+	expire = "1965.1.1"
+	ideology = reactionary_ideology
+	traits = {
+		#
+	}
+}

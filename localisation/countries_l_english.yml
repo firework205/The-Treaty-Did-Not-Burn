@@ -97,6 +97,8 @@
   SLV_paternal_autocrat_ADJ:0 "Slovenian"
   SLV_far_right_populist_ADJ:0 "Slovenian"
 
+
+
   KAZ_anarchist:0 "Kazakh Socialist Republic"
   KAZ_anarchist_DEF:0 "The Kazakh Socialist Republic"
 
@@ -283,11 +285,11 @@
 
 
 
-  SOV_anarchist:0 "Russian Soviet Republic"
-  SOV_anarchist_DEF:0 "The Russian Soviet Republic"
+  SOV_anarchist:0 "Soviet Russian Republic"
+  SOV_anarchist_DEF:0 "The Soviet Russian Republic"
 
-  SOV_communist:0 "Russian Soviet Republic"
-  SOV_communist_DEF:0 "The Russian Soviet Republic"
+  SOV_communist:0 "Soviet Russian Republic"
+  SOV_communist_DEF:0 "The Soviet Russian Republic"
 
   SOV_moderate_socialist:0 "Russian Democratic Federative Republic"
   SOV_moderate_socialist_DEF:0 "The Russian Democratic Federative Republic"
@@ -559,6 +561,37 @@
   AUS_conservative_ADJ:0 "Austrian"
   AUS_paternal_autocrat_ADJ:0 "Austrian"
   AUS_far_right_populist_ADJ:0 "Austrian"
+
+
+
+  AUS_KUK_anarchist:0 "Socialist Confederation of the Danube, Alpes, and Adria"
+  AUS_KUK_anarchist_DEF:0 "The Socialist Confederation of the Danube, Alpes, and Adria"
+
+  AUS_KUK_communist:0 "Socialist Confederation of the Danube, Alpes, and Adria"
+  AUS_KUK_communist_DEF:0 "The Socialist Confederation of the Danube, Alpes, and Adria"
+
+  AUS_KUK_moderate_socialist:0 "Austria-Hungary"
+  AUS_KUK_moderate_socialist_DEF:0 "Austria-Hungary"
+
+  AUS_KUK_liberal:0 "Austria-Hungary"
+  AUS_KUK_liberal_DEF:0 "Austria-Hungary"
+
+  AUS_KUK_conservative:0 "Austria-Hungary"
+  AUS_KUK_conservative_DEF:0 "Austria-Hungary"
+
+  AUS_KUK_paternal_autocrat:0 "Austria-Hungary"
+  AUS_KUK_paternal_autocrat_DEF:0 "Austria-Hungary"
+
+  AUS_KUK_far_right_populist:0 "Austria-Hungary"
+  AUS_KUK_far_right_populist:0 "Austria-Hungary"
+
+  AUS_KUK_anarchist_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_communist_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_moderate_socialist_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_liberal_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_conservative_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_paternal_autocrat_ADJ:0 "Austro-Hungarian"
+  AUS_KUK_far_right_populist_ADJ:0 "Austro-Hungarian"
 
 
 
@@ -965,6 +998,254 @@
 
 
 
+  WGR_anarchist:0 "Federal Republic of Germany"
+  WGR_anarchist_DEF:0 "The Federal Republic of Germany"
+
+  WGR_communist:0 "Federal Republic of Germany"
+  WGR_communist_DEF:0 "The Federal Republic of Germany"
+
+  WGR_moderate_socialist:0 "Federal Republic of Germany"
+  WGR_moderate_socialist_DEF:0 "The Federal Republic of Germany"
+
+  WGR_liberal:0 "Federal Republic of Germany"
+  WGR_liberal_DEF:0 "The Federal Republic of Germany"
+
+  WGR_conservative:0 "Federal Republic of Germany"
+  WGR_conservative_DEF:0 "The Federal Republic of Germany"
+
+  WGR_paternal_autocrat:0 "Federal Republic of Germany"
+  WGR_paternal_autocrat_DEF:0 "The Federal Republic of Germany"
+
+  WGR_far_right_populist:0 "Federal Republic of Germany"
+  WGR_far_right_populist:0 "the Federal Republic of Germany"
+
+  WGR_anarchist_ADJ:0 "German"
+  WGR_communist_ADJ:0 "German"
+  WGR_moderate_socialist_ADJ:0 "German"
+  WGR_liberal_ADJ:0 "German"
+  WGR_conservative_ADJ:0 "German"
+  WGR_paternal_autocrat_ADJ:0 "German"
+  WGR_far_right_populist_ADJ:0 "German"
+
+
+
+  FSP_anarchist:0 "State of Prussia"
+  FSP_anarchist_DEF:0 "The Free State of Prussia"
+
+  FSP_communist:0 "State of Prussia"
+  FSP_communist_DEF:0 "The Free State of Prussia"
+
+  FSP_moderate_socialist:0 "State of Prussia"
+  FSP_moderate_socialist_DEF:0 "The Free State of Prussia"
+
+  FSP_liberal:0 "State of Prussia"
+  FSP_liberal_DEF:0 "The Free State of Prussia"
+
+  FSP_conservative:0 "State of Prussia"
+  FSP_conservative_DEF:0 "The Free State of Prussia"
+
+  FSP_paternal_autocrat:0 "State of Prussia"
+  FSP_paternal_autocrat_DEF:0 "The Free State of Prussia"
+
+  FSP_far_right_populist:0 "State of Prussia"
+  FSP_far_right_populist:0 "the Free State of Prussia"
+
+  FSP_anarchist_ADJ:0 "Prussian"
+  FSP_communist_ADJ:0 "Prussian"
+  FSP_moderate_socialist_ADJ:0 "Prussian"
+  FSP_liberal_ADJ:0 "Prussian"
+  FSP_conservative_ADJ:0 "Prussian"
+  FSP_paternal_autocrat_ADJ:0 "Prussian"
+  FSP_far_right_populist_ADJ:0 "Prussian"
+
+
+
+  BAV_anarchist:0 "State of Bavaria"
+  BAV_anarchist_DEF:0 "The People's State of Bavaria"
+
+  BAV_communist:0 "State of Bavaria"
+  BAV_communist_DEF:0 "The People's State of Bavaria"
+
+  BAV_moderate_socialist:0 "State of Bavaria"
+  BAV_moderate_socialist_DEF:0 "The People's State of Bavaria"
+
+  BAV_liberal:0 "State of Bavaria"
+  BAV_liberal_DEF:0 "The People's State of Bavaria"
+
+  BAV_conservative:0 "State of Bavaria"
+  BAV_conservative_DEF:0 "The People's State of Bavaria"
+
+  BAV_paternal_autocrat:0 "State of Bavaria"
+  BAV_paternal_autocrat_DEF:0 "The People's State of Bavaria"
+
+  BAV_far_right_populist:0 "State of Bavaria"
+  BAV_far_right_populist:0 "the People's State of Bavaria"
+
+  BAV_anarchist_ADJ:0 "Bavarian"
+  BAV_communist_ADJ:0 "Bavarian"
+  BAV_moderate_socialist_ADJ:0 "Bavarian"
+  BAV_liberal_ADJ:0 "Bavarian"
+  BAV_conservative_ADJ:0 "Bavarian"
+  BAV_paternal_autocrat_ADJ:0 "Bavarian"
+  BAV_far_right_populist_ADJ:0 "Bavarian"
+
+
+
+  HAN_anarchist:0 "Hanoverian Free State"
+  HAN_anarchist_DEF:0 "The Hanoverian Free State"
+
+  HAN_communist:0 "Hanoverian Free State"
+  HAN_communist_DEF:0 "The Hanoverian Free State"
+
+  HAN_moderate_socialist:0 "Hanoverian Free State"
+  HAN_moderate_socialist_DEF:0 "The Hanoverian Free State"
+
+  HAN_liberal:0 "Hanoverian Free State"
+  HAN_liberal_DEF:0 "The Hanoverian Free State"
+
+  HAN_conservative:0 "Hanoverian Free State"
+  HAN_conservative_DEF:0 "The Hanoverian Free State"
+
+  HAN_paternal_autocrat:0 "Hanoverian Free State"
+  HAN_paternal_autocrat_DEF:0 "The Hanoverian Free State"
+
+  HAN_far_right_populist:0 "Hanoverian Free State"
+  HAN_far_right_populist:0 "the Hanoverian Free State"
+
+  HAN_anarchist_ADJ:0 "Hanoverian"
+  HAN_communist_ADJ:0 "Hanoverian"
+  HAN_moderate_socialist_ADJ:0 "Hanoverian"
+  HAN_liberal_ADJ:0 "Hanoverian"
+  HAN_conservative_ADJ:0 "Hanoverian"
+  HAN_paternal_autocrat_ADJ:0 "Hanoverian"
+  HAN_far_right_populist_ADJ:0 "Hanoverian"
+
+
+
+  SAX_anarchist:0 "Saxony"
+  SAX_anarchist_DEF:0 "The Free State of Saxony"
+
+  SAX_communist:0 "Saxony"
+  SAX_communist_DEF:0 "The Free State of Saxony"
+
+  SAX_moderate_socialist:0 "Saxony"
+  SAX_moderate_socialist_DEF:0 "The Free State of Saxony"
+
+  SAX_liberal:0 "Saxony"
+  SAX_liberal_DEF:0 "The Free State of Saxony"
+
+  SAX_conservative:0 "Saxony"
+  SAX_conservative_DEF:0 "The Free State of Saxony"
+
+  SAX_paternal_autocrat:0 "Saxony"
+  SAX_paternal_autocrat_DEF:0 "The Free State of Saxony"
+
+  SAX_far_right_populist:0 "Saxony"
+  SAX_far_right_populist:0 "the Free State of Saxony"
+
+  SAX_anarchist_ADJ:0 "Saxon"
+  SAX_communist_ADJ:0 "Saxon"
+  SAX_moderate_socialist_ADJ:0 "Saxon"
+  SAX_liberal_ADJ:0 "Saxon"
+  SAX_conservative_ADJ:0 "Saxon"
+  SAX_paternal_autocrat_ADJ:0 "Saxon"
+  SAX_far_right_populist_ADJ:0 "Saxon"
+
+
+
+  HSE_anarchist:0 "Republic of Hesse"
+  HSE_anarchist_DEF:0 "The Republic of Hesse"
+
+  HSE_communist:0 "Republic of Hesse"
+  HSE_communist_DEF:0 "The Republic of Hesse"
+
+  HSE_moderate_socialist:0 "Republic of Hesse"
+  HSE_moderate_socialist_DEF:0 "The Republic of Hesse"
+
+  HSE_liberal:0 "Republic of Hesse"
+  HSE_liberal_DEF:0 "The Republic of Hesse"
+
+  HSE_conservative:0 "Republic of Hesse"
+  HSE_conservative_DEF:0 "The Republic of Hesse"
+
+  HSE_paternal_autocrat:0 "Republic of Hesse"
+  HSE_paternal_autocrat_DEF:0 "The Republic of Hesse"
+
+  HSE_far_right_populist:0 "Republic of Hesse"
+  HSE_far_right_populist:0 "the Republic of Hesse"
+
+  HSE_anarchist_ADJ:0 "Hessen"
+  HSE_communist_ADJ:0 "Hessen"
+  HSE_moderate_socialist_ADJ:0 "Hessen"
+  HSE_liberal_ADJ:0 "Hessen"
+  HSE_conservative_ADJ:0 "Hessen"
+  HSE_paternal_autocrat_ADJ:0 "Hessen"
+  HSE_far_right_populist_ADJ:0 "Hessen"
+
+
+
+  KIE_anarchist:0 "Kiel Canal Authority"
+  KIE_anarchist_DEF:0 "The Kiel Canal Authority"
+
+  KIE_communist:0 "Kiel Canal Authority"
+  KIE_communist_DEF:0 "The Kiel Canal Authority"
+
+  KIE_moderate_socialist:0 "Kiel Canal Authority"
+  KIE_moderate_socialist_DEF:0 "The Kiel Canal Authority"
+
+  KIE_liberal:0 "Kiel Canal Authority"
+  KIE_liberal_DEF:0 "The Kiel Canal Authority"
+
+  KIE_conservative:0 "Kiel Canal Authority"
+  KIE_conservative_DEF:0 "The Kiel Canal Authority"
+
+  KIE_paternal_autocrat:0 "Kiel Canal Authority"
+  KIE_paternal_autocrat_DEF:0 "The Kiel Canal Authority"
+
+  KIE_far_right_populist:0 "Kiel Canal Authority"
+  KIE_far_right_populist:0 "the Kiel Canal Authority"
+
+  KIE_anarchist_ADJ:0 "Kiel"
+  KIE_communist_ADJ:0 "Kiel"
+  KIE_moderate_socialist_ADJ:0 "Kiel"
+  KIE_liberal_ADJ:0 "Kiel"
+  KIE_conservative_ADJ:0 "Kiel"
+  KIE_paternal_autocrat_ADJ:0 "Kiel"
+  KIE_far_right_populist_ADJ:0 "Kiel"
+
+
+
+  BDW_anarchist:0 "Baden-Württemberg"
+  BDW_anarchist_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_communist:0 "Baden-Württemberg"
+  BDW_communist_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_moderate_socialist:0 "Free State of Baden-Württemberg"
+  BDW_moderate_socialist_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_liberal:0 "Baden-Württemberg"
+  BDW_liberal_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_conservative:0 "Baden-Württemberg"
+  BDW_conservative_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_paternal_autocrat:0 "Baden-Württemberg"
+  BDW_paternal_autocrat_DEF:0 "The Free State of Baden-Württemberg"
+
+  BDW_far_right_populist:0 "Baden-Württemberg"
+  BDW_far_right_populist:0 "the Free State of Baden-Württemberg"
+
+  BDW_anarchist_ADJ:0 "Baden-Württemberger"
+  BDW_communist_ADJ:0 "Baden-Württemberger"
+  BDW_moderate_socialist_ADJ:0 "Baden-Württemberger"
+  BDW_liberal_ADJ:0 "Baden-Württemberger"
+  BDW_conservative_ADJ:0 "Baden-Württemberger"
+  BDW_paternal_autocrat_ADJ:0 "Baden-Württemberger"
+  BDW_far_right_populist_ADJ:0 "Baden-Württemberger"
+
+
+
   FIN_anarchist:0 "Finnish Democratic Republic"
   FIN_anarchist_DEF:0 "The Finnish Democratic Republic"
 
@@ -1213,11 +1494,11 @@
 
 
 
-  ENG_anarchist:0 "British Socialist Republic"
-  ENG_anarchist_DEF:0 "The British Socialist Republic"
+  ENG_anarchist:0 "British Republic"
+  ENG_anarchist_DEF:0 "The British Republic"
 
-  ENG_communist:0 "British Socialist Republic"
-  ENG_communist_DEF:0 "The British Socialist Republic"
+  ENG_communist:0 "British Republic"
+  ENG_communist_DEF:0 "The British Republic"
 
   ENG_moderate_socialist:0 "Great Britain"
   ENG_moderate_socialist_DEF:0 "Great Britain"
@@ -1803,6 +2084,37 @@
   TUN_FRENCH_PROTECTORATE_paternal_autocrat_ADJ:0 "French-Tunisian"
   TUN_FRENCH_PROTECTORATE_far_right_populist_ADJ:0 "French-Tunisian"
 
+
+
+  EGY_anarchist:0 "Egyptian People's Republic"
+  EGY_anarchist_DEF:0 "The Egyptian Republic"
+
+  EGY_communist:0 "Egyptian People's Republic"
+  EGY_communist_DEF:0 "The Egyptian People's Republic"
+
+  EGY_moderate_socialist:0 "Kingdom of Egypt"
+  EGY_moderate_socialist_DEF:0 "The Kingdom of Egypt"
+
+  EGY_liberal:0 "Kingdom of Egypt"
+  EGY_liberal_DEF:0 "The Kingdom of Egypt"
+
+  EGY_conservative:0 "Kingdom of Egypt"
+  EGY_conservative_DEF:0 "The Kingdom of Egypt"
+
+  EGY_paternal_autocrat:0 "Kingdom of Egypt"
+  EGY_paternal_autocrat_DEF:0 "The Kingdom of Egypt"
+
+  EGY_far_right_populist:0 "Egyptian State"
+  EGY_far_right_populist:0 "the Egyptian State"
+
+  EGY_anarchist_ADJ:0 "Egyptian"
+  EGY_communist_ADJ:0 "Egyptian"
+  EGY_moderate_socialist_ADJ:0 "Egyptian"
+  EGY_liberal_ADJ:0 "Egyptian "
+  EGY_conservative_ADJ:0 "Egyptian"
+  EGY_paternal_autocrat_ADJ:0 "Egyptian"
+  EGY_far_right_populist_ADJ:0 "Egyptian"
+
   #Central Asia
 
   KAZ_anarchist:0 "Anarchist Kazakhstan"
@@ -1999,3 +2311,807 @@
 
   URL_far_right_populist:0 "Ural"
   URL_far_right_populist:0 "Ural"
+
+#Asia
+
+  CHI_anarchist:0 "Chinese Soviet Republic"
+  CHI_anarchist_DEF:0 "The Chinese Soviet Republic"
+
+  CHI_communist:0 "Chinese Soviet Republic"
+  CHI_communist_DEF:0 "The Chinese Soviet Republic"
+
+  CHI_moderate_socialist:0 "Nationalist Government"
+  CHI_moderate_socialist_DEF:0 "The Nationalist Government"
+
+  CHI_liberal:0 "Nationalist Government"
+  CHI_liberal_DEF:0 "The Nationalist Government"
+
+  CHI_conservative:0 "Nationalist Government"
+  CHI_conservative_DEF:0 "The Nationalist Government"
+
+  CHI_paternal_autocrat:0 "Nationalist Government"
+  CHI_paternal_autocrat_DEF:0 "The Nationalist Government"
+
+  CHI_far_right_populist:0 "Nationalist Government"
+  CHI_far_right_populist:0 "the Nationalist Government"
+
+  CHI_anarchist_ADJ:0 "Chinese"
+  CHI_communist_ADJ:0 "Chinese"
+  CHI_moderate_socialist_ADJ:0 "Chinese"
+  CHI_liberal_ADJ:0 "Chinese"
+  CHI_conservative_ADJ:0 "Chinese"
+  CHI_paternal_autocrat_ADJ:0 "Chinese"
+  CHI_far_right_populist_ADJ:0 "Chinese"
+
+
+
+  JAP_anarchist:0 "Japanese People's Republic"
+  JAP_anarchist_DEF:0 "The Japanese People's Republic"
+
+  JAP_communist:0 "Japanese People's Republic"
+  JAP_communist_DEF:0 "The Japanese People's Republic"
+
+  JAP_moderate_socialist:0 "Japanese Republic"
+  JAP_moderate_socialist_DEF:0 "The Japanese Republic"
+
+  JAP_liberal:0 "Japanese Empire"
+  JAP_liberal_DEF:0 "The Japanese Empire"
+
+  JAP_conservative:0 "Japanese Empire"
+  JAP_conservative_DEF:0 "The Japanese Empire"
+
+  JAP_paternal_autocrat:0 "Japanese Empire"
+  JAP_paternal_autocrat_DEF:0 "The Japanese Empire"
+
+  JAP_far_right_populist:0 "Japanese Empire"
+  JAP_far_right_populist:0 "the Japanese Empire"
+
+  JAP_anarchist_ADJ:0 "Japanese"
+  JAP_communist_ADJ:0 "Japanese"
+  JAP_moderate_socialist_ADJ:0 "Japanese"
+  JAP_liberal_ADJ:0 "Japanese"
+  JAP_conservative_ADJ:0 "Japanese"
+  JAP_paternal_autocrat_ADJ:0 "Japanese"
+  JAP_far_right_populist_ADJ:0 "Japanese"
+
+
+
+  SIK_anarchist:0 "Xinjiang Clique"
+  SIK_anarchist_DEF:0 "The Xinjiang Clique"
+
+  SIK_communist:0 "Xinjiang Clique"
+  SIK_communist_DEF:0 "The Xinjiang Clique"
+
+  SIK_moderate_socialist:0 "Xinjiang Clique"
+  SIK_moderate_socialist_DEF:0 "The Xinjiang Clique"
+
+  SIK_liberal:0 "Xinjiang Clique"
+  SIK_liberal_DEF:0 "The Xinjiang Clique"
+
+  SIK_conservative:0 "Xinjiang Clique"
+  SIK_conservative_DEF:0 "The Xinjiang Clique"
+
+  SIK_paternal_autocrat:0 "Xinjiang Clique"
+  SIK_paternal_autocrat_DEF:0 "The Xinjiang Clique"
+
+  SIK_far_right_populist:0 "Xinjiang Clique"
+  SIK_far_right_populist:0 "the Xinjiang Clique"
+
+  SIK_anarchist_ADJ:0 "Xinjiang"
+  SIK_communist_ADJ:0 "Xinjiang"
+  SIK_moderate_socialist_ADJ:0 "Xinjiang"
+  SIK_liberal_ADJ:0 "Xinjiang"
+  SIK_conservative_ADJ:0 "Xinjiang"
+  SIK_paternal_autocrat_ADJ:0 "Xinjiang"
+  SIK_far_right_populist_ADJ:0 "Xinjiang"
+
+
+
+  MAN_anarchist:0 "State of Manchuria"
+  MAN_anarchist_DEF:0 "The State of Manchuria"
+
+  MAN_communist:0 "State of Manchuria"
+  MAN_communist_DEF:0 "The State of Manchuria"
+
+  MAN_moderate_socialist:0 "State of Manchuria"
+  MAN_moderate_socialist_DEF:0 "The State of Manchuria"
+
+  MAN_liberal:0 "State of Manchuria"
+  MAN_liberal_DEF:0 "The State of Manchuria"
+
+  MAN_conservative:0 "State of Manchuria"
+  MAN_conservative_DEF:0 "The State of Manchuria"
+
+  MAN_paternal_autocrat:0 "State of Manchuria"
+  MAN_paternal_autocrat_DEF:0 "The State of Manchuria"
+
+  MAN_far_right_populist:0 "State of Manchuria"
+  MAN_far_right_populist:0 "the State of Manchuria"
+
+  MAN_anarchist_ADJ:0 "Manchu"
+  MAN_communist_ADJ:0 "Manchu"
+  MAN_moderate_socialist_ADJ:0 "Manchu"
+  MAN_liberal_ADJ:0 "Manchu"
+  MAN_conservative_ADJ:0 "Manchu"
+  MAN_paternal_autocrat_ADJ:0 "Manchu"
+  MAN_far_right_populist_ADJ:0 "Manchu"
+
+
+
+  MON_anarchist:0 "Bogd Khanate of Mongolia"
+  MON_anarchist_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_communist:0 "Bogd Khanate of Mongolia"
+  MON_communist_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_moderate_socialist:0 "Bogd Khanate of Mongolia"
+  MON_moderate_socialist_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_liberal:0 "Bogd Khanate of Mongolia"
+  MON_liberal_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_conservative:0 "Bogd Khanate of Mongolia"
+  MON_conservative_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_paternal_autocrat:0 "Bogd Khanate of Mongolia"
+  MON_paternal_autocrat_DEF:0 "The Bogd Khanate of Mongolia"
+
+  MON_far_right_populist:0 "Bogd Khanate of Mongolia"
+  MON_far_right_populist:0 "the Bogd Khanate of Mongolia"
+
+  MON_anarchist_ADJ:0 "Mongolian"
+  MON_communist_ADJ:0 "Mongolian"
+  MON_moderate_socialist_ADJ:0 "Mongolian"
+  MON_liberal_ADJ:0 "Mongolian"
+  MON_conservative_ADJ:0 "Mongolian"
+  MON_paternal_autocrat_ADJ:0 "Mongolian"
+  MON_far_right_populist_ADJ:0 "Mongolian"
+
+  GZH_anarchist:0 "Ghuizou Clique"
+  GZH_anarchist_DEF:0 "The Ghuizou Clique"
+
+  GZH_communist:0 "Ghuizou Clique"
+  GZH_communist_DEF:0 "The Ghuizou Clique"
+
+  GZH_moderate_socialist:0 "Ghuizou Clique"
+  GZH_moderate_socialist_DEF:0 "The Ghuizou Clique"
+
+  GZH_liberal:0 "Ghuizou Clique"
+  GZH_liberal_DEF:0 "The Ghuizou Clique"
+
+  GZH_conservative:0 "Ghuizou Clique"
+  GZH_conservative_DEF:0 "The Ghuizou Clique"
+
+  GZH_paternal_autocrat:0 "Ghuizou Clique"
+  GZH_paternal_autocrat_DEF:0 "The Ghuizou Clique"
+
+  GZH_far_right_populist:0 "Ghuizou Clique"
+  GZH_far_right_populist:0 "the Ghuizou Clique"
+
+  GZH_anarchist_ADJ:0 "Ghuizou"
+  GZH_communist_ADJ:0 "Ghuizou"
+  GZH_moderate_socialist_ADJ:0 "Ghuizou"
+  GZH_liberal_ADJ:0 "Ghuizou"
+  GZH_conservative_ADJ:0 "Ghuizou"
+  GZH_paternal_autocrat_ADJ:0 "Ghuizou"
+  GZH_far_right_populist_ADJ:0 "Ghuizou"
+  
+
+
+  RAJ_anarchist:0 "Indian People's Republic"
+  RAJ_anarchist_DEF:0 "The Indian People's Republic"
+
+  RAJ_communist:0 "Indian People's Republic"
+  RAJ_communist_DEF:0 "The Indian People's Republic"
+
+  RAJ_moderate_socialist:0 "Republic of India"
+  RAJ_moderate_socialist_DEF:0 "The Republic of India"
+
+  RAJ_liberal:0 "Republic of India"
+  RAJ_liberal_DEF:0 "The Republic of India"
+
+  RAJ_conservative:0 "Republic of India"
+  RAJ_conservative_DEF:0 "The Republic of India"
+
+  RAJ_paternal_autocrat:0 "Indian Empire"
+  RAJ_paternal_autocrat_DEF:0 "The Indian Empire"
+
+  RAJ_far_right_populist:0 "Indian Free State"
+  RAJ_far_right_populist:0 "The Indian Free State"
+
+  RAJ_anarchist_ADJ:0 "Indian"
+  RAJ_communist_ADJ:0 "Indian"
+  RAJ_moderate_socialist_ADJ:0 "Indian"
+  RAJ_liberal_ADJ:0 "Indian"
+  RAJ_conservative_ADJ:0 "Indian"
+  RAJ_paternal_autocrat_ADJ:0 "Indian"
+  RAJ_far_right_populist_ADJ:0 "Indian"
+
+
+
+  SUA_anarchist:0 "Sichuan Clique"
+  SUA_anarchist_DEF:0 "The Sichuan Clique"
+
+  SUA_communist:0 "Sichuan Clique"
+  SUA_communist_DEF:0 "The Sichuan Clique"
+
+  SUA_moderate_socialist:0 "Sichuan Clique"
+  SUA_moderate_socialist_DEF:0 "The Sichuan Clique"
+
+  SUA_liberal:0 "Sichuan Clique"
+  SUA_liberal_DEF:0 "The Sichuan Clique"
+
+  SUA_conservative:0 "Sichuan Clique"
+  SUA_conservative_DEF:0 "The Sichuan Clique"
+
+  SUA_paternal_autocrat:0 "Sichuan Clique"
+  SUA_paternal_autocrat_DEF:0 "The Sichuan Clique"
+
+  SUA_far_right_populist:0 "Sichuan Clique"
+  SUA_far_right_populist:0 "the Sichuan Clique"
+
+  SUA_anarchist_ADJ:0 "Sichuan"
+  SUA_communist_ADJ:0 "Sichuan"
+  SUA_moderate_socialist_ADJ:0 "Sichuan"
+  SUA_liberal_ADJ:0 "Sichuan"
+  SUA_conservative_ADJ:0 "Sichuan"
+  SUA_paternal_autocrat_ADJ:0 "Sichuan"
+  SUA_far_right_populist_ADJ:0 "Sichuan"
+
+
+
+  HNA_anarchist:0 "Hunnan Clique"
+  HNA_anarchist_DEF:0 "The Hunnan Clique"
+
+  HNA_communist:0 "Hunnan Clique"
+  HNA_communist_DEF:0 "The Hunnan Clique"
+
+  HNA_moderate_socialist:0 "Hunnan Clique"
+  HNA_moderate_socialist_DEF:0 "The Hunnan Clique"
+
+  HNA_liberal:0 "Hunnan Clique"
+  HNA_liberal_DEF:0 "The Hunnan Clique"
+
+  HNA_conservative:0 "Hunnan Clique"
+  HNA_conservative_DEF:0 "The Hunnan Clique"
+
+  HNA_paternal_autocrat:0 "Hunnan Clique"
+  HNA_paternal_autocrat_DEF:0 "The Hunnan Clique"
+
+  HNA_far_right_populist:0 "Hunnan Clique"
+  HNA_far_right_populist:0 "the Hunnan Clique"
+
+  HNA_anarchist_ADJ:0 "Hunnan"
+  HNA_communist_ADJ:0 "Hunnan"
+  HNA_moderate_socialist_ADJ:0 "Hunnan"
+  HNA_liberal_ADJ:0 "Hunnan"
+  HNA_conservative_ADJ:0 "Hunnan"
+  HNA_paternal_autocrat_ADJ:0 "Hunnan"
+  HNA_far_right_populist_ADJ:0 "Hunnan"
+
+
+
+  SHD_anarchist:0 "Shandong Clique"
+  SHD_anarchist_DEF:0 "The Shandong Clique"
+
+  SHD_communist:0 "Shandong Clique"
+  SHD_communist_DEF:0 "The Shandong Clique"
+
+  SHD_moderate_socialist:0 "Shandong Clique"
+  SHD_moderate_socialist_DEF:0 "The Shandong Clique"
+
+  SHD_liberal:0 "Shandong Clique"
+  SHD_liberal_DEF:0 "The Shandong Clique"
+
+  SHD_conservative:0 "Shandong Clique"
+  SHD_conservative_DEF:0 "The Shandong Clique"
+
+  SHD_paternal_autocrat:0 "Shandong Clique"
+  SHD_paternal_autocrat_DEF:0 "The Shandong Clique"
+
+  SHD_far_right_populist:0 "Shandong Clique"
+  SHD_far_right_populist:0 "the Shandong Clique"
+
+  SHD_anarchist_ADJ:0 "Shandong"
+  SHD_communist_ADJ:0 "Shandong"
+  SHD_moderate_socialist_ADJ:0 "Shandong"
+  SHD_liberal_ADJ:0 "Shandong"
+  SHD_conservative_ADJ:0 "Shandong"
+  SHD_paternal_autocrat_ADJ:0 "Shandong"
+  SHD_far_right_populist_ADJ:0 "Shandong"
+
+
+
+  XSM_anarchist:0 "Qinghai Ma Clique"
+  XSM_anarchist_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_communist:0 "Qinghai Ma Clique"
+  XSM_communist_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_moderate_socialist:0 "Qinghai Ma Clique"
+  XSM_moderate_socialist_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_liberal:0 "Qinghai Ma Clique"
+  XSM_liberal_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_conservative:0 "Qinghai Ma Clique"
+  XSM_conservative_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_paternal_autocrat:0 "Qinghai Ma Clique"
+  XSM_paternal_autocrat_DEF:0 "The Qinghai Ma Clique"
+
+  XSM_far_right_populist:0 "Qinghai Ma Clique"
+  XSM_far_right_populist:0 "the Qinghai Ma Clique"
+
+  XSM_anarchist_ADJ:0 "Qinghai Ma"
+  XSM_communist_ADJ:0 "Qinghai Ma"
+  XSM_moderate_socialist_ADJ:0 "Qinghai Ma"
+  XSM_liberal_ADJ:0 "Qinghai Ma"
+  XSM_conservative_ADJ:0 "Qinghai Ma"
+  XSM_paternal_autocrat_ADJ:0 "Qinghai Ma"
+  XSM_far_right_populist_ADJ:0 "Qinghai Ma"
+
+
+
+  PRC_anarchist:0 "Chinese Soviet Republic"
+  PRC_anarchist_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_communist:0 "Chinese Soviet Republic"
+  PRC_communist_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_moderate_socialist:0 "Chinese Soviet Republic"
+  PRC_moderate_socialist_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_liberal:0 "Chinese Soviet Republic"
+  PRC_liberal_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_conservative:0 "Chinese Soviet Republic"
+  PRC_conservative_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_paternal_autocrat:0 "Chinese Soviet Republic"
+  PRC_paternal_autocrat_DEF:0 "The Chinese Soviet Republic"
+
+  PRC_far_right_populist:0 "Chinese Soviet Republic"
+  PRC_far_right_populist:0 "the Chinese Soviet Republic"
+
+  PRC_anarchist_ADJ:0 "Chinese"
+  PRC_communist_ADJ:0 "Chinese"
+  PRC_moderate_socialist_ADJ:0 "Chinese"
+  PRC_liberal_ADJ:0 "Chinese"
+  PRC_conservative_ADJ:0 "Chinese"
+  PRC_paternal_autocrat_ADJ:0 "Chinese"
+  PRC_far_right_populist_ADJ:0 "Chinese"
+
+
+
+  NXA_anarchist:0 "Gansu Clique"
+  NXA_anarchist_DEF:0 "The Gansu Clique"
+
+  NXA_communist:0 "Gansu Clique"
+  NXA_communist_DEF:0 "The Gansu Clique"
+
+  NXA_moderate_socialist:0 "Gansu Clique"
+  NXA_moderate_socialist_DEF:0 "The Gansu Clique"
+
+  NXA_liberal:0 "Gansu Clique"
+  NXA_liberal_DEF:0 "The Gansu Clique"
+
+  NXA_conservative:0 "Gansu Clique"
+  NXA_conservative_DEF:0 "The Gansu Clique"
+
+  NXA_paternal_autocrat:0 "Gansu Clique"
+  NXA_paternal_autocrat_DEF:0 "The Gansu Clique"
+
+  NXA_far_right_populist:0 "Gansu Clique"
+  NXA_far_right_populist:0 "the Gansu Clique"
+
+  NXA_anarchist_ADJ:0 "Gansu"
+  NXA_communist_ADJ:0 "Gansu"
+  NXA_moderate_socialist_ADJ:0 "Gansu"
+  NXA_liberal_ADJ:0 "Gansu"
+  NXA_conservative_ADJ:0 "Gansu"
+  NXA_paternal_autocrat_ADJ:0 "Gansu"
+  NXA_far_right_populist_ADJ:0 "Gansu"
+
+
+
+  HSG_anarchist:0 "Hsikang Clique"
+  HSG_anarchist_DEF:0 "The Hsikang Clique"
+
+  HSG_communist:0 "Hsikang Clique"
+  HSG_communist_DEF:0 "The Hsikang Clique"
+
+  HSG_moderate_socialist:0 "Hsikang Clique"
+  HSG_moderate_socialist_DEF:0 "The Hsikang Clique"
+
+  HSG_liberal:0 "Hsikang Clique"
+  HSG_liberal_DEF:0 "The Hsikang Clique"
+
+  HSG_conservative:0 "Hsikang Clique"
+  HSG_conservative_DEF:0 "The Hsikang Clique"
+
+  HSG_paternal_autocrat:0 "Hsikang Clique"
+  HSG_paternal_autocrat_DEF:0 "The Hsikang Clique"
+
+  HSG_far_right_populist:0 "Hsikang Clique"
+  HSG_far_right_populist:0 "the Hsikang Clique"
+
+  HSG_anarchist_ADJ:0 "Hsikang"
+  HSG_communist_ADJ:0 "Hsikang"
+  HSG_moderate_socialist_ADJ:0 "Hsikang"
+  HSG_liberal_ADJ:0 "Hsikang"
+  HSG_conservative_ADJ:0 "Hsikang"
+  HSG_paternal_autocrat_ADJ:0 "Hsikang"
+  HSG_far_right_populist_ADJ:0 "Hsikang"
+
+
+
+  JHL_anarchist:0 "Jehol Clique"
+  JHL_anarchist_DEF:0 "The Jehol Clique"
+
+  JHL_communist:0 "Jehol Clique"
+  JHL_communist_DEF:0 "The Jehol Clique"
+
+  JHL_moderate_socialist:0 "Jehol Clique"
+  JHL_moderate_socialist_DEF:0 "The Jehol Clique"
+
+  JHL_liberal:0 "Jehol Clique"
+  JHL_liberal_DEF:0 "The Jehol Clique"
+
+  JHL_conservative:0 "Jehol Clique"
+  JHL_conservative_DEF:0 "The Jehol Clique"
+
+  JHL_paternal_autocrat:0 "Jehol Clique"
+  JHL_paternal_autocrat_DEF:0 "The Jehol Clique"
+
+  JHL_far_right_populist:0 "Jehol Clique"
+  JHL_far_right_populist:0 "the Jehol Clique"
+
+  JHL_anarchist_ADJ:0 "Jehol"
+  JHL_communist_ADJ:0 "Jehol"
+  JHL_moderate_socialist_ADJ:0 "Jehol"
+  JHL_liberal_ADJ:0 "Jehol"
+  JHL_conservative_ADJ:0 "Jehol"
+  JHL_paternal_autocrat_ADJ:0 "Jehol"
+  JHL_far_right_populist_ADJ:0 "Jehol"
+
+
+
+  FCQ_anarchist:0 "Feng Clique"
+  FCQ_anarchist_DEF:0 "The Feng Clique"
+
+  FCQ_communist:0 "Feng Clique"
+  FCQ_communist_DEF:0 "The Feng Clique"
+
+  FCQ_moderate_socialist:0 "Feng Clique"
+  FCQ_moderate_socialist_DEF:0 "The Feng Clique"
+
+  FCQ_liberal:0 "Feng Clique"
+  FCQ_liberal_DEF:0 "The Feng Clique"
+
+  FCQ_conservative:0 "Feng Clique"
+  FCQ_conservative_DEF:0 "The Feng Clique"
+
+  FCQ_paternal_autocrat:0 "Feng Clique"
+  FCQ_paternal_autocrat_DEF:0 "The Feng Clique"
+
+  FCQ_far_right_populist:0 "Feng Clique"
+  FCQ_far_right_populist:0 "the Feng Clique"
+
+  FCQ_anarchist_ADJ:0 "Feng"
+  FCQ_communist_ADJ:0 "Feng"
+  FCQ_moderate_socialist_ADJ:0 "Feng"
+  FCQ_liberal_ADJ:0 "Feng"
+  FCQ_conservative_ADJ:0 "Feng"
+  FCQ_paternal_autocrat_ADJ:0 "Feng"
+  FCQ_far_right_populist_ADJ:0 "Feng"
+
+
+
+  TIB_anarchist:0 "Tibetan People's Republic"
+  TIB_anarchist_DEF:0 "The Tibetan People's Republic"
+
+  TIB_communist:0 "Tibetan People's Republic"
+  TIB_communist_DEF:0 "The Tibetan People's Republic"
+
+  TIB_moderate_socialist:0 "Tibet"
+  TIB_moderate_socialist_DEF:0 "Tibet"
+
+  TIB_liberal:0 "Tibet"
+  TIB_liberal_DEF:0 "Tibet"
+
+  TIB_conservative:0 "Tibet"
+  TIB_conservative_DEF:0 "Tibet"
+
+  TIB_paternal_autocrat:0 "Tibet"
+  TIB_paternal_autocrat_DEF:0 "Tibet"
+
+  TIB_far_right_populist:0 "Tibet"
+  TIB_far_right_populist:0 "Tibet"
+
+  TIB_anarchist_ADJ:0 "Tibetan"
+  TIB_communist_ADJ:0 "Tibetan"
+  TIB_moderate_socialist_ADJ:0 "Tibetan"
+  TIB_liberal_ADJ:0 "Tibetan"
+  TIB_conservative_ADJ:0 "Tibetan"
+  TIB_paternal_autocrat_ADJ:0 "Tibetan"
+  TIB_far_right_populist_ADJ:0 "Tibetan"
+
+
+
+  YUN_anarchist:0 "Dian Clique"
+  YUN_anarchist_DEF:0 "The Dian Clique"
+
+  YUN_communist:0 "Dian Clique"
+  YUN_communist_DEF:0 "The Dian Clique"
+
+  YUN_moderate_socialist:0 "Dian Clique"
+  YUN_moderate_socialist_DEF:0 "The Dian Clique"
+
+  YUN_liberal:0 "Dian Clique"
+  YUN_liberal_DEF:0 "The Dian Clique"
+
+  YUN_conservative:0 "Dian Clique"
+  YUN_conservative_DEF:0 "The Dian Clique"
+
+  YUN_paternal_autocrat:0 "Dian Clique"
+  YUN_paternal_autocrat_DEF:0 "The Dian Clique"
+
+  YUN_far_right_populist:0 "Dian Clique"
+  YUN_far_right_populist:0 "the Dian Clique"
+
+  YUN_anarchist_ADJ:0 "Dian"
+  YUN_communist_ADJ:0 "Dian"
+  YUN_moderate_socialist_ADJ:0 "Dian"
+  YUN_liberal_ADJ:0 "Dian"
+  YUN_conservative_ADJ:0 "Dian"
+  YUN_paternal_autocrat_ADJ:0 "Dian"
+  YUN_far_right_populist_ADJ:0 "Dian"
+
+
+
+  SHX_anarchist:0 "Shanxi Clique"
+  SHX_anarchist_DEF:0 "The Shanxi Clique"
+
+  SHX_communist:0 "Shanxi Clique"
+  SHX_communist_DEF:0 "The Shanxi Clique"
+
+  SHX_moderate_socialist:0 "Shanxi Clique"
+  SHX_moderate_socialist_DEF:0 "The Shanxi Clique"
+
+  SHX_liberal:0 "Shanxi Clique"
+  SHX_liberal_DEF:0 "The Shanxi Clique"
+
+  SHX_conservative:0 "Shanxi Clique"
+  SHX_conservative_DEF:0 "The Shanxi Clique"
+
+  SHX_paternal_autocrat:0 "Shanxi Clique"
+  SHX_paternal_autocrat_DEF:0 "The Shanxi Clique"
+
+  SHX_far_right_populist:0 "Shanxi Clique"
+  SHX_far_right_populist:0 "the Shanxi Clique"
+
+  SHX_anarchist_ADJ:0 "Shanxi"
+  SHX_communist_ADJ:0 "Shanxi"
+  SHX_moderate_socialist_ADJ:0 "Shanxi"
+  SHX_liberal_ADJ:0 "Shanxi"
+  SHX_conservative_ADJ:0 "Shanxi"
+  SHX_paternal_autocrat_ADJ:0 "Shanxi"
+  SHX_far_right_populist_ADJ:0 "Shanxi"
+
+
+
+  GXC_anarchist:0 "New Guanxi Clique"
+  GXC_anarchist_DEF:0 "The New Guanxi Clique"
+
+  GXC_communist:0 "New Guanxi Clique"
+  GXC_communist_DEF:0 "The New Guanxi Clique"
+
+  GXC_moderate_socialist:0 "New Guanxi Clique"
+  GXC_moderate_socialist_DEF:0 "The New Guanxi Clique"
+
+  GXC_liberal:0 "New Guanxi Clique"
+  GXC_liberal_DEF:0 "The New Guanxi Clique"
+
+  GXC_conservative:0 "New Guanxi Clique"
+  GXC_conservative_DEF:0 "The New Guanxi Clique"
+
+  GXC_paternal_autocrat:0 "New Guanxi Clique"
+  GXC_paternal_autocrat_DEF:0 "The New Guanxi Clique"
+
+  GXC_far_right_populist:0 "New Guanxi Clique"
+  GXC_far_right_populist:0 "the New Guanxi Clique"
+
+  GXC_anarchist_ADJ:0 "New Guanxi"
+  GXC_communist_ADJ:0 "New Guanxi"
+  GXC_moderate_socialist_ADJ:0 "New Guanxi"
+  GXC_liberal_ADJ:0 "New Guanxi"
+  GXC_conservative_ADJ:0 "New Guanxi"
+  GXC_paternal_autocrat_ADJ:0 "New Guanxi"
+  GXC_far_right_populist_ADJ:0 "New Guanxi"
+
+
+
+  GUN_anarchist:0 "Yue Clique"
+  GUN_anarchist_DEF:0 "The Yue Clique"
+
+  GUN_communist:0 "Yue Clique"
+  GUN_communist_DEF:0 "The Yue Clique"
+
+  GUN_moderate_socialist:0 "Yue Clique"
+  GUN_moderate_socialist_DEF:0 "The Yue Clique"
+
+  GUN_liberal:0 "Yue Clique"
+  GUN_liberal_DEF:0 "The Yue Clique"
+
+  GUN_conservative:0 "Yue Clique"
+  GUN_conservative_DEF:0 "The Yue Clique"
+
+  GUN_paternal_autocrat:0 "Yue Clique"
+  GUN_paternal_autocrat_DEF:0 "The Yue Clique"
+
+  GUN_far_right_populist:0 "Yue Clique"
+  GUN_far_right_populist:0 "the Yue Clique"
+
+  GUN_anarchist_ADJ:0 "Yue"
+  GUN_communist_ADJ:0 "Yue"
+  GUN_moderate_socialist_ADJ:0 "Yue"
+  GUN_liberal_ADJ:0 "Yue"
+  GUN_conservative_ADJ:0 "Yue"
+  GUN_paternal_autocrat_ADJ:0 "Yue"
+  GUN_far_right_populist_ADJ:0 "Yue"
+
+
+
+  FER_anarchist:0 "Far Eastern Republic"
+  FER_anarchist_DEF:0 "The Far Eastern Republic"
+
+  FER_communist:0 "Far Eastern Republic"
+  FER_communist_DEF:0 "The Far Eastern Republic"
+
+  FER_moderate_socialist:0 "Far Eastern Republic"
+  FER_moderate_socialist_DEF:0 "The Far Eastern Republic"
+
+  FER_liberal:0 "Far Eastern Republic"
+  FER_liberal_DEF:0 "The Far Eastern Republic"
+
+  FER_conservative:0 "Far Eastern Republic"
+  FER_conservative_DEF:0 "The Far Eastern Republic"
+
+  FER_paternal_autocrat:0 "Far Eastern Republic"
+  FER_paternal_autocrat_DEF:0 "The Far Eastern Republic"
+
+  FER_far_right_populist:0 "Far Eastern Republic"
+  FER_far_right_populist:0 "the Far Eastern Republic"
+
+  FER_anarchist_ADJ:0 "Far Eastern Russian"
+  FER_communist_ADJ:0 "Far Eastern Russian"
+  FER_moderate_socialist_ADJ:0 "Far Eastern Russian"
+  FER_liberal_ADJ:0 "Far Eastern Russian"
+  FER_conservative_ADJ:0 "Far Eastern Russian"
+  FER_paternal_autocrat_ADJ:0 "Far Eastern Russian"
+  FER_far_right_populist_ADJ:0 "Far Eastern Russian"
+
+
+
+  RFR_anarchist:0 "Russian Federative Republic"
+  RFR_anarchist_DEF:0 "The Russian Federative Republic"
+
+  RFR_communist:0 "Russian Federative Republic"
+  RFR_communist_DEF:0 "The Russian Federative Republic"
+
+  RFR_moderate_socialist:0 "Russian Federative Republic"
+  RFR_moderate_socialist_DEF:0 "The Russian Federative Republic"
+
+  RFR_liberal:0 "Russian Federative Republic"
+  RFR_liberal_DEF:0 "The Russian Federative Republic"
+
+  RFR_conservative:0 "Russian Federative Republic"
+  RFR_conservative_DEF:0 "The Russian Federative Republic"
+
+  RFR_paternal_autocrat:0 "Russian Federative Republic"
+  RFR_paternal_autocrat_DEF:0 "The Russian Federative Republic"
+
+  RFR_far_right_populist:0 "Russian Federative Republic"
+  RFR_far_right_populist:0 "the Russian Federative Republic"
+
+  RFR_anarchist_ADJ:0 "Russian Federationist"
+  RFR_communist_ADJ:0 "Russian Federationist"
+  RFR_moderate_socialist_ADJ:0 "Russian Federationist"
+  RFR_liberal_ADJ:0 "Russian Federationist"
+  RFR_conservative_ADJ:0 "Russian Federationist"
+  RFR_paternal_autocrat_ADJ:0 "Russian Federationist"
+  RFR_far_right_populist_ADJ:0 "Russian Federationist"
+
+
+
+  BRY_anarchist:0 "Buryatian SSR"
+  BRY_anarchist_DEF:0 "The Buryatian Soviet Socialist Republic"
+
+  BRY_communist:0 "Buryatian SSR"
+  BRY_communist_DEF:0 "The Buryatian Soviet Socialist Republic"
+
+  BRY_moderate_socialist:0 "Buryatia"
+  BRY_moderate_socialist_DEF:0 "Buryatia"
+
+  BRY_liberal:0 "Buryatia"
+  BRY_liberal_DEF:0 "Buryatia"
+
+  BRY_conservative:0 "Buryatia"
+  BRY_conservative_DEF:0 "Buryatia"
+
+  BRY_paternal_autocrat:0 "Buryatia"
+  BRY_paternal_autocrat_DEF:0 "Buryatia"
+
+  BRY_far_right_populist:0 "Buryatia"
+  BRY_far_right_populist:0 "Buryatia"
+
+  BRY_anarchist_ADJ:0 "Buryatian"
+  BRY_communist_ADJ:0 "Buryatian"
+  BRY_moderate_socialist_ADJ:0 "Buryatian"
+  BRY_liberal_ADJ:0 "Buryatian"
+  BRY_conservative_ADJ:0 "Buryatian"
+  BRY_paternal_autocrat_ADJ:0 "Buryatian"
+  BRY_far_right_populist_ADJ:0 "Buryatian"
+
+  ##North America
+
+  USA_anarchist:0 "American People's Republic"
+  USA_anarchist_DEF:0 "The American People's Republic"
+
+  USA_communist:0 "American People's Republic"
+  USA_communist_DEF:0 "The American People's Republic"
+
+  USA_moderate_socialist:0 "United States of America"
+  USA_moderate_socialist_DEF:0 "The United States of America"
+
+  USA_liberal:0 "United States of America"
+  USA_liberal_DEF:0 "The United States of America"
+
+  USA_conservative:0 "United States of America"
+  USA_conservative_DEF:0 "The United States of America"
+
+  USA_paternal_autocrat:0 "United States of America"
+  USA_paternal_autocrat_DEF:0 "The United States of America"
+
+  USA_far_right_populist:0 "United States of America"
+  USA_far_right_populist:0 "the United States of America"
+
+  USA_anarchist_ADJ:0 "American"
+  USA_communist_ADJ:0 "American"
+  USA_moderate_socialist_ADJ:0 "American"
+  USA_liberal_ADJ:0 "American"
+  USA_conservative_ADJ:0 "American"
+  USA_paternal_autocrat_ADJ:0 "American"
+  USA_far_right_populist_ADJ:0 "American"
+
+
+
+  CAN_anarchist:0 "Socialist Republic of Canada"
+  CAN_anarchist_DEF:0 "The Socialist Republic of Canada"
+
+  CAN_communist:0 "Canadian People's Republic"
+  CAN_communist_DEF:0 "The Canadian People's Republic"
+
+  CAN_moderate_socialist:0 "Dominion of Canada"
+  CAN_moderate_socialist_DEF:0 "The Dominion of Canada"
+
+  CAN_liberal:0 "Dominion of Canada"
+  CAN_liberal_DEF:0 "The Dominion of Canada"
+
+  CAN_conservative:0 "Dominion of Canada"
+  CAN_conservative_DEF:0 "The Dominion of Canada"
+
+  CAN_paternal_autocrat:0 "Dominion of Canada"
+  CAN_paternal_autocrat_DEF:0 "The Dominion of Canada"
+
+  CAN_far_right_populist:0 "Canadian National Union"
+  CAN_far_right_populist:0 "the Canadian National Union"
+
+  CAN_anarchist_ADJ:0 "Canadian"
+  CAN_communist_ADJ:0 "Canadian"
+  CAN_moderate_socialist_ADJ:0 "Canadian"
+  CAN_liberal_ADJ:0 "Canadian"
+  CAN_conservative_ADJ:0 "Canadian"
+  CAN_paternal_autocrat_ADJ:0 "Canadian"
+  CAN_far_right_populist_ADJ:0 "Canadian"
