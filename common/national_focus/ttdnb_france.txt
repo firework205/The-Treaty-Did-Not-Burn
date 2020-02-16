@@ -312,7 +312,7 @@ focus_tree = {
 		available = {
 		    has_completed_focus = FRA_a_successful_gvt
 		}
-		x = 14
+		x = 22
 		y = 0
 		cost = 3
 		ai_will_do = {
@@ -786,9 +786,9 @@ focus_tree = {
 		    controls_state = 741
 		}
 		cancel_if_invalid = yes
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = FRA_east_asian_diplomacy
+		relative_position_id = FRA_support_chiang
 		cost = 2
 		ai_will_do = {
 			factor = 5
@@ -796,6 +796,259 @@ focus_tree = {
 		
 		completion_reward = {
 		    JAP = { country_event = { id = frafor.13 hours 6 } }
+		}
+	}
+
+	#fascist path
+
+	focus = {
+		id = FRA_fascist_coup
+		icon = GFX_focus_generic_support_fascism
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 13
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	##AF
+
+	focus = {
+		id = FRA_action_francais
+		icon = GFX_goal_generic_support_fascism
+		prerequisite = { focus = FRA_fascist_coup }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_fascist_coup
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_orleanist_restoration
+		icon = GFX_focus_FRA_orleanist_restoration
+		prerequisite = { focus = FRA_action_francais }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_action_francais
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_popularity = {
+		        ideology = paternal_autocrat
+		        popularity = 0.15
+		    }
+		    create_country_leader = {
+	            name = "Henri D'Orléans"
+	            desc = "POLITICS_Henri_VI"
+	            picture = "Portrait_FRA_Henri_Dorleans.tga"
+	            expire = "1965.1.1"
+	            ideology = reactionary_ideology
+	            traits = {}
+		        #
+		    }
+		}
+		set_cosmetic_tag = FRA_kingdom
+	}
+
+	focus = {
+		id = FRA_garde_du_corps
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = FRA_orleanist_restoration }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_action_francais
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_church_and_state
+		icon = GFX_focus_generic_home_defense
+		prerequisite = { focus = FRA_garde_du_corps }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = FRA_action_francais
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_vive_le_roi
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = FRA_church_and_state focus = FRA_militarize_the_youth }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_action_francais
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	##Front de la liberte
+
+	focus = {
+		id = FRA_FDLL
+		icon = GFX_goal_far_right_populist_group
+		prerequisite = { focus = FRA_fascist_coup }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_fascist_coup
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_consolidation_of_power
+		icon = GFX_goal_KR_oppression
+		prerequisite = { focus = FRA_FDLL }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_FDLL
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_destroy_domestic_enemies
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = FRA_consolidation_of_power }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_FDLL
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_propaganda_broadcasts
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = FRA_destroy_domestic_enemies }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = FRA_FDLL
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_one_french_state
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = { focus = FRA_propaganda_broadcasts focus = FRA_militarize_the_youth }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_FDLL
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_anti_commie_crackdown
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = FRA_action_francais focus = FRA_FDLL }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_fascist_coup
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_militarize_the_youth
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = FRA_anti_commie_crackdown }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_fascist_coup
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
 		}
 	}
 }

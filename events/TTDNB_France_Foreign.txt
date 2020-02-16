@@ -223,6 +223,10 @@ country_event = {
         give_guarantee = FRA
         FRA = { give_guarantee = JAP }
         FRA = { country_event = { id = frafor.14 hours = 6 } }
+        transfer_state = 671
+        transfer_state = 670
+        transfer_state = 286
+        transfer_state = 741
     }
 
     option = {

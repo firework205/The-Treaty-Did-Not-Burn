@@ -322,17 +322,17 @@
   POL_communist:0 "Polish People's Republic"
   POL_communist_DEF:0 "The Polish People's Republic"
 
-  POL_moderate_socialist:0 "Kingdom of Poland"
-  POL_moderate_socialist_DEF:0 "The Kingdom of Poland"
+  POL_moderate_socialist:0 "Polish Republic"
+  POL_moderate_socialist_DEF:0 "The Polish Republic"
 
-  POL_liberal:0 "Kingdom of Poland"
-  POL_liberal_DEF:0 "The Kingdom of Poland"
+  POL_liberal:0 "Polish Republic"
+  POL_liberal_DEF:0 "The Polish Republic"
 
-  POL_conservative:0 "Kingdom of Poland"
-  POL_conservative_DEF:0 "The Kingdom of Poland"
+  POL_conservative:0 "Polish Republic"
+  POL_conservative_DEF:0 "The Polish Republic"
 
-  POL_paternal_autocrat:0 "Kingdom of Poland"
-  POL_paternal_autocrat_DEF:0 "The Kingdom of Poland"
+  POL_paternal_autocrat:0 "Polish Republic"
+  POL_paternal_autocrat_DEF:0 "The Polish Republic"
 
   POL_far_right_populist:0 "Polish State"
   POL_far_right_populist:0 "The Polish State"
@@ -362,11 +362,11 @@
   LIT_conservative:0 "Republic of Lithuania"
   LIT_conservative_DEF:0 "The Republic of Lithuania"
 
-  LIT_paternal_autocrat:0 "Kingdom of Lithuania"
-  LIT_paternal_autocrat_DEF:0 "The Kingdom of Lithuania"
+  LIT_paternal_autocrat:0 "Republic of Lithuania"
+  LIT_paternal_autocrat_DEF:0 "The Republic of Lithuania"
 
-  LIT_far_right_populist:0 "Lithuanian State"
-  LIT_far_right_populist:0 "The Lithuanian State"
+  LIT_far_right_populist:0 "Republic of Lithuania"
+  LIT_far_right_populist:0 "The Republic of Lithuania"
 
   LIT_anarchist_ADJ:0 "Lithuanian"
   LIT_communist_ADJ:0 "Lithuanian"
@@ -1531,20 +1531,20 @@
   BLR_communist:0 "Belarusian Soviet Socialist Republic"
   BLR_communist_DEF:0 "The Belarusian Soviet Socialist Republic"
 
-  BLR_moderate_socialist:0 "Belarus"
-  BLR_moderate_socialist_DEF:0 "The Belarusian National Republic"
+  BLR_moderate_socialist:0 "Belarusian People's Republic"
+  BLR_moderate_socialist_DEF:0 "The Belarusian People's Republic"
 
-  BLR_liberal:0 "Belarus"
-  BLR_liberal_DEF:0 "The Belarusian National Republic"
+  BLR_liberal:0 "Belarusian People's Republic"
+  BLR_liberal_DEF:0 "The Belarusian People's Republic"
 
-  BLR_conservative:0 "Belarus"
-  BLR_conservative_DEF:0 "The Belarusian National Republic"
+  BLR_conservative:0 "Belarusian People's Republic"
+  BLR_conservative_DEF:0 "The Belarusian People's Republic"
 
-  BLR_paternal_autocrat:0 "Belarus"
-  BLR_paternal_autocrat_DEF:0 "The Belarusian National Republic"
+  BLR_paternal_autocrat:0 "Belarusian People's Republic"
+  BLR_paternal_autocrat_DEF:0 "The Belarusian People's Republic"
 
-  BLR_far_right_populist:0 "Belarusian National Republic"
-  BLR_far_right_populist:0 "the Belarusian National Republic"
+  BLR_far_right_populist:0 "Belarusian People's Republic"
+  BLR_far_right_populist:0 "the Belarusian People's Republic"
 
   BLR_anarchist_ADJ:0 "Belarusian"
   BLR_communist_ADJ:0 "Belarusian"

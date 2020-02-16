@@ -4,7 +4,7 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = GER
+		owner = POL
 		victory_points = {
 			362 10 
 		}
@@ -21,12 +21,13 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
+		add_core_of = POL
+		set_demilitarized_zone = yes
 
 	}
 
 	provinces={
-		243 279 334 389 3295 3324 6347 9263 
+		334 389 3295 3324 6347 9263 
 	}
 	manpower=1080100
 	buildings_max_level_factor=1.000

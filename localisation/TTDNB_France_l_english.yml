@@ -77,6 +77,38 @@
   FRA_war_with_japan:0 "War with Japan"
   FRA_japanese_deal:0 "The Treaty of Taipei"
 
+  FRA_1940_elections:0 "1940 Presidential Elections"
+  FRA_centre_victory:0 "Centre Victory"
+  FRA_SFIO:0 "SFIO"
+  FRA_strengthen_welfare:0 "Strengthen Welfare"
+  FRA_increased_taxes:0 "Raise Taxes"
+  FRA_an_equal_france:0 "An Equal France"
+  FRA_radicaux:0 "Radicaux"
+  FRA_trade_with_neighbours:0 "Trade with Neighbouring Nations"
+  FRA_public_works_projects:0 "Public Works Projects"
+  FRA_moderate_france:0 "A Moderate France"
+  FRA_ad_fr:0 "AD/FR"
+  FRA_support_capitalists:0 "Support Capitalists"
+  FRA_free_trade:0 "Free Trade"
+  FRA_patriotic_france:0 "A Patriotic France"
+  FRA_defend_democracy:0 "Defend Democracy"
+
+  FRA_fascist_coup:0 "Fascist Coup"
+  FRA_action_francais:0 "Action Française"
+  FRA_orleanist_restoration:0 "Orléanist Restoration"
+  FRA_garde_du_corps:0 "Garde du Corps"
+  FRA_church_and_state:0 "Church and State"
+  FRA_vive_le_roi:0 "Vive le Roi!"
+  FRA_FDLL:0 "Front de la Liberté"
+  FRA_consolidation_of_power:0 "Consolidation of Power"
+  FRA_destroy_domestic_enemies:0 "Destroy Domestic Enemies"
+  FRA_propaganda_broadcasts:0 "Propaganda Broadcasts"
+  FRA_one_french_state:0 "One French State"
+  FRA_anti_commie_crackdown:0 "Crackdown Against the Left"
+  FRA_militarize_the_youth:0 "Militarize the Youth"
+
+
+
   #events
   frafor.1.d:0 "With Germany once again gathering strength to our west, and with the Japanese in the east threatening European colonies in Asia, perhaps the time has come for a restoration of the Anglo-French Entente. Throughout the Great War, the British were our staunch allies, helping us to stop the German advance and protect Paris. Though we have drifted apart in recent years, now is the perfect time to determine whether or not the alliance has stood the test of time."
   frafor.2.d:0 "Following recent trends showing the improvement of Franco-British relations, France has requested a second Franco-British summit, phrasing it as a "Second Entente Cordiale". With Germany having greatly picked up in strength in recent months, we have little reason to refuse this proposal. However, are the British people really ready to abandon their isolation again?

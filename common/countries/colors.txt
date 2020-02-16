@@ -42,8 +42,8 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 181 202 222 }
-	color_ui = rgb { 181 202 222 }
+	color = rgb { 183 121 80 }
+	color_ui = rgb { 183 121 80 }
 }
 EST = {
 	color = rgb { 124 176 211 }
@@ -66,8 +66,8 @@ ROM = {
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 85 109 127 }
+	color_ui = rgb { 85 109 127 }
 }
 SWI = {
 	color = rgb { 224 5 5 }
@@ -413,8 +413,8 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 179 184 214 }
-	color_ui = rgb { 179 184 214 }
+	color = rgb { 107 127 109 }
+	color_ui = rgb { 107 127 109 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -546,8 +546,8 @@ COU = {
 }
 
 LIV = {
-	color = rgb { 82 135 87 }
-	color_ui = rgb { 82 135 87 }
+	color = rgb { 141 137 181 }
+	color_ui = rgb { 141 137 181 }
 }
 
 KUB = {
@@ -561,8 +561,8 @@ CMA = {
 }
 
 DON = {
-	color = rgb { 76 116 153 }
-	color_ui = rgb { 76 116 153 }
+	color = rgb { 107 142 175 }
+	color_ui = rgb { 107 142 175 }
 }
 
 MOL = {
@@ -661,8 +661,8 @@ HSG = {
 }
 
 RFR = {
-    color = rgb { 82 107 80 }
-    color_ui = rgb { 82 107 80 }
+    color = rgb { 109 122 82 }
+    color_ui = rgb { 109 122 82 }
 }
 
 FER = {

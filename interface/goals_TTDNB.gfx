@@ -387,6 +387,11 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_UKR_united_ukraine.tga"			
 	}
 
+	SpriteType = {
+	name = "GFX_focus_FRA_orleanist_restoration"
+	texturefile = "gfx/interface/goals/focus_FRA_orleanist_restoration.tga"			
+	}
+
 
 #######################
 ###Kaiserreich goals###
