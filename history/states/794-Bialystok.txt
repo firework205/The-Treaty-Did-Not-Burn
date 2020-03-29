@@ -6,10 +6,7 @@ state={
 	history={
 		owner = LIT
 		add_core_of = LIT
-                add_core_of = POL
-		victory_points = {
-			13222 3 
-		}
+		add_core_of = POL
 		buildings = {
 			infrastructure = 6
 
@@ -18,7 +15,7 @@ state={
 	}
 
 	provinces={
-		290 318 347 3281 6359 11247 11357 13206 13227 
+		290 318 347 3281 6359 11247 11357 13206 13243 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

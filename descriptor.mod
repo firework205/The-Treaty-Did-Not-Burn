@@ -1,6 +1,8 @@
 version="1.8.1"
 replace_path = "common/ideas"
 replace_path = "events"
+replace_path = "history/states"
+replace_path = "map/strategicregions"
 tags={
 	"Alternative History"
 	"Historical"
