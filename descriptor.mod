@@ -1,4 +1,4 @@
-version="1.8.1"
+version="1.9.*"
 replace_path = "common/ideas"
 replace_path = "events"
 replace_path = "history/states"
