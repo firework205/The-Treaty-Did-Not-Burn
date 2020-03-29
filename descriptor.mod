@@ -3,6 +3,7 @@ replace_path = "common/ideas"
 replace_path = "events"
 replace_path = "history/states"
 replace_path = "map/strategicregions"
+replace_path = "common/scripted_localisation"
 tags={
 	"Alternative History"
 	"Historical"
@@ -10,4 +11,4 @@ tags={
 	"National Focuses"
 }
 name="The Treaty Did Not Burn"
-supported_version="1.8.1"
+supported_version="1.9.*"
