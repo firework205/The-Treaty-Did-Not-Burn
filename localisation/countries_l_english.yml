@@ -534,25 +534,25 @@
 
 
   AUS_anarchist:0 "Austrian Democratic Republic"
-  AUS_anarchist_DEF:0 "The Austrian Democratic Republic"
+  AUS_anarchist_DEF:0 "Austrian Democratic Republic"
 
   AUS_communist:0 "Austrian Democratic Republic"
-  AUS_communist_DEF:0 "The Austrian Democratic Republic"
+  AUS_communist_DEF:0 "Austrian Democratic Republic"
 
-  AUS_moderate_socialist:0 "Austrian Empire"
-  AUS_moderate_socialist_DEF:0 "The Austrian Empire"
+  AUS_moderate_socialist:0 "Austria"
+  AUS_moderate_socialist_DEF:0 "Austria"
 
-  AUS_liberal:0 "Austrian Empire"
-  AUS_liberal_DEF:0 "The Austrian Empire"
+  AUS_liberal:0 "Austria"
+  AUS_liberal_DEF:0 "Austria"
 
-  AUS_conservative:0 "Austrian Empire"
-  AUS_conservative_DEF:0 "The Austrian Empire"
+  AUS_conservative:0 "Austria"
+  AUS_conservative_DEF:0 "Austria"
 
-  AUS_paternal_autocrat:0 "Austrian Empire"
-  AUS_paternal_autocrat_DEF:0 "The Austrian Empire"
+  AUS_paternal_autocrat:0 "Austria"
+  AUS_paternal_autocrat_DEF:0 "Austria"
 
-  AUS_far_right_populist:0 "Austrian Empire"
-  AUS_far_right_populist:0 "The Austrian Empire"
+  AUS_far_right_populist:0 "Austria"
+  AUS_far_right_populist:0 "Austria"
 
   AUS_anarchist_ADJ:0 "Austrian"
   AUS_communist_ADJ:0 "Austrian"

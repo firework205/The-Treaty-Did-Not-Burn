@@ -4,6 +4,7 @@ replace_path = "events"
 replace_path = "history/states"
 replace_path = "map/strategicregions"
 replace_path = "common/scripted_localisation"
+replace_path = "gfx/loadingscreens"
 tags={
 	"Alternative History"
 	"Historical"

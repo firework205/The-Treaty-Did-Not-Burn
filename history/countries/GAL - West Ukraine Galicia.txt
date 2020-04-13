@@ -61,54 +61,31 @@ if = {
 }
 
 set_popularities = {
-	conservative = 20
-	far_right_populist = 30
-	communist = 50
+	conservative = 45
+	liberal = 25
+	paternal_autocrat = 12
+	communist = 13
+	far_right_populist = 5
 }
+
+set_politics = {
+    ruling_party = conservative
+    last_election = "1936.1.1"
+    elections_allowed = no
+    election_frequency = 38
+}
+
 
 create_country_leader = {
 	name = "Kost Levytsky"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/GAL_Levytsky.tga"
 	expire = "1953.3.1"
 	ideology = liberal_conservative_ideology
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = leninist_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = far_right_populist_ideology
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = reactionary_ideology
-#	traits = {
-#		
-#	}
-#}
 
 
 

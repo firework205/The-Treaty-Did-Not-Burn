@@ -31,6 +31,7 @@ country_event = {
     id = austria.2
     title = "The Emperor Sleeping"
     desc = austria.2.d
+    picture = "GFX_report_event_aus_karl_i_died"
 
     is_triggered_only = yes
 
@@ -48,25 +49,7 @@ country_event = {
 	            traits = {}
 		        #
 		    }
-            create_country_leader = {
-	            name = "Otto I"
-	            desc = "POLITICS_OTTO_I"
-	            picture = "Portrait_AUS_Otto_I.tga"
-	            expire = "1965.1.1"
-	            ideology = reactionary_ideology
-	            traits = {}
-		        #
-		    }
-            create_country_leader = {
-	            name = "Otto I"
-	            desc = "POLITICS_OTTO_I"
-	            picture = "Portrait_AUS_Otto_I.tga"
-	            expire = "1965.1.1"
-	            ideology = social_democrat_ideology
-	            traits = {}
-		        #
-		    }
-		}
+        }
 
 		set_country_flag = AUS_kaiser_karl_died_flag
 		custom_effect_tooltip = imperial_coronation_cando_tt

@@ -179,7 +179,7 @@ ideologies = {
 			
 			reactionary_ideology = {
 			}
-			paternal_autocrat_democrat_ideology = {
+			authoritarian_democrat_ideology = {
 			}
 			dictatorship_ideology = {
 			}

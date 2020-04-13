@@ -22,7 +22,6 @@ state={
 
 		}
 		add_core_of = POL
-		set_demilitarized_zone = yes
 
 	}
 

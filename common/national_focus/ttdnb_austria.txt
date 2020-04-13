@@ -10,7 +10,7 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 2000 y = 1626 }
+	continuous_focus_position = { x = 900 y = 200 }
 
 	#Initial foci (Imperial Coronation Path)
 
@@ -646,7 +646,7 @@ focus_tree = {
 		prerequisite = { focus = AUS_imperial_coronation }
 		available = {
 		}
-		x = 10
+		x = 7
 		y = 1
 		relative_position_id = AUS_imperial_coronation
 		cost = 7
@@ -958,7 +958,7 @@ focus_tree = {
 		prerequisite = { focus = AUS_imperial_coronation }
 		available = {
 		}
-		x = -15
+		x = -11
 		y = 1
 		relative_position_id = AUS_imperial_coronation
 		cost = 10
