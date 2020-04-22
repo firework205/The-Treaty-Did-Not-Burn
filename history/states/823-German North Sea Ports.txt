@@ -15,7 +15,7 @@ state={
 			9347 20 
 		}
 	    buildings = {
-	        naval_dockyard = 2
+	        dockyard = 2
 	    }
 	}
 
