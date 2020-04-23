@@ -172,7 +172,7 @@ units = {
 		name = "11. Brigade"			
 		location = 9630  # Bozen
 		division_template = "Alpenjäger Division"
-		start_experience_factor = 0.9
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.88
 
 	}
@@ -181,7 +181,7 @@ units = {
 		name = "12. Division"			
 		location = 543  # southern sudetenland
 		division_template = "Infanterie Division"
-		start_experience_factor = 0.9
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.88
 
 	}
