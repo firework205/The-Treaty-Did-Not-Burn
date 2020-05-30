@@ -127,11 +127,7 @@
   AUS_democratic_tt:0 "§GWe must work to strengthen democracy in our nation§G"
 
   AUS_coup_successful:0 "Reactionary plotters have taken control of the nation"
-
-  AUS_claim_bohemia_tt:0 "Lay claim to our former territories in §MCzechoslovakia§M"
-  AUS_reclaim_galicia_tt:0 "Lay claim to our former territories in §MGalicia-Lodomeria§M"
-  AUS_kill_yug_tt:0 "We will focus on ending §MYugoslavian§M hegemony in the Balkans"
-
+  
   #misc
 
   aus_danubian_alliance:0 "Donaubund"
@@ -153,3 +149,4 @@
   austria.102.d:0 "Today the Imperial Government of Austria has sent us a telegram demanding that Horthy step down as regent and restore Habsburg rule to Hungary. Though Otto von Habsburg is indeed our legitimate king, the question is whether or not the Hungarian people are ready to go back to being under the Austrian boot."
   austria.103.d:0 "Horthy has accepted our demands for the restoration of Hungary under Habsburg rule. In Vienna and Budapest, preparations are already being made for the coronation of Otto I as King of Hungary."
   austria.104.d:0 "Rather than restoring Habsburg rule over his country as we were expecting him to, it seems that Miklos Horthy has decided to proclaim Hungary a Republic instead, formally bringing an end to the Kingdom that existed in at least some form since the middle ages, This is unfortunate news indeed..."
+  austria.108.d:0 "Once again, the Habsburg Eagle has spread its wings across the Danube, and many of our former Empire's great cities are once again under Austrian control. However, with our recent conquests, one question remains. How should the Kaiser's various territories be organized? Some are proposing that we work with the numerous Hungarian loyalists to restore the Dual Monarchy to its previous structure. Others propose that we should federalize our former Empire into a United States of Greater Austria in which the many minorities may be united under one identity. Of course, the military along with many right-wing politicians feel that keeping these territories under a tight leash and ruling them directly from Vienna may be the most efficient way to rule over our newly-reconquered territories. The choice lies in the hands of Kaiser Otto. Which path shall we pursue?"

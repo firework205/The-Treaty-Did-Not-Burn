@@ -416,6 +416,21 @@ spriteTypes = {
 	name = "GFX_goal_KR_constitutional_guarantees"
 	texturefile = "gfx/interface/goals/goal_KR_constitutional_guarantees.tga"			
 	}
+
+	SpriteType = {
+	name = "GFX_goal_AUS_slovenian_question"
+	texturefile = "gfx/interface/goals/AUS_slovenian_question.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_AUS_slovenian_turmoil"
+	texturefile = "gfx/interface/goals/AUS_slovenian_turmoil.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_AUS_military_funding"
+	texturefile = "gfx/interface/goals/AUS_military_funding.tga"			
+	}
 }
 
 

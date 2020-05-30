@@ -116,6 +116,16 @@ bookmarks = {
 			focuses = {
 			}
 		}
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

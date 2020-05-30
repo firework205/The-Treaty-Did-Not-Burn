@@ -593,6 +593,23 @@
   AUS_KUK_paternal_autocrat_ADJ:0 "Austro-Hungarian"
   AUS_KUK_far_right_populist_ADJ:0 "Austro-Hungarian"
 
+  
+
+  AUS_usga_moderate_socialist:0 "United States of Greater Austria"
+  AUS_usga_moderate_socialist_DEF:0 "the United States of Greater Austria"
+
+  AUS_usga_liberal:0 "United States of Greater Austria"
+  AUS_usga_liberal_DEF:0 "the United States of Greater Austria"
+
+  AUS_usga_conservative:0 "United States of Greater Austria"
+  AUS_usga_conservative_DEF:0 "the United States of Greater Austria"
+
+  AUS_usga_paternal_autocrat:0 "United States of Greater Austria"
+  AUS_usga_paternal_autocrat_DEF:0 "the United States of Greater Austria"
+
+  AUS_usga_far_right_populist:0 "United States of Greater Austria"
+  AUS_usga_far_right_populist:0 "the United States of Greater Austria"
+
 
 
   CRO_anarchist:0 "Croatian Democratic Republic"
@@ -1305,39 +1322,6 @@
   CZE_conservative_ADJ:0 "Czechoslovakian"
   CZE_paternal_autocrat_ADJ:0 "Czechoslovakian"
   CZE_far_right_populist_ADJ:0 "Czechoslovakian"
-
-
-
-  FIN_anarchist:0 "Bulgarian Democratic Republic"
-  FIN_anarchist_DEF:0 "The Bulgarian Democratic Republic"
-
-  FIN_communist:0 "Bulgarian Democratic Republic"
-  FIN_communist_DEF:0 "The Bulgarian Democratic Republic"
-
-  FIN_moderate_socialist:0 "Republic of Bulgaria"
-  FIN_moderate_socialist_DEF:0 "The Republic of Bulgaria"
-
-  FIN_liberal:0 "Republic of Bulgaria"
-  FIN_liberal_DEF:0 "The Republic of Bulgaria"
-
-  FIN_conservative:0 "Republic of Bulgaria"
-  FIN_conservative_DEF:0 "The Republic of Bulgaria"
-
-  FIN_paternal_autocrat:0 "Kingdom of Bulgaria"
-  FIN_paternal_autocrat_DEF:0 "The Kingdom of Bulgaria"
-
-  FIN_far_right_populist:0 "Republic of Bulgaria"
-  FIN_far_right_populist:0 "the Republic of Bulgaria"
-
-  FIN_anarchist_ADJ:0 "Bulgarian"
-  FIN_communist_ADJ:0 "Bulgarian"
-  FIN_moderate_socialist_ADJ:0 "Bulgarian"
-  FIN_liberal_ADJ:0 "Bulgarian"
-  FIN_conservative_ADJ:0 "Bulgarian"
-  FIN_paternal_autocrat_ADJ:0 "Bulgarian"
-  FIN_far_right_populist_ADJ:0 "Bulgarian"
-
-
 
   BUL_anarchist:0 "Bulgarian Democratic Republic"
   BUL_anarchist_DEF:0 "The Bulgarian Democratic Republic"

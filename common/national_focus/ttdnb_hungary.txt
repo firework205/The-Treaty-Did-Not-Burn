@@ -1,0 +1,754 @@
+focus_tree = {
+	id = hungarian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+
+	focus = {
+		id = HUN_political_stabilization
+		icon = GFX_goal_generic_neutrality_focus
+		available = {
+		}
+		x = 5
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_maintain_regency
+		icon = wip
+		prerequisite = { focus = HUN_political_stabilization }
+		mutually_exclusive = { focus = HUN_a_new_king }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = HUN_political_stabilization
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_extend_horthys_powers
+		icon = wip
+		prerequisite = { focus = HUN_maintain_regency }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = HUN_maintain_regency
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_german_alignment
+		icon = wip
+		prerequisite = { focus = HUN_extend_horthys_powers }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_extend_horthys_powers
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_german_trade_deal
+		icon = wip
+		prerequisite = { focus = HUN_german_alignment }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_german_alignment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_stir_nationalist_sentiment
+		icon = wip
+		prerequisite = { focus = HUN_extend_horthys_powers }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_extend_horthys_powers
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_revanchism
+		icon = wip
+		prerequisite = { focus = HUN_stir_nationalist_sentiment }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_stir_nationalist_sentiment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_anti_western_propaganda
+		icon = wip
+		prerequisite = { focus = HUN_stir_nationalist_sentiment focus = HUN_german_alignment }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_german_alignment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_a_united_hungary
+		icon = wip
+		prerequisite = { focus = HUN_anti_western_propaganda }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = HUN_anti_western_propaganda
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_a_new_king
+		icon = GFX_focus_hun_elect_a_king
+		prerequisite = { focus = HUN_political_stabilization }
+		mutually_exclusive = { focus = HUN_maintain_regency }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = HUN_political_stabilization
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_habsburg_compromise
+		icon = GFX_focus_proclaim_the_restauration_of_austria_hungary
+		prerequisite = { focus = HUN_a_new_king }
+		mutually_exclusive = { focus = HUN_wittelsbach_king focus = HUN_crown_horthy }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = HUN_a_new_king
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+            create_country_leader = {
+            	name = "Joseph August I"
+            	desc = "POLITICS_BORIS_III_DESC"
+            	picture = "gfx/leaders/HUN_joseph_august.tga"
+            	expire = "1965.1.1"
+            	ideology = reactionary_ideology
+            	traits = {
+            		#
+            	}
+            }
+
+            create_country_leader = {
+            	name = "Joseph August I"
+            	desc = "POLITICS_BORIS_III_DESC"
+            	picture = "gfx/leaders/HUN_joseph_august.tga"
+            	expire = "1965.1.1"
+            	ideology = social_conservative_ideology
+            	traits = {
+            		#
+            	}
+            }
+
+            create_country_leader = {
+            	name = "Joseph August I"
+            	desc = "POLITICS_BORIS_III_DESC"
+            	picture = "gfx/leaders/HUN_joseph_august.tga"
+            	expire = "1965.1.1"
+            	ideology = social_liberal_ideology
+            	traits = {
+            		#
+            	}
+            }
+		}
+	}
+
+	focus = {
+		id = HUN_wittelsbach_king
+		icon = wip
+		prerequisite = { focus = HUN_a_new_king }
+		mutually_exclusive = { focus = HUN_habsburg_compromise focus = HUN_crown_horthy }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = HUN_a_new_king
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_crown_horthy
+		icon = wip
+		prerequisite = { focus = HUN_a_new_king }
+		mutually_exclusive = { focus = HUN_wittelsbach_king focus = HUN_habsburg_compromise }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = HUN_a_new_king
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_moderate_monarchy
+		icon = GFX_focus_rom_handle_king
+		prerequisite = { focus = HUN_wittelsbach_king focus = HUN_habsburg_compromise focus = HUN_crown_horthy }
+		mutually_exclusive = { focus = HUN_a_strong_hand }
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = HUN_a_new_king
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    set_politics = {
+		        ruling_party = conservative
+		    }
+		    add_popularity = {
+		        ideology = conservative
+		        popularity = 0.1
+		    }
+		    add_popularity = {
+		        ideology = liberal
+		        popularity = 0.05
+		    }
+		    add_popularity = {
+		        ideology = moderate_socialist
+		        popularity = 0.05
+		    }
+		}
+	}
+
+	focus = {
+		id = HUN_democratization
+		icon = GFX_generic_support_democracy
+		prerequisite = { focus = HUN_moderate_monarchy }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_moderate_monarchy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_fight_anti_semitism
+		icon = wip
+		prerequisite = { focus = HUN_democratization }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = HUN_moderate_monarchy
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_a_strong_hand
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = HUN_wittelsbach_king focus = HUN_habsburg_compromise focus = HUN_crown_horthy }
+		mutually_exclusive = { focus = HUN_moderate_monarchy}
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = HUN_a_new_king
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_tighten_our_grip
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = HUN_a_strong_hand }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_a_strong_hand
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_dissolve_parliament
+		icon = GFX_focus_usa_voter_registration_act
+		prerequisite = { focus = HUN_tighten_our_grip }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = HUN_a_strong_hand
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_a_popular_monarch
+		icon = GFX_focus_AUS_contact_hungary
+		prerequisite = { focus = HUN_a_strong_hand focus = HUN_moderate_monarchy }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_a_strong_hand
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_begin_rearmament
+		icon = wip
+		available = {
+		}
+		x = 18
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+
+	focus = {
+		id = HUN_royal_hungarian_army
+		icon = wip
+		prerequisite = { focus = HUN_begin_rearmament }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = HUN_begin_rearmament
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_the_old_doctrine
+		icon = wip
+		prerequisite = { focus = HUN_royal_hungarian_army }
+		mutually_exclusive = { focus = HUN_mobility_focus }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_royal_hungarian_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_mobility_focus
+		icon = wip
+		prerequisite = { focus = HUN_royal_hungarian_army }
+		mutually_exclusive = { focus = HUN_the_old_doctrine }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_royal_hungarian_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_rifle_modernization
+		icon = wip
+		prerequisite = { focus = HUN_mobility_focus focus = HUN_the_old_doctrine }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = HUN_royal_hungarian_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_new_artillery
+		icon = wip
+		prerequisite = { focus = HUN_rifle_modernization }
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = HUN_royal_hungarian_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_increase_vehicle_production
+		icon = wip
+		prerequisite = { focus = HUN_mobility_focus }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_mobility_focus
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_hungarian_armour
+		icon = wip
+		prerequisite = { focus = HUN_increase_vehicle_production }
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = HUN_mobility_focus
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_remember_the_shovel
+		icon = wip
+		prerequisite = { focus = HUN_the_old_doctrine }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_the_old_doctrine
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_flexible_high_command
+		icon = wip
+		prerequisite = { focus = HUN_remember_the_shovel }
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = HUN_the_old_doctrine
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_the_hungarian_airforce
+		icon = wip
+		prerequisite = { focus = HUN_begin_rearmament }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = HUN_begin_rearmament
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_protect_our_skies
+		icon = wip
+		prerequisite = { focus = HUN_the_hungarian_airforce }
+		mutually_exclusive = { focus = HUN_battlefield_support }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_the_hungarian_airforce
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_heavy_fighters
+		icon = wip
+		prerequisite = { focus = HUN_protect_our_skies }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = HUN_protect_our_skies
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_battlefield_support
+		icon = wip
+		prerequisite = { focus = HUN_the_hungarian_airforce }
+		mutually_exclusive = { focus = HUN_protect_our_skies }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_the_hungarian_airforce
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_cas
+		icon = wip
+		prerequisite = { focus = HUN_battlefield_support }
+		mutually_exclusive = { focus = HUN_protect_our_skies }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_battlefield_support
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HUN_new_bomber_designs
+		icon = wip
+		prerequisite = { focus = HUN_battlefield_support focus = HUN_protect_our_skies }
+		mutually_exclusive = { focus = HUN_protect_our_skies }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = HUN_battlefield_support
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+
+
+

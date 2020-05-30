@@ -4,8 +4,8 @@ state={
 	name="STATE_800"
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = BLR
+		add_core_of = BLR
 		buildings = {
 			infrastructure = 4
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		342 3331 9289 11322 
+		342 3331 6220 6371 9241 9289 11322 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

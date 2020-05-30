@@ -166,7 +166,7 @@ country_event = {
 
 country_event = { 
     id = austria.102
-    title = "Austria demands we end the regency"
+    title = "Austrian Ultimatum"
     desc = austria.102.d
 
     is_triggered_only = yes
@@ -177,8 +177,7 @@ country_event = {
 	}
 
 	option = {
-	    name = "Never, long live the Hungarian Republic!"
-	    set_cosmetic_tag = HUN_hungarian_republic
+	    name = "Never, we fight for our independence!"
 	    add_political_power = 100
 	    AUS = { country_event = { id = austria.104 hours = 6 } } 
 	}
@@ -199,7 +198,7 @@ country_event = {
 
 country_event = { 
     id = austria.104
-    title = "Hungarian Republic proclaimed"
+    title = "Hungary refuses"
     desc = austria.104.d
 
     is_triggered_only = yes
@@ -207,12 +206,92 @@ country_event = {
     option = {
         name = "Unacceptable."
         add_political_power = -50
-		    create_wargoal = {
-		        type = annex_everything
-		        target = HUN
-		    }
-		}
+	    create_wargoal = {
+		    type = annex_everything
+		    target = HUN
+        }
 	}
+}
+
+country_event = { 
+    id = austria.105
+    title = "Status of the Empire"
+    desc = austria.105.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Interesting"
+        add_political_power = 50
+    }
+}
+
+country_event = { 
+    id = austria.106
+    title = "Austrian Ultimatum"
+    desc = "Following the recent shift in Habsburg foreign policy, Austria has decided to demand the return of Trento and Trieste. How should we respond?"
+
+    is_triggered_only = yes
+
+    option = {
+        ai_chance = { factor = 5 }
+        name = "We must accept their demands."
+        add_political_power = -150
+    }
+
+    option = {
+        ai_chance = { factor = 5 }
+        name = "Never!"
+        AUS = { country_event = austria.107 }
+    }
+}
+
+country_event = { 
+    id = austria.107
+    title = "Italy refuses"
+    desc = "Italy has refused our demands for Trento and Trieste. We must ready our forces for war."
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Unacceptable."
+        add_political_power = -50
+        create_wargoal = {
+            type = annex_everything
+            target = ITA
+        }
+    }
+}
+
+country_event = { 
+    id = austria.108
+    title = "The Empire Reunited"
+    desc = austria.108.d
+
+    trigger = {
+        tag = AUS
+        owns_state = 9
+        owns_state = 43
+    }
+
+    option = {
+        name = "The Dual Monarchy rises once more!"
+        set_cosmetic_tag = AUS_kuk
+        add_stability = 0.05
+    }
+
+    option = {
+        name = "We must not repeat our past mistakes"
+        set_cosmetic_tag = AUS_usga
+        add_stability = 0.1
+        add_political_power = -50
+    }
+
+    option = {
+        name = "These territories must be ruled directly from Vienna."
+        add_stability = -0.05
+        add_war_support = 0.1
+    }
 }
 
 

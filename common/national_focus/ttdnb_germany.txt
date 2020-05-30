@@ -1,0 +1,86 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	#Political Branch
+
+	focus = {
+		id = GER_ludendorff_resigns
+		icon = GFX_focus_UKR_strengthen_hetmanate
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 8
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_runstedt_consolidates_power
+		icon = GFX_focus_UKR_strengthen_hetmanate
+		prerequisite = { focus = GER_ludendorff_resigns }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_ludendorff_resigns
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_cooperate_with_dnvp
+		icon = GFX_focus_UKR_strengthen_hetmanate
+		prerequisite = { focus = GER_runstedt_consolidates_power }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_ludendorff_resigns
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    set_cosmetic_tag = GER_german_empire
+		}
+	}
+
+	focus = {
+		id = GER_kronprinz_wilhelm
+		icon = GFX_focus_UKR_strengthen_hetmanate
+		prerequisite = { focus = GER_runstedt_consolidates_power }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_ludendorff_resigns
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+

@@ -61,4 +61,9 @@ spriteTypes = {
 		name = "GFX_idea_AUS_christ_and_king"
 		texturefile = "gfx/interface/ideas/idea_AUS_christ_and_king.tga"
 	}
+
+	spriteType = {
+		name = "GFX_idea_HUN_romanian_nationalists"
+		texturefile = "gfx/interface/ideas/idea_HUN_romanian_nationalists.tga"
+	}
 }

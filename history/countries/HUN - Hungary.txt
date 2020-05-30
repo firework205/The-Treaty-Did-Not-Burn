@@ -25,101 +25,25 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 25
+	conservative = 13
+	liberal = 5
 	far_right_populist = 31
-	paternal_autocrat = 44
+	paternal_autocrat = 34
+	moderate_socialist = 10
+	communist = 7
 }
 
-#Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
-		name = "Miklós Horthy"
-		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "Portrait_Hungary_Miklos_Horthy.dds"
-		expire = "1965.1.1"
-		ideology = reactionary_ideology
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = reactionary_ideology
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = far_right_populist_ideology
-		}
-	}
-}
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
+	name = "Miklós Horthy"
+	desc = "POLITICS_MIKLOS_HORTHY_DESC"
+	picture = "Portrait_Hungary_Miklos_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = leninist_ideology
-	traits = {
-		#
-	}
+	ideology = reactionary_ideology
 }
 
-create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = liberal_conservative_ideology
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = far_right_populist_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
-	set_politics = {
-		ruling_party = far_right_populist
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		conservative = 27
-		far_right_populist = 70
-		communist = 3
-	}
-}
-
+add_ideas = hungary_anti_communism_idea
+add_ideas = hungary_romanian_nationalists_idea
 
 create_corps_commander = {
 	name = "Géza Lakatos"
