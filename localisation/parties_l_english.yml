@@ -13,3 +13,17 @@
  paternal_autocrat:0 "Paternal Autocrat"
 
  far_right_populist:0 "Far-Right Populist"
+
+ anarchist_desc:0 "Decentral Authority"
+ 
+ communist_desc:0 "Communist Regime"
+
+ moderate_socialist_desc:0 "Socialist Regime"
+
+ liberal_desc:0 "Liberal Regime"
+
+ conservative_desc:0 "Conservative Regime"
+
+ paternal_autocrat_desc:0 "Autocratic Regime"
+
+ far_right_populist_desc:0 "Nationalist Regime"
