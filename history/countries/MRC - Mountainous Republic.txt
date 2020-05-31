@@ -2,7 +2,7 @@
 
 oob = "CRC_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -60,32 +60,37 @@ if = {
 	}
 }
 
+add_ideas = {
+mountain_divided
+mountain_religion
+mountain_industrial
+}
 set_popularities = {
-	conservative = 10
-	liberal = 10
-	moderate_socialist = 10
-	paternal_autocrat = 57
+	conservative = 16
+	liberal = 60
+	moderate_socialist = 7
+	paternal_autocrat = 4
 	far_right_populist = 3
 	communist = 7
 	anarchist = 3
 }
 
 set_politics = {
-    ruling_party = paternal_autocrat
+    ruling_party = liberal
     last_election = "1930.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Tapa Tchermoeff"
 	desc = ""
-	picture = "no_picture"
+	picture = "Portrait_MRC_Tapa_Tchermoeff.dds"
 	expire = "1953.3.1"
 	ideology = 
 
 
-reactionary_ideology
+social_liberal_ideology
 	traits = {
 		
 	}

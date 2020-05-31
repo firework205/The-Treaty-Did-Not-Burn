@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		mountain_divided = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_language_question
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.15
+				army_org_factor = -0.15
+				army_morale_factor = -0.05
+				planning_speed = -0.1
+				training_time_factor = 0.2
+
+			}
+		}
+		mountain_religion = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_language_question
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.1
+			}
+		}
+		mountain_industrial = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = UKR_language_question
+			
+			modifier = {
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.15
+				production_speed_industrial_complex_factor = -0.25
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.25
+				conversion_cost_civ_to_mil_factor = 0.25
+				conversion_cost_mil_to_civ_factor = 0.25
+				research_speed_factor = -0.10
+			}
+		}
+	}
+}
