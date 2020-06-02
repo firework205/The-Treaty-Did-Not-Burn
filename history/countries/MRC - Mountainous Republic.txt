@@ -62,7 +62,7 @@ if = {
 
 add_ideas = {
 mountain_divided
-mountain_religion
+MRC_religion
 mountain_industrial
 }
 set_popularities = {

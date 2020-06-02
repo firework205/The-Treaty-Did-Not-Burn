@@ -74,6 +74,14 @@ set_politics = {
     elections_allowed = no
     last_election = "1936.1.1"
     elections_allowed = no
+create_country_leader = {
+	name = "Zeki Velidi Togan"
+	desc = ""
+	picture = ".tga"
+	expire = "1965.1.1"
+	ideology = reactionary_ideology
+	traits = {
+	}
 }
 
 

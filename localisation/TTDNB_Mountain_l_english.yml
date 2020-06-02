@@ -4,4 +4,6 @@ mountain_industrial:0 "Complete Lack of Industrialization"
 
 mountain_divided:0 "Divided Nation"
 
-mountain_religion:0 "Religious Division"
+MRC_religion:0 "Religious Division"
+
+MRC_religion_desc:0 "The Nation is heavily divided along Religious lines. The Orthodox Christians have shown nothing but disdain for the Suffi Islamic dominated government and the Muslim Community as a whole while the Southern Muslims feel a bitter distrust and a paranoia towards their former Christian overlords. The Government has so far been unable to curtail this immesne religious hatred as sportaic fighting happens between the two groups in areas of mixed religious demographics." 

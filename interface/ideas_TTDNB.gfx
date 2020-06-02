@@ -66,4 +66,9 @@ spriteTypes = {
 		name = "GFX_idea_HUN_romanian_nationalists"
 		texturefile = "gfx/interface/ideas/idea_HUN_romanian_nationalists.tga"
 	}
+	#Mountain Republic
+	spriteType = {
+		name = "GFX_idea_MRC_religious_division"
+		texturefile = "gfx/interface/ideas/idea_MRC_religious_division.tga"
+	}
 }
