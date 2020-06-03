@@ -1,0 +1,145 @@
+add_namespace = germany
+
+country_event = {
+    id = germany.1
+    title = "Emergency Elections"
+    desc = germany.1.d
+    picture = GFX_report_event_generic_rally2
+
+    is_triggered_only = yes
+
+    option = {
+        name = "A Grand Coalition republicans and moderates achieves a landslide victory"
+        complete_national_focus = GER_the_republican_coalition
+        set_politics = {
+            ruling_party = liberal
+        }
+        create_country_leader = {
+            name = "Otto Wels"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_GER_Otto_Wels.tga"
+            expire = "1965.1.1"
+            ideology = social_liberal_ideology
+            traits = {
+            }
+        }
+    }
+
+    option = {
+        name = "The monarchists and aristocrats win a slim majority"
+        complete_national_focus = GER_aristocrats_and_monarchists
+        create_country_leader = {
+            name = "Alfred Hugenberg"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_GER_Alfred_Hugenberg.tga"
+            expire = "1965.1.1"
+            ideology = authoritarian_democrat_ideology
+            traits = {
+            }
+        }
+    }
+
+    option = {
+        name = "Goering's Fascists achieve a surprise plurality"
+        set_politics = {
+            ruling_party = far_right_populist
+        }
+        complete_national_focus = GER_fascist_victory
+        create_country_leader = {
+            name = "Hermann Goering"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_Germany_Hermann_Goring.dds"
+            expire = "1965.1.1"
+            ideology = far_right_populist_ideology
+            traits = {
+            }
+        }
+    }
+
+    option = {
+        name = "The military steps in once again, preventing a radical victory"
+        complete_national_focus = GER_military_restores_order
+        create_country_leader = {
+            name = "Gerd von Runstedt"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "GFX_Portrait_Germany_Gerd_von_Rundstedt.dds"
+            expire = "1965.1.1"
+            ideology = authoritarian_democrat_ideology
+            traits = {
+            }
+        }
+    }
+}
+
+country_event = {
+    id = germany.2
+    title = "Death of a General"
+    desc = germany.2.d
+    picture = GFX_report_event_generic_funeral
+
+    fire_only_once = yes
+    
+    trigger = {
+        original_tag = GER
+        date > 1936.4.1 #Can die any time after april 1936, I'll add a trigger forcing it to fire if he still hasn't died by mid-1937
+    }
+
+    mean_time_to_happen = {
+        days = 100 
+    }
+    
+    option = {
+        name = "Germany's future remains uncertain."
+        kill_country_leader = yes
+        create_country_leader = {
+            name = "Emergency Government"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_GER_emergency_government.tga"
+            expire = "1965.1.1"
+            ideology = authoritarian_democrat_ideology
+            traits = {
+            }
+        }
+        complete_national_focus = GER_ludendorff_death
+    }
+}
+
+country_event = {
+    id = germany.3
+    title = "The Hohenzollern Restoration"
+    desc = germany.3.d
+    picture = GFX_report_event_generic_rally2
+
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Crown Prince Wilhelm, the more experienced candidate"
+        set_cosmetic_tag = GER_german_empire
+        create_country_leader = {
+            name = "Kaiser Wilhelm III"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_GER_Otto_Wels.tga"
+            expire = "1965.1.1"
+            ideology = authoritarian_democrat_ideology
+            traits = {
+            }
+        }
+    }
+
+    option = {
+        name = "Germany needs young blood, Louis Ferdinand shall be Kaiser"
+        set_cosmetic_tag = GER_german_empire
+        create_country_leader = {
+            name = "Kaiser Louis Ferdinand I"
+            desc = "POLITICS_WILHELM_III_DESC"
+            picture = "Portrait_GER_Ferdinand_I.tga"
+            expire = "1965.1.1"
+            ideology = authoritarian_democrat_ideology
+            traits = {
+            }
+        }
+    }
+}
+
+

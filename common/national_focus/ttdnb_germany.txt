@@ -13,8 +13,8 @@ focus_tree = {
 	#Political Branch
 
 	focus = {
-		id = GER_ludendorff_resigns
-		icon = GFX_focus_UKR_strengthen_hetmanate
+		id = GER_ludendorff_death
+		icon = wip 
 		available = {
 		    has_country_flag = always_false
 		}
@@ -30,14 +30,54 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_runstedt_consolidates_power
-		icon = GFX_focus_UKR_strengthen_hetmanate
-		prerequisite = { focus = GER_ludendorff_resigns }
+		id = GER_call_fresh_elections
+		icon = GFX_goal_KR_constitutional_guarantees
+		prerequisite = { focus = GER_ludendorff_death }
 		available = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = GER_ludendorff_resigns
+		relative_position_id = GER_ludendorff_death
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { #Trigger election event here
+		    country_event = germany.1
+		}
+	}
+
+	#Republican Path
+
+	focus = {
+		id = GER_the_republican_coalition
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		prerequisite = { focus = GER_call_fresh_elections }
+		available = {
+		   has_country_flag = always_false
+		}
+		x = -3
+		y = 1
+		relative_position_id = GER_call_fresh_elections
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GER_repeal_political_restrictions
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = { focus = GER_the_republican_coalition }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = GER_the_republican_coalition
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -48,33 +88,33 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_cooperate_with_dnvp
-		icon = GFX_focus_UKR_strengthen_hetmanate
-		prerequisite = { focus = GER_runstedt_consolidates_power }
+		id = GER_reichsbanner_schwarz_rot_gold
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = GER_the_republican_coalition }
 		available = {
 		}
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = GER_ludendorff_resigns
+		relative_position_id = GER_the_republican_coalition
 		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
-		    set_cosmetic_tag = GER_german_empire
 		}
 	}
 
 	focus = {
-		id = GER_kronprinz_wilhelm
-		icon = GFX_focus_UKR_strengthen_hetmanate
-		prerequisite = { focus = GER_runstedt_consolidates_power }
+		id = GER_unity_freedom_justice
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = GER_reichsbanner_schwarz_rot_gold }
+		prerequisite = { focus = GER_repeal_political_restrictions }
 		available = {
 		}
 		x = 0
-		y = 1
-		relative_position_id = GER_ludendorff_resigns
+		y = 2
+		relative_position_id = GER_the_republican_coalition
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -83,4 +123,699 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = GER_homes_for_the_people
+		icon = GFX_focus_usa_guarantee_the_american_dream 
+		prerequisite = { focus = GER_unity_freedom_justice }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = GER_the_republican_coalition
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_work_with_the_trade_unions
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = GER_unity_freedom_justice }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = GER_the_republican_coalition
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_root_out_extremism
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = GER_work_with_the_trade_unions }
+		prerequisite = { focus = GER_homes_for_the_people }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = GER_the_republican_coalition
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Kaiserboos
+
+	focus = {
+		id = GER_aristocrats_and_monarchists
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = GER_call_fresh_elections }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = -1
+		y = 1
+		relative_position_id = GER_call_fresh_elections
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_restoration_of_the_monarchy
+		icon = GFX_focus_ger_revive_kaiserreich
+		prerequisite = { focus = GER_aristocrats_and_monarchists focus = GER_military_restores_order }
+		mutually_exclusive = { focus = GER_military_status_quo }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_aristocrats_and_monarchists
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    country_event = germany.3
+		}
+	}
+
+	focus = {
+		id = GER_expand_bismarck_youth
+		icon = GFX_focus_generic_military_mission 
+		prerequisite = { focus = GER_restoration_of_the_monarchy }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = GER_aristocrats_and_monarchists
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_restore_the_nobility
+		icon = GFX_focus_generic_home_defense 
+		prerequisite = { focus = GER_expand_bismarck_youth }
+		prerequisite = { focus = GER_crack_down_on_fascists }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = GER_aristocrats_and_monarchists
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_god_emperor_fatherland
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = GER_restore_the_nobility }
+		available = {
+		}
+		x = 1
+		y = 4
+		relative_position_id = GER_aristocrats_and_monarchists
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Military
+
+	focus = {
+		id = GER_military_restores_order
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = GER_call_fresh_elections }
+		available = {
+		   has_country_flag = always_false
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_call_fresh_elections
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_military_status_quo
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = GER_military_restores_order }
+		mutually_exclusive = { focus = GER_restoration_of_the_monarchy }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_military_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_crack_down_on_fascists
+		icon = GFX_goal_continuous_suppression 
+		prerequisite = { focus = GER_military_status_quo focus = GER_restoration_of_the_monarchy }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = GER_military_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_censor_the_press
+		icon = GFX_goal_KR_oppression
+		prerequisite = { focus = GER_military_status_quo focus = GER_goering_consolidates_power }
+		available = {
+		}
+		x = 2
+		y = 2
+		relative_position_id = GER_military_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_a_firm_grip
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = GER_censor_the_press }
+		prerequisite = { focus = GER_crack_down_on_fascists }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = GER_military_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_stability_at_last
+		icon = GFX_goal_continuous_def_against_influence
+		prerequisite = { focus = GER_a_firm_grip }
+		available = {
+		}
+		x = 1
+		y = 4
+		relative_position_id = GER_military_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Nazis
+
+	focus = {
+		id = GER_fascist_victory
+		icon = GFX_focus_ger_reichskommisariats
+		prerequisite = { focus = GER_call_fresh_elections }
+		available = {
+		   has_country_flag = always_false
+		}
+		x = 3
+		y = 1
+		relative_position_id = GER_call_fresh_elections
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GER_goering_consolidates_power
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = GER_fascist_victory }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_fascist_victory
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    set_cosmetic_tag = GER_nazi
+		    add_popularity = {
+		        ideology = far_right_populist
+		        popularity = 0.2
+		    }
+		}
+	}
+
+	focus = {
+		id = GER_appease_military
+		icon = GFX_focus_generic_german_army
+		prerequisite = { focus = GER_goering_consolidates_power }
+		available = {
+		}
+		x = 2
+		y = 2
+		relative_position_id = GER_fascist_victory
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GER_destroy_trade_unions
+		icon = GFX_focus_spr_crush_the_revolution 
+		prerequisite = { focus = GER_appease_military }
+		prerequisite = { focus = GER_censor_the_press }
+		available = {
+		}
+		x = 1
+		y = 3
+		relative_position_id = GER_fascist_victory
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+
+	focus = {
+		id = GER_a_third_reich
+		icon = GFX_focus_chi_mission_to_germany
+		prerequisite = { focus = GER_destroy_trade_unions }
+		available = {
+		}
+		x = 1
+		y = 4
+		relative_position_id = GER_fascist_victory
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+}
+
+###########################################################################
+
+        focus = {
+		id = GER_a_new_germany
+		icon = wip 
+		#prerequisite = { focus = GER_destroy_trade_unions }
+		available = {
+                has_army_manpower = { size > 349999 } #around 40 divisions
+		}
+		x = 30
+		y = 0
+		#relative_position_id = GER_fascist_victory
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+        focus = {
+		id = GER_tear_up_the_treaty
+		icon = wip 
+		prerequisite = { focus = GER_a_new_germany }
+		available = {
+                is_puppet = no
+	        has_government = paternal_autocrat
+                has_government = far_right_populist
+                has_government = anarchist
+                has_government = communist
+		}
+		x = -6
+		y = 1
+                mutually_exclusive = { focus = GER_renegotiate_versailles }
+		relative_position_id = GER_a_new_germany
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+        focus = {
+		id = GER_renegotiate_versailles
+		icon = wip 
+		prerequisite = { focus = GER_a_new_germany }
+		available = {
+                is_puppet = no
+	        has_government = liberal
+                has_government = conservative
+                has_government = moderate_socialist
+		}
+		x = 6
+		y = 1
+                mutually_exclusive = { focus = GER_tear_up_the_treaty }
+		relative_position_id = GER_a_new_germany
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+        focus = {
+		id = GER_a_state_for_all_germans
+		icon = wip 
+		prerequisite = { focus = GER_tear_up_the_treaty }
+		available = {
+		}
+		x = -3
+		y = 1 
+                mutually_exclusive = { focus = GER_restore_the_old_empire }
+		relative_position_id = GER_tear_up_the_treaty
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_ultimatum_to_austria
+		icon = wip 
+		prerequisite = { focus = GER_a_state_for_all_germans }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = GER_a_state_for_all_germans
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_the_swiss_demand
+		icon = wip 
+		prerequisite = { focus = GER_a_state_for_all_germans }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_a_state_for_all_germans
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_the_sudetenland_ultimatum
+		icon = wip 
+		prerequisite = { focus = GER_a_state_for_all_germans }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = GER_a_state_for_all_germans
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_seize_the_polish_corridor
+		icon = wip 
+		prerequisite = { focus = GER_the_sudetenland_ultimatum }
+                prerequisite = { focus = GER_the_swiss_demand }
+                prerequisite = { focus = GER_ultimatum_to_austria }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_ultimatum_to_austria
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_luxembourg_anschluss
+		icon = wip 
+		prerequisite = { focus = GER_the_sudetenland_ultimatum }
+                prerequisite = { focus = GER_the_swiss_demand }
+                prerequisite = { focus = GER_ultimatum_to_austria }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = GER_ultimatum_to_austria
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_restore_the_old_empire
+		icon = wip 
+		prerequisite = { focus = GER_tear_up_the_treaty }
+		available = {
+		}
+		x = 3
+		y = 1
+                mutually_exclusive = { focus = GER_a_state_for_all_germans }
+		relative_position_id = GER_tear_up_the_treaty 
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	}
+        focus = {
+		id = GER_demand_the_corridor
+		icon = wip 
+		prerequisite = { focus = GER_restore_the_old_empire }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = GER_restore_the_old_empire
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_ask_for_nordschleswig
+		icon = wip 
+		prerequisite = { focus = GER_restore_the_old_empire }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_restore_the_old_empire
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_protect_the_courland_germans
+		icon = wip 
+		prerequisite = { focus = GER_restore_the_old_empire }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = GER_restore_the_old_empire
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_bring_lithuania_under_the_eagle
+		icon = wip 
+		prerequisite = { focus = GER_protect_the_courland_germans }
+                prerequisite = { focus = GER_ask_for_nordschleswig }
+                prerequisite = { focus = GER_demand_the_corridor }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_demand_the_corridor
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_into_the_baltics
+		icon = wip 
+		prerequisite = { focus = GER_protect_the_courland_germans }
+                prerequisite = { focus = GER_ask_for_nordschleswig }
+                prerequisite = { focus = GER_demand_the_corridor }
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = GER_demand_the_corridor
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_alsace_saar_ultimatum
+		icon = wip 
+		prerequisite = { focus = GER_seize_the_polish_corridor focus = GER_luxembourg_anschluss focus = GER_bring_lithuania_under_the_eagle focus = GER_into_the_baltics }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = GER_bring_lithuania_under_the_eagle
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_crush_the_red_menace
+		icon = wip 
+		prerequisite = { focus = GER_seize_the_polish_corridor focus = GER_luxembourg_anschluss focus = GER_bring_lithuania_under_the_eagle focus = GER_into_the_baltics }
+		available = {
+		}
+		x = -5
+		y = 1
+		relative_position_id = GER_bring_lithuania_under_the_eagle
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
+        focus = {
+		id = GER_take_the_lion_down
+		icon = wip 
+		prerequisite = { focus = GER_seize_the_polish_corridor focus = GER_luxembourg_anschluss focus = GER_bring_lithuania_under_the_eagle focus = GER_into_the_baltics }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_bring_lithuania_under_the_eagle
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = { 
+		}
+	} 
 

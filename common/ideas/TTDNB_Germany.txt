@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+		ludendorffs_grip_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+			
+			modifier = {
+				political_power_gain = -0.15
+				moderate_socialist_drift = -0.05
+				communist_drift = -0.05
+				anarchist_drift = -0.05
+			}
+		}
+	}
+}
+
+

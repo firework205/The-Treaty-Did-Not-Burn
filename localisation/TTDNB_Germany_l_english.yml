@@ -15,8 +15,66 @@
   GER_conservative_party:0 "ZP"
   GER_conservative_party_long:0 "Deutsche Zentrumspartei"
 
-  GER_paternal_autocrat_party:0 "DNP"
-  GER_paternal_autocrat_party_long:0 "Deutschnationale Partei"
+  GER_paternal_autocrat_party:0 "M"
+  GER_paternal_autocrat_party_long:0 "Militärregierung"
 
-  GER_far_right_populist_party:0 "DAP"
-  GER_far_right_populist_party_long:0 "Deutsche Arbeiterpartei"
+  GER_far_right_populist_party:0 "GP"
+  GER_far_right_populist_party_long:0 "Großdeutsche Partei"
+
+  #Ideas
+
+  ludendorffs_grip_idea:0 "The General's Grip"
+
+  #National Focus
+
+  GER_ludendorff_death:0 "Death of a General"
+
+  GER_call_fresh_elections:0 "Call Fresh Elections"
+
+  GER_the_republican_coalition:0 "The Republican Coalition"
+
+  GER_repeal_political_restrictions:0 "Repeal Political Restrictions"
+
+  GER_reichsbanner_schwarz_rot_gold:0 "Reichsbanner Scwharz-Rot-Gold"
+
+  GER_unity_freedom_justice:0 "United, Freedom, and Justice"
+
+  GER_homes_for_the_people:0 "Homes for the People"
+
+  GER_work_with_the_trade_unions:0 "Work with the Trade Unions"
+
+  GER_root_out_extremism:0 "Root Out Extremism"
+
+  GER_aristocrats_and_monarchists:0 "The Aristocrats and Monarchists"
+
+  GER_restoration_of_the_monarchy:0 "The Hohenzollern Restoration"
+
+  GER_expand_bismarck_youth:0 "Expand Bismarckjugend"
+
+  GER_restore_the_nobility:0 "Restore the Nobility"
+
+  GER_god_emperor_fatherland:0 "God, Emperor, and Fatherland"
+
+  GER_military_restores_order:0 "The Military Restores Order"
+
+  GER_military_status_quo:0 "Protect the Status Quo"
+
+  GER_crack_down_on_fascists:0 "Anti-Fascist Crackdown"
+
+  GER_censor_the_press:0 "Reinstitute Press Censorship"
+
+  GER_a_firm_grip:0 "A Firm Grip"
+
+  GER_stability_at_last:0 "Stability at Last"
+
+  GER_fascist_victory:0 "The Fascists Triumphant"
+
+  GER_goering_consolidates_power:0 "Goering Consolidates Power"
+
+  GER_appease_military:0 "Appease the Military"
+
+  GER_destroy_trade_unions:0 "Dismantle the Trade Unions"
+
+  GER_a_third_reich:0 "A Third Reich"
+
+  
