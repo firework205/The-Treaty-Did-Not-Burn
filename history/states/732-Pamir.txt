@@ -5,6 +5,7 @@ state={
 
 	history={
 		add_core_of = CCA
+		add_core_of = UZB
 		owner = CCA
 		victory_points = {
 			12583 1 

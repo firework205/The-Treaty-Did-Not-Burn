@@ -7,6 +7,7 @@ state={
 		owner = CSP
 		add_core_of = CSP
                 add_core_of = KAZ
+		add_core_of = UZB
 		buildings = {
 			infrastructure = 1
 

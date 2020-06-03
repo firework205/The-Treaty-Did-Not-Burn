@@ -5,6 +5,7 @@ state={
 
 	history={
 		add_core_of = CSP
+		add_core_of = UZB
 		owner = CSP
 		victory_points = {
 			12333 1 
