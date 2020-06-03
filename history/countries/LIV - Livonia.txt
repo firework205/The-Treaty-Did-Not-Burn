@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 12 #Riga
 
 oob = "LIV_1936"
 
@@ -61,9 +61,12 @@ if = {
 }
 
 set_popularities = {
-	paternal_autocrat = 80
-	conservative = 10
-	liberal = 10
+	paternal_autocrat = 35
+	conservative = 32
+	liberal = 11
+	moderate_socialist = 10
+	communist = 5
+	far_right_populist = 7
 }
 
 set_politics = {
@@ -73,49 +76,15 @@ set_politics = {
     elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Placeholder"
+create_country_leader = { #Use until I find a better candidate
+	name = "Helmuth Weiss"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Genric_2.dds"
+	picture = "Portrait_LIV_Helmuth_Weiss.tga"
 	expire = "1953.3.1"
 	ideology = authoritarian_democrat_ideology
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = leninist_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Stepan Bandera"
-	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = far_right_populist_ideology
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = reactionary_ideology
-#	traits = {
-#		
-#	}
-#}
-
 
 
