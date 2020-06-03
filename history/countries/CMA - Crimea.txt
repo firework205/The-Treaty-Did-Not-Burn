@@ -61,31 +61,31 @@ if = {
 }
 
 set_popularities = {
-	conservative = 10
-	liberal = 10
-	moderate_socialist = 10
-	paternal_autocrat = 57
-	far_right_populist = 3
+	conservative = 17
+	liberal = 57
+	moderate_socialist = 13
+	paternal_autocrat = 3
+	far_right_populist = 2
 	communist = 7
-	anarchist = 3
+	anarchist = 1
 }
 
 set_politics = {
-    ruling_party = paternal_autocrat
+    ruling_party = liberal
     last_election = "1930.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Noman Çelebicihan"
 	desc = ""
 	picture = "no_picture"
 	expire = "1953.3.1"
 	ideology = 
 
 
-reactionary_ideology
+social_liberal_ideology
 	traits = {
 		
 	}

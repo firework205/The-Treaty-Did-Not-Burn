@@ -27,3 +27,17 @@
  paternal_autocrat_desc:0 "Autocratic Regime"
 
  far_right_populist_desc:0 "Nationalist Regime"
+
+ anarchist_noun:0 "Anarchism"
+
+ communist_noun:0 "Communism"
+
+ moderate_socialist_noun:0 "Moderate Socialism"
+
+liberal_noun:0 "Liberalism"
+
+conservative_noun:0 "Conservatism"
+
+paternal_autocracy_noun:0 "Paternal Autocracy"
+
+far_right_populist_noun:0 "Far-Right Populism"

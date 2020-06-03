@@ -12,15 +12,16 @@ state={
 			infrastructure = 4
 
 		}
-		victory_points = {
-			3672 5 
-		}
+
 		add_core_of = MRC
+		victory_points = {
+			9645 5 
+		}
 
 	}
 
 	provinces={
-		3668 3672 3682 4463 6701 7624 
+		1450 3668 3682 3711 4463 6701 7624 9645
 	}
 	manpower=982087
 	buildings_max_level_factor=1.000

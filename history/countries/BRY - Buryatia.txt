@@ -8,17 +8,30 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = moderate_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	paternal_autocrat = 49
-	communist = 16
-	conservative = 20
-	liberal = 10
-	moderate_socialist = 10
+	paternal_autocrat = 4
+	communist = 27
+	conservative = 9
+	liberal = 6
+	moderate_socialist = 59
+	anarchist = 0
 }
+create_country_leader = {
+	name = "Mikhei Nikolaevich Erbanov"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "wip"
+	expire = "1965.1.1"
+	ideology = radical_leftist_ideology
+	traits = {
+		#
+	}
+}
+
+
 
 

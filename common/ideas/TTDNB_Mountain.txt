@@ -12,7 +12,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = UKR_language_question
+			picture = MRC_cultural_division
 			
 			modifier = {
 				political_power_gain = -0.25
