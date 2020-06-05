@@ -6,6 +6,7 @@ state={
 	history={
 		owner = KAZ
 		add_core_of = KAZ
+		add_core_of = UZB
 		buildings = {
 			infrastructure = 2
 

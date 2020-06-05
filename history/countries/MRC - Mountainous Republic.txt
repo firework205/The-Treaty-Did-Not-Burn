@@ -66,17 +66,17 @@ MRC_religion
 mountain_industrial
 }
 set_popularities = {
-	conservative = 16
-	liberal = 60
+	conservative = 60
+	liberal = 21
 	moderate_socialist = 7
-	paternal_autocrat = 4
-	far_right_populist = 3
+	paternal_autocrat = 1
+	far_right_populist = 1
 	communist = 7
 	anarchist = 3
 }
 
 set_politics = {
-    ruling_party = liberal
+    ruling_party = conservative
     last_election = "1930.1.1"
     election_frequency = 48
     elections_allowed = no
@@ -90,7 +90,7 @@ create_country_leader = {
 	ideology = 
 
 
-social_liberal_ideology
+liberal_conservative_ideology
 	traits = {
 		
 	}

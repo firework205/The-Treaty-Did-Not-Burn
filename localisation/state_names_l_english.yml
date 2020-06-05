@@ -740,7 +740,7 @@
  STATE_739:0 "Haida Gwaii"
  STATE_740:0 "Vancouver Island"
  STATE_741:0 "Cambodia"
- STATE_742:0 "Stalinabad"
+ STATE_742:0 "Dushanbe"
  STATE_743:0 "Qingdao"
  STATE_744:0 "Xian"
  STATE_745:0 "Dalian"
@@ -825,3 +825,4 @@
  STATE_824:0 "Abkhazia"
  STATE_825:0 "South Ossetia"
  STATE_826:0 "Chechnya"
+ STATE_827:0 "Romandy"

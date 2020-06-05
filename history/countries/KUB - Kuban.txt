@@ -78,7 +78,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Placeholder"
+	name = "Alexander Filimonov"
 	desc = ""
 	picture = "no_picture"
 	expire = "1953.3.1"

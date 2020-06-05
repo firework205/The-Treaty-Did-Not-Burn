@@ -6,6 +6,7 @@ state={
 	history={
 		owner = CSP
 		add_core_of = CSP
+		add_core_of = UZB
 		buildings = {
 			infrastructure = 3
 

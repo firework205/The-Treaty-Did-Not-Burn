@@ -71,4 +71,9 @@ spriteTypes = {
 		name = "GFX_idea_MRC_religious_division"
 		texturefile = "gfx/interface/ideas/idea_MRC_religious_division.tga"
 	}
-}
+	
+	spriteType = {
+		name = "GFX_idea_MRC_cultural_division"
+		texturefile = "gfx/interface/ideas/idea_MRC_divided_caucasus.tga"
+	}
+
