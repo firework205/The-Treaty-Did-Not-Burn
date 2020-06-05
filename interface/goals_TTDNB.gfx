@@ -431,6 +431,16 @@ spriteTypes = {
 	name = "GFX_goal_AUS_military_funding"
 	texturefile = "gfx/interface/goals/AUS_military_funding.tga"			
 	}
+
+	SpriteType = {
+	name = "GFX_focus_AUS_improve_rural_infrastructure"
+	texturefile = "gfx/interface/goals/focus_AUS_improve_rural_infrastructure.tga"			
+	}
+
+	SpriteType = {
+	name = "GFX_focus_AUS_destroy_the_heimwehr"
+	texturefile = "gfx/interface/goals/focus_AUS_destroy_the_heimwehr.tga"			
+	}
 }
 
 
