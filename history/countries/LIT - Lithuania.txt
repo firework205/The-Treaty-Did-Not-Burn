@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 784 #Moved to Vilnius
 
 oob = "LIT_1936"
 
@@ -17,55 +17,27 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 30
-	far_right_populist = 15
-	communist = 15
-	paternal_autocrat = 40
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = paternal_autocrat
-		last_election = "1936.6.10"
-		election_frequency = 120
-		elections_allowed = no
-	}
+	authoritarian_democrat = 25
+	conservative = 20
+	liberal = 20
+	moderate_socialist = 20
+	far_right_populist = 5
+	communist = 5
+	paternal_autocrat = 5
 }
 
 create_country_leader = {
 	name = "Antanas Smetona"
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "GFX_Portrait_lithuania_antanas_smetona"
+	picture = "Portrait_LIT_Antanas_Smetona_TTDNB.tga"
 	expire = "1965.1.1"
-	ideology = reactionary_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Antanas Snieckus"
-	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = leninist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Augustinas Voldemaras"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = far_right_populist_ideology
+	ideology = authoritarian_democrat_a_ideology
 	traits = {
 		#
 	}

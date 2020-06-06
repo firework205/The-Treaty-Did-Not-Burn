@@ -132,6 +132,10 @@ set_popularities = {
 		elections_allowed = yes
 	}
 }
+
+give_guarantee = NIN
+puppet = UHT
+
 create_country_leader = {
 	name = "Fredrik Kaarle I"
 	desc = "POLITICS_FREDRIK_KAARLE_I_DESC"

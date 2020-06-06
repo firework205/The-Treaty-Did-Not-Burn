@@ -19,6 +19,9 @@
 #  TAG_conservative:0 ""
 #  TAG_conservative_DEF:0 ""
 #
+#   TAG_authoritarian_democrat:0 ""
+#   TAG_authoritarian_democrat_DEF:0 ""
+#
 #  TAG_paternal_autocrat:0 ""
 #  TAG_paternal_autocrat_DEF:0 ""
 #
@@ -30,6 +33,7 @@
 #  TAG_moderate_socialist_ADJ:0 ""
 #  TAG_liberal_ADJ:0 ""
 #  TAG_conservative_ADJ:0 ""
+#  TAG_authoritarian_democrat_ADJ:0 ""
 #  TAG_paternal_autocrat_ADJ:0 ""
 #  TAG_far_right_populist_ADJ:0 ""
 
@@ -362,17 +366,21 @@
   LIT_conservative:0 "Republic of Lithuania"
   LIT_conservative_DEF:0 "The Republic of Lithuania"
 
+  LIT_authoritarian_democrat:0 "Republic of Lithuania"
+  LIT_authoritarian_democrat_DEF:0 "The Republic of Lithuania"
+
   LIT_paternal_autocrat:0 "Republic of Lithuania"
   LIT_paternal_autocrat_DEF:0 "The Republic of Lithuania"
 
   LIT_far_right_populist:0 "Republic of Lithuania"
-  LIT_far_right_populist:0 "The Republic of Lithuania"
+  LIT_far_right_populist_DEF:0 "The Republic of Lithuania"
 
   LIT_anarchist_ADJ:0 "Lithuanian"
   LIT_communist_ADJ:0 "Lithuanian"
   LIT_moderate_socialist_ADJ:0 "Lithuanian"
   LIT_liberal_ADJ:0 "Lithuanian"
   LIT_conservative_ADJ:0 "Lithuanian"
+  LIT_authoritarian_democrat_ADJ:0 "Lithuanian"
   LIT_paternal_autocrat_ADJ:0 "Lithuanian"
   LIT_far_right_populist_ADJ:0 "Lithuanian"
 
@@ -3099,3 +3107,137 @@
   CAN_conservative_ADJ:0 "Canadian"
   CAN_paternal_autocrat_ADJ:0 "Canadian"
   CAN_far_right_populist_ADJ:0 "Canadian"
+
+
+
+
+  NIN_anarchist:0 "Free Territory of Ingria"
+  NIN_anarchist_DEF:0 "The Free Territory of Ingria"
+
+  NIN_communist:0 "Ingrian People's Republic"
+  NIN_communist_DEF:0 "Ingrian People's Republic"
+
+  NIN_moderate_socialist:0 "North Ingria"
+  NIN_moderate_socialist_DEF:0 "North Ingria"
+
+  NIN_liberal:0 "North Ingria"
+  NIN_liberal_DEF:0 "North Ingria"
+
+  NIN_conservative:0 "North Ingria"
+  NIN_conservative_DEF:0 "North Ingria"
+
+  NIN_paternal_autocrat:0 "North Ingria"
+  NIN_paternal_autocrat_DEF:0 "North Ingria"
+
+  NIN_far_right_populist:0 "North Ingria"
+  NIN_far_right_populist:0 "North Ingria"
+
+  NIN_anarchist_ADJ:0 "Ingrian"
+  NIN_communist_ADJ:0 "Ingrian"
+  NIN_moderate_socialist_ADJ:0 "Ingrian"
+  NIN_liberal_ADJ:0 "Ingrian"
+  NIN_conservative_ADJ:0 "Ingrian"
+  NIN_paternal_autocrat_ADJ:0 "Ingrian"
+  NIN_far_right_populist_ADJ:0 "Ingrian"
+
+
+
+  UHT_anarchist:0 "Free Territory of Uhtua"
+  UHT_anarchist_DEF:0 "The Free Territory of Uhtua"
+
+  UHT_communist:0 "Uhtuan People's Republic"
+  UHT_communist_DEF:0 "the Uhtuan People's Republic"
+
+  UHT_moderate_socialist:0 "Republic of Uhtua"
+  UHT_moderate_socialist_DEF:0 "the Republic of Uhtua"
+
+  UHT_liberal:0 "Republic of Uhtua"
+  UHT_liberal_DEF:0 "the Republic of Uhtua"
+
+  UHT_conservative:0 "Republic of Uhtua"
+  UHT_conservative_DEF:0 "the Republic of Uhtua"
+
+  UHT_paternal_autocrat:0 "Republic of Uhtua"
+  UHT_paternal_autocrat_DEF:0 "the Republic of Uhtua"
+
+  UHT_far_right_populist:0 "Republic of Uhtua"
+  UHT_far_right_populist:0 "the Republic of Uhtua"
+
+  UHT_anarchist_ADJ:0 "Uhtuan"
+  UHT_communist_ADJ:0 "Uhtuan"
+  UHT_moderate_socialist_ADJ:0 "Uhtuan"
+  UHT_liberal_ADJ:0 "Uhtuan"
+  UHT_conservative_ADJ:0 "Uhtuan"
+  UHT_paternal_autocrat_ADJ:0 "Uhtuan"
+  UHT_far_right_populist_ADJ:0 "Uhtuan"
+
+
+
+
+  KAR_anarchist:0 "Free Territory of Karelia"
+  KAR_anarchist_DEF:0 "The Free Territory of Karelia"
+
+  KAR_communist:0 "Karelian People's Republic"
+  KAR_communist_DEF:0 "Karelian People's Republic"
+
+  KAR_moderate_socialist:0 "Republic of Karelia"
+  KAR_moderate_socialist_DEF:0 "Karelia"
+
+  KAR_liberal:0 "Republic of Karelia"
+  KAR_liberal_DEF:0 "Karelia"
+
+  KAR_conservative:0 "Republic of Karelia"
+  KAR_conservative_DEF:0 "Karelia"
+
+  KAR_paternal_autocrat:0 "Republic of Karelia"
+  KAR_paternal_autocrat_DEF:0 "Karelia"
+
+  KAR_authoritarian_democrat:0 "Republic of Karelia"
+  KAR_authoritarian_democrat_DEF:0 "Karelia"
+
+  KAR_far_right_populist:0 "Republic of Karelia"
+  KAR_far_right_populist:0 "Karelia"
+
+  KAR_anarchist_ADJ:0 "Karelian"
+  KAR_communist_ADJ:0 "Karelian"
+  KAR_moderate_socialist_ADJ:0 "Karelian"
+  KAR_liberal_ADJ:0 "Karelian"
+  KAR_conservative_ADJ:0 "Karelian"
+  KAR_authoritarian_democrat_ADJ:0 "Karelian"
+  KAR_paternal_autocrat_ADJ:0 "Karelian"
+  KAR_far_right_populist_ADJ:0 "Karelian"
+
+
+
+  MRM_anarchist:0 "Free Territory of Murmansk"
+  MRM_anarchist_DEF:0 "The Free Territory of Murmansk"
+
+  MRM_communist:0 "Murmanski People's Republic"
+  MRM_communist_DEF:0 "Murmanski People's Republic"
+
+  MRM_moderate_socialist:0 "Murmansk"
+  MRM_moderate_socialist_DEF:0 "Murmansk"
+
+  MRM_liberal:0 "Murmansk"
+  MRM_liberal_DEF:0 "Murmansk"
+
+  MRM_conservative:0 "Murmansk"
+  MRM_conservative_DEF:0 "Murmansk"
+
+  MRM_paternal_autocrat:0 "Murmansk"
+  MRM_paternal_autocrat_DEF:0 "Murmansk"
+
+  MRM_authoritarian_democrat:0 "Murmansk"
+  MRM_authoritarian_democrat_DEF:0 "Murmansk"
+
+  MRM_far_right_populist:0 "Murmansk"
+  MRM_far_right_populist:0 "Murmansk"
+
+  MRM_anarchist_ADJ:0 "Murmanski"
+  MRM_communist_ADJ:0 "Murmanski"
+  MRM_moderate_socialist_ADJ:0 "Murmanski"
+  MRM_liberal_ADJ:0 "Murmanski"
+  MRM_conservative_ADJ:0 "Murmanski"
+  MRM_authoritarian_democrat_ADJ:0 "Murmanski"
+  MRM_paternal_autocrat_ADJ:0 "Murmanski"
+  MRM_far_right_populist_ADJ:0 "Murmanski"

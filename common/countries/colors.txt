@@ -753,6 +753,27 @@ MKB = {
 	color_ui = rgb { 255 255 255 }
 }
 
+NIN = {
+	color = rgb { 0 93 170 }
+	color_ui = rgb { 0 93 170 }
+}
+
+UHT = {
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
+}
+
+KAR = {
+	color = rgb { 255 165 0 }
+	color_ui = rgb { 255 165 0 }
+}
+
+MRM = {
+	color = rgb { 187 152 187 }
+	color_ui = rgb { 187 152 187 }
+}
+
+
 
 
 

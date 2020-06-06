@@ -1,0 +1,25 @@
+state={
+	id=829
+	name="STATE_829"
+	manpower = 110000
+
+	state_category = town
+
+	history = {
+	    owner = UHT
+	    add_core_of = UHT
+	    add_core_of = SOV
+	    victory_points = {
+	        9119 1 #Uhtua
+	    }
+	    buildings = {
+	        infrastructure = 3
+	        industrial_complex = 1
+	        arms_factor = 1
+	    }
+        }
+
+	provinces={
+		36 3067 6098 6175 9074 9119 9198 11054 11096 11181 
+	}
+}
