@@ -15,6 +15,9 @@
   GER_conservative_party:0 "ZP"
   GER_conservative_party_long:0 "Deutsche Zentrumspartei"
 
+  GER_authoritarian_democrat:0 "DNVP"
+  GER_authoritarian_democrat_party_long:0 "Deutschnationale Volkspartei"
+
   GER_paternal_autocrat_party:0 "M"
   GER_paternal_autocrat_party_long:0 "Militärregierung"
 

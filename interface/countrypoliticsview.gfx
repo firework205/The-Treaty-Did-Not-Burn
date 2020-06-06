@@ -418,37 +418,43 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_anarchist_group"
-		texturefile = "gfx/interface/ideologies/anarchist_group.tga"
+		texturefile = "gfx/interface/ideologies/anarchist.tga"
 	}	
 	
 	spriteType = {
 		name = "GFX_ideology_communist_group"
-		texturefile = "gfx/interface/ideologies/communist_group.tga"
+		texturefile = "gfx/interface/ideologies/communist.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_ideology_moderate_socialist_group"
-		texturefile = "gfx/interface/ideologies/moderate_socialist_group.tga"
+		texturefile = "gfx/interface/ideologies/moderate_socialist.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_ideology_liberal_group"
-		texturefile = "gfx/interface/ideologies/liberal_group.tga"
+		texturefile = "gfx/interface/ideologies/liberal.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_conservative_group"
-		texturefile = "gfx/interface/ideologies/conservative_group.tga"
+		texturefile = "gfx/interface/ideologies/conservative.tga"
 	}
 
 	spriteType = {
+		name = "GFX_ideology_authoritarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democrat.tga"
+	}
+
+
+	spriteType = {
 		name = "GFX_ideology_paternal_autocrat_group"
-		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.tga"
+		texturefile = "gfx/interface/ideologies/paternal_autocrat.tga"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_far_right_populist_group"
-		texturefile = "gfx/interface/ideologies/far_right_populist_group.tga"
+		texturefile = "gfx/interface/ideologies/far_right_populist.tga"
 	}
 	
 	spriteType = {

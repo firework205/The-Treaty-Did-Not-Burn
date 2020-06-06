@@ -173,6 +173,38 @@ ideologies = {
 		ai_neutral = yes
 	}
 
+	authoritarian_democrat = {
+	
+		types = {		
+			authoritarian_democrat_a_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 110 110 110 }
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+		}
+		
+		war_impact_on_world_tension = 0.25	
+		
+		modifiers = {
+			generate_wargoal_tension = 0.25
+		}
+
+		ai_neutral = yes
+	}
+
 	paternal_autocrat = {
 	
 		types = {
@@ -194,7 +226,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_6"
 		}
 		
-		color = { 90 90 90 }
+		color = { 45 45 45 }
 		
 		rules = {
 			can_guarantee_other_ideologies = yes

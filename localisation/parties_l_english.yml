@@ -10,6 +10,8 @@
 
  conservative:0 "Conservative"
 
+ authoritarian_democrat:0 "Authoritarian Dem."
+
  paternal_autocrat:0 "Paternal Autocrat"
 
  far_right_populist:0 "Far-Right Populist"
@@ -23,6 +25,8 @@
  liberal_desc:0 "Liberal Regime"
 
  conservative_desc:0 "Conservative Regime"
+ 
+ authoritarian_democrat_desc:0 "Semi-Authoritarian Regime"
 
  paternal_autocrat_desc:0 "Autocratic Regime"
 
@@ -37,6 +41,8 @@
 liberal_noun:0 "Liberalism"
 
 conservative_noun:0 "Conservatism"
+
+authoritarian_democrat_noun:0 "Authoritarian Democracy"
 
 paternal_autocracy_noun:0 "Paternal Autocracy"
 
