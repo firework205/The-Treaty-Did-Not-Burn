@@ -1,0 +1,49 @@
+spriteTypes = {	
+
+	#### Party icons
+
+	SpriteType = {
+	name = "GFX_dvp"
+	texturefile = "gfx/parties/GER/dvp.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_altespd"
+	texturefile = "gfx/parties/GER/altespd.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_dap"
+	texturefile = "gfx/parties/GER/dap.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_ddp"
+	texturefile = "gfx/parties/GER/ddp.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_dnvp"
+	texturefile = "gfx/parties/GER/dnvp.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_grw"
+	texturefile = "gfx/parties/GER/grw.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_kpd"
+	texturefile = "gfx/parties/GER/kpd.dds"	
+        legacy_lazy_load = no		
+	}
+        SpriteType = {
+	name = "GFX_spd"
+	texturefile = "gfx/parties/GER/spd.dds"	
+        legacy_lazy_load = no		
+	}
+}
+
+
+									
+									

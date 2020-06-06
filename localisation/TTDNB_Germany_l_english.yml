@@ -4,22 +4,22 @@
   GER_anarchist_party_long:0 "Freie Arbeiter-Union Deutschlands"
   
   GER_communist_party:0 "KPD"
-  GER_communist_party_long:0 "Kommunistische Partei Deutschlands"
+  GER_communist_party_long:0 "Kommunistische Partei Deutschlands \n\n\n\n\n\n£kpd\n\n\n\n\n\n"
 
   GER_moderate_socialist_party:0 "SPD"
-  GER_moderate_socialist_party_long:0 "Sozialdemokratische Partei Deutschlands"
+  GER_moderate_socialist_party_long:0 "Sozialdemokratische Partei Deutschlands \n\n\n\n\n\n£spd\n\n\n\n\n\n"
 
   GER_liberal_party:0 "DVP"
-  GER_liberal_party_long:0 "Deutsche Volkspartei"
+  GER_liberal_party_long:0 "Deutsche Volkspartei \n\n\n\n\n\n£dvp\n\n\n\n\n\n"
 
   GER_conservative_party:0 "ZP"
   GER_conservative_party_long:0 "Deutsche Zentrumspartei"
 
-  GER_authoritarian_democrat_party:0 "DNVP"
-  GER_authoritarian_democrat_party_long:0 "Deutschnationale Volkspartei"
+  GER_authoritarian_democrat:0 "DNVP"
+  GER_authoritarian_democrat_party_long:0 "Deutschnationale Volkspartei \n\n\n\n\n\n£dnvp\n\n\n\n\n\n"
 
   GER_paternal_autocrat_party:0 "M"
-  GER_paternal_autocrat_party_long:0 "Militärregierung"
+  GER_paternal_autocrat_party_long:0 "Militärregierung \n\n\n\n\n\n£grw\n\n\n\n\n\n"
 
   GER_far_right_populist_party:0 "GP"
   GER_far_right_populist_party_long:0 "Großdeutsche Partei"
