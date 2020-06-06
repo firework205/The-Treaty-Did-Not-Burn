@@ -18,8 +18,8 @@ SWE = {
 	color_ui = rgb { 67 107 142 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 107 128 191 }
+	color_ui = rgb { 107 128 191 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -63,8 +63,8 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
-	color_ui = rgb { 255 255 120 }
+	color = rgb { 216 172 0 }
+	color_ui = rgb { 216 172 0 }
 }
 YUG = {
 	color = rgb { 53 53 114 }
@@ -365,7 +365,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 217 144 88 }
-	color_ui = rgb { 217 144 88 }	
+	color_ui = rgb { 217 144 88 }		
 }
 
 AZR = {
