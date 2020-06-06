@@ -4,7 +4,7 @@ state={
 	name="STATE_571"
 
 	history={
-		owner = RFR
+		owner = GNR
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -13,7 +13,7 @@ state={
 		victory_points = {
 			10696 3 
 		}
-		add_core_of = RFR
+		add_core_of = GNR
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
