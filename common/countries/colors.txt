@@ -713,10 +713,47 @@ SAX = {
     color_ui = rgb { 69 124 75 }
 }
 
-KIE = {
-    color = rgb { 88 71 135 }
-    color_ui = rgb { 88 71 135 }
+RGU = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
 }
+
+GNR = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+SSU = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+COA = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+GLR = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+RPG = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+SIB = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+MKB = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+
 
 
 
