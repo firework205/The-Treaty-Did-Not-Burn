@@ -19,7 +19,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = always_false
 		}
-		x = 7
+		x = 20
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -231,7 +231,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = AUS_defeated_coup
 		}
-		x = 0
+		x = 5
 		y = 5
 		relative_position_id = AUS_that_which_remains
 		cost = 10
@@ -330,7 +330,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_invest_in_small_businesses
-		icon = GFX_goal_generic_major_alliance
+		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = AUS_revitalize_culture }
 		available = {
 		}
@@ -460,13 +460,14 @@ focus_tree = {
 
 	focus = {
 		id = AUS_improve_rural_infrastructure
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = AUS_imperial_coronation }
+		icon = GFX_focus_AUS_improve_rural_infrastructure
+		prerequisite = { focus = AUS_invest_in_small_businesses}
+		prerequisite = { focus = AUS_opportunities_for_the_poor }
 		available = {
 		}
-		x = 6
+		x = 1
 		y = 1
-		relative_position_id = AUS_imperial_coronation
+		relative_position_id = AUS_invest_in_small_businesses
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -596,7 +597,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_ban_fascism
-		icon = GFX_focus_generic_manpower
+		icon = GFX_focus_AUS_destroy_the_heimwehr
 		prerequisite = { focus = AUS_rejecting_extremism }
 		available = {
 		}
@@ -650,9 +651,13 @@ focus_tree = {
 		id = AUS_new_imperial_military
 		icon = GFX_focus_AUS_kuk
 		available = {
+		    OR = {
+		        has_country_flag = AUS_defeated_coup
+		        has_country_flag = AUS_coup_successful
+		    }
 		}
-		x = 35
-		y = 1
+		x = 10
+		y = 0
 		cost = 7
 		ai_will_do = {
 			factor = 5
@@ -1015,10 +1020,12 @@ focus_tree = {
 	focus = {
 		id = AUS_austrian_goals
 		icon = GFX_focus_generic_earth 
+		prerequisite = { focus = AUS_a_free_slovenia focus = AUS_imperial_subjects}
 		available = {
 		}
-		x = 23
+		x = 1
 		y = 1
+		relative_position_id = AUS_a_free_slovenia
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1541,4 +1548,132 @@ focus_tree = {
 		    add_war_support = 0.1
 		}
 	}
-}
+
+	focus = {
+		id = AUS_expand_port_facilities
+		icon = wip
+		available = {
+		}
+		x = 15
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_rulers_of_adriatic
+		icon = wip
+		mutually_exclusive = { focus = AUS_strike_from_below }
+		prerequisite = { focus = AUS_expand_port_facilities }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUS_expand_port_facilities
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_new_battleship_designs
+		icon = wip
+		prerequisite = { focus = AUS_rulers_of_adriatic }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = AUS_rulers_of_adriatic
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_strike_from_below
+		icon = wip
+		mutually_exclusive = { focus = AUS_rulers_of_adriatic }
+		prerequisite = { focus = AUS_expand_port_facilities }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUS_expand_port_facilities
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_von_trapp_legacy
+		icon = wip
+		prerequisite = { focus = AUS_strike_from_below }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = AUS_strike_from_below
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_austrian_naval_dominance
+		icon = wip
+		prerequisite = { focus = AUS_von_trapp_legacy focus = AUS_new_battleship_designs }
+		prerequisite = { focus = AUS_modern_destroyers }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUS_von_trapp_legacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = AUS_modern_destroyers
+		icon = wip
+		prerequisite = { focus = AUS_strike_from_below focus = AUS_rulers_of_adriatic }
+		available = {
+		}
+		x = -1
+		y = -1
+		relative_position_id = AUS_von_trapp_legacy
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
