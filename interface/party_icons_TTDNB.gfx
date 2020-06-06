@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+	#### Party icons
+
+	SpriteType = {
+	name = "GFX_dvp"
+	texturefile = "gfx/parties/GER/dvp.dds"	
+        legacy_lazy_load = no		
+	}
+}
+
+
+									
+									
