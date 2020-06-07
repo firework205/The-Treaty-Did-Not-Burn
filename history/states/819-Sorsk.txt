@@ -1,18 +1,22 @@
+
 state={
 	id=819
 	name="STATE_819"
-	manpower = 1
 
-	state_category = town
+	history={
+		owner = MKB
+		add_core_of = MKB
+		buildings = {
+			infrastructure = 3
 
-	history = {
-	    owner = COA
-	    add_core_of = COA
-	    buildings = {
-	        infrastructure = 3
-	    }
+		}
+
 	}
+
 	provinces={
-		1777 1780 1850 4724 7701 7815 10639 10712 12595 12666 
+		1777 1850 4724 7815 10639 10712 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
 }

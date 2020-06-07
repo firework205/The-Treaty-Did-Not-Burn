@@ -1,4 +1,4 @@
-﻿capital = 91 #Lviv
+﻿capital = 579 #Salekhard
 
 oob = "RPG_1936"
 
@@ -61,11 +61,12 @@ if = {
 }
 
 set_popularities = {
-	conservative = 52
+	conservative = 42
 	liberal = 27
 	paternal_autocrat = 8
 	communist = 8
 	far_right_populist = 5
+	authoritarian_democrat = 10
 }
 
 set_politics = {

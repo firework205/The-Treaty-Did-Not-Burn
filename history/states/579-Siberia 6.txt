@@ -5,8 +5,11 @@ state={
 
 	history={
 		owner = RPG
+		victory_points = {
+		    1684 3 #Salekhard
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		add_core_of = RPG
@@ -18,5 +21,5 @@ state={
 	}
 	manpower=45484
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

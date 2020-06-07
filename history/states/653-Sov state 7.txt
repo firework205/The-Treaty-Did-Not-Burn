@@ -4,7 +4,7 @@ state={
 	name="STATE_653"
 
 	history={
-		owner = RFR
+		owner = URL
 		victory_points = {
 			1821 5 
 		}
@@ -15,7 +15,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = RFR
+		add_core_of = URL
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		307 1543 1704 1750 1771 1808 1821 1841 4758 4813 7228 7778 9553 10133 10189 10216 10648 10716 10720 11307 12102 12567 12659 12696 
+		1821 4758 7228 10133 10216 11307 12567 12659 
 	}
 	manpower=2161650
 	buildings_max_level_factor=1.000

@@ -662,7 +662,7 @@ HSG = {
 }
 
 RFR = {
-    color = rgb { 80 124 96 } #eu4 Russia colour
+    color = rgb { 80 124 96 }
     color_ui = rgb { 80 124 96 }
 }
 
@@ -677,8 +677,8 @@ BRY = {
 }
 
 KAZ = {
-	color = rgb { 168 148 48 }
-	color_ui = rgb { 168 148 48 }
+	color = rgb { 244 164 96 }
+	color_ui = rgb { 244 164 96 }
 }
 
 #German minors
@@ -719,38 +719,38 @@ RGU = {
 }
 
 GNR = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
 
 SSU = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 173 97 97 }
+	color_ui = rgb { 173 97 97 }
 }
 
 COA = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 113 179 48 }
+	color_ui = rgb { 113 179 48 }
 }
 
 GLR = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 245 121 0 }
+	color_ui = rgb { 245 121 0 }
 }
 
 RPG = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 80 124 96 }
+	color_ui = rgb { 80 124 96 }
 }
 
 SIB = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 58 83 127 }
+	color_ui = rgb { 58 83 127 }
 }
 
 MKB = {
-	color = rgb { 194 198 215 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 150 116 75 }
+	color_ui = rgb { 150 116 75 }
 }
 
 NIN = {
@@ -771,6 +771,11 @@ KAR = {
 MRM = {
 	color = rgb { 187 152 187 }
 	color_ui = rgb { 187 152 187 }
+}
+
+BGR = {
+	color = rgb { 68 68 75 }
+	color_ui = rgb { 68 68 75 }
 }
 
 

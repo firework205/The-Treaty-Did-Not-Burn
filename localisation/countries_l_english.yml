@@ -3241,3 +3241,117 @@
   MRM_authoritarian_democrat_ADJ:0 "Murmanski"
   MRM_paternal_autocrat_ADJ:0 "Murmanski"
   MRM_far_right_populist_ADJ:0 "Murmanski"
+
+
+
+  RPG_anarchist:0 "Russian Provisional Government"
+  RPG_anarchist_DEF:0 "The Russian Provisional Government"
+
+  RPG_communist:0 "Russian Provisional Government"
+  RPG_communist_DEF:0 "The Russian Provisional Government"
+
+  RPG_moderate_socialist:0 "Russian Provisional Government"
+  RPG_moderate_socialist_DEF:0 "The Russian Provisional Government"
+
+  RPG_liberal:0 "Russian Provisional Government"
+  RPG_liberal_DEF:0 "The Russian Provisional Government"
+
+  RPG_conservative:0 "Russian Provisional Government"
+  RPG_conservative_DEF:0 "The Russian Provisional Government"
+
+  RPG_authoritarian_democrat:0 "Russian Provisional Government"
+  RPG_authoritarian_democrat_DEF:0 "The Russian Provisional Government"
+
+  RPG_paternal_autocrat:0 "Russian Provisional Government"
+  RPG_paternal_autocrat_DEF:0 "The Russian Provisional Government"
+
+  RPG_far_right_populist:0 "Russian Provisional Government"
+  RPG_far_right_populist:0 "the Russian Provisional Government"
+
+  RPG_anarchist_ADJ:0 "Provisional Russian"
+  RPG_communist_ADJ:0 "Provisional Russian"
+  RPG_moderate_socialist_ADJ:0 "Provisional Russian"
+  RPG_liberal_ADJ:0 "Provisional Russian"
+  RPG_conservative_ADJ:0 "Provisional Russian"
+  RPG_authoritarian_democrat_ADJ:0 "Provisional Russian"
+  RPG_paternal_autocrat_ADJ:0 "Provisional Russian"
+  RPG_far_right_populist_ADJ:0 "Provisional Russian"
+
+
+
+
+  GNR_anarchist:0 "Green Armies"
+  GNR_anarchist_DEF:0 "The Green Armies"
+
+  GNR_communist:0 "Green Armies"
+  GNR_communist_DEF:0 "The Green Armies"
+
+  GNR_moderate_socialist:0 "Green Armies"
+  GNR_moderate_socialist_DEF:0 "The Green Armies"
+
+  GNR_liberal:0 "Green Armies"
+  GNR_liberal_DEF:0 "The Green Armies"
+
+  GNR_conservative:0 "Green Armies"
+  GNR_conservative_DEF:0 "The Green Armies"
+
+  GNR_authoritarian_democrat:0 "Green Armies"
+  GNR_authoritarian_democrat_DEF:0 "The Green Armies"
+
+  GNR_paternal_autocrat:0 "Green Armies"
+  GNR_paternal_autocrat_DEF:0 "The Green Armies"
+
+  GNR_far_right_populist:0 "Green Armies"
+  GNR_far_right_populist:0 "the Green Armies"
+
+  GNR_anarchist_ADJ:0 "Green"
+  GNR_communist_ADJ:0 "Green"
+  GNR_moderate_socialist_ADJ:0 "Green"
+  GNR_liberal_ADJ:0 "Green"
+  GNR_conservative_ADJ:0 "Green"
+  GNR_authoritarian_democrat_ADJ:0 "Green"
+  GNR_paternal_autocrat_ADJ:0 "Green"
+  GNR_far_right_populist_ADJ:0 "Green"
+
+
+
+  SSU_anarchist:0 "Siberian Socialist Union"
+  SSU_anarchist_DEF:0 "The Siberian Socialist Union"
+
+  SSU_communist:0 "Siberian Socialist Union"
+  SSU_communist_DEF:0 "The Siberian Socialist Union"
+
+  SSU_moderate_socialist:0 "Siberian Socialist Union"
+  SSU_moderate_socialist_DEF:0 "The Siberian Socialist Union"
+
+  SSU_liberal:0 "Siberian Socialist Union"
+  SSU_liberal_DEF:0 "The Siberian Socialist Union"
+
+  SSU_conservative:0 "Siberian Socialist Union"
+  SSU_conservative_DEF:0 "The Siberian Socialist Union"
+
+  SSU_authoritarian_democrat:0 "Siberian Socialist Union"
+  SSU_authoritarian_democrat_DEF:0 "The Siberian Socialist Union"
+
+  SSU_paternal_autocrat:0 "Siberian Socialist Union"
+  SSU_paternal_autocrat_DEF:0 "The Siberian Socialist Union"
+
+  SSU_far_right_populist:0 "Siberian Socialist Union"
+  SSU_far_right_populist:0 "the Siberian Socialist Union"
+
+  SSU_anarchist_ADJ:0 "Siberian Socialist"
+  SSU_communist_ADJ:0 "Siberian Socialist"
+  SSU_moderate_socialist_ADJ:0 "Siberian Socialist"
+  SSU_liberal_ADJ:0 "Siberian Socialist"
+  SSU_conservative_ADJ:0 "Siberian Socialist"
+  SSU_authoritarian_democrat_ADJ:0 "Siberian Socialist"
+  SSU_paternal_autocrat_ADJ:0 "Siberian Socialist"
+  SSU_far_right_populist_ADJ:0 "Siberian Socialist"
+
+
+########################################
+  BGR:0 "Black Guards"
+  COA:0 "Altai"
+  MKB:0 "Mikhail's Brigade"
+  GLR:0 "Golden Legion of Russia"
+  SIB:0 "Siberian Government"
