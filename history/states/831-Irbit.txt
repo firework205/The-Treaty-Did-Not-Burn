@@ -1,0 +1,19 @@
+state={
+	id=831
+	name="STATE_831"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = GNR
+	    add_core_of = GNR
+	    buildings = {
+	        infrastructure = 4
+	    }
+	}
+
+	provinces={
+		307 1543 1704 1750 1771 1808 1841 4813 7778 9553 10189 10648 10716 10720 12102 12696 
+	}
+}

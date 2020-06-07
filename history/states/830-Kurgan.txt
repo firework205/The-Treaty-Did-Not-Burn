@@ -1,0 +1,19 @@
+state={
+	id=830
+	name="STATE_830"
+	manpower = 1106630 #Based on averages
+
+	state_category = town
+
+	history = {
+	    owner = GNR
+	    add_core_of = GNR
+	    buildings = {
+	        infrastructure = 6
+	    }
+	}
+
+	provinces={
+		1292 1294 1327 1775 4242 10170 10542 12106 
+	}
+}
